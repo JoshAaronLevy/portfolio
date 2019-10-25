@@ -46,15 +46,17 @@ export class NavbarComponent implements OnInit {
     this.toggleButton = navbar.getElementsByClassName('navbar-toggler')[0];
     if (body.classList.contains('sidebar-mini')) {
       misc.sidebar_mini_active = true;
+    } else if (!body.classList.contains('sidebar-mini')) {
+      misc.sidebar_mini_active = false;
     }
-
     if (body.classList.contains('hide-sidebar')) {
       misc.hide_sidebar_active = true;
+    } else if (!body.classList.contains('hide-sidebar')) {
+      misc.hide_sidebar_active = false;
     }
 
     this._router = this.router.events.filter(event => event instanceof NavigationEnd).subscribe((event: NavigationEnd) => {
       this.sidebarClose();
-
       const $layer = document.getElementsByClassName('close-layer')[0];
       if ($layer) {
         $layer.remove();
@@ -65,11 +67,13 @@ export class NavbarComponent implements OnInit {
   onResize(event) {
     if ($(window).width() > 991) {
       return false;
+    } else {
+      return true;
     }
-    return true;
   }
 
   sidebarOpen() {
+    this.sidebarVisible = true;
     let $toggle = document.getElementsByClassName('navbar-toggler')[0];
     const toggleButton = this.toggleButton;
     const body = document.getElementsByTagName('body')[0];
@@ -80,40 +84,38 @@ export class NavbarComponent implements OnInit {
     setTimeout(function() {
       $toggle.classList.add('toggled');
     }, 430);
-
     let $layer = document.createElement('div');
     $layer.setAttribute('class', 'close-layer');
-
     if (body.querySelectorAll('.main-panel')) {
       document.getElementsByClassName('main-panel')[0].appendChild($layer);
     } else if (body.classList.contains('off-canvas-sidebar')) {
       document.getElementsByClassName('wrapper-full-page')[0].appendChild($layer);
     }
-
     setTimeout(function() {
       $layer.classList.add('visible');
     }, 100);
-
     body.classList.add('nav-open');
     this.mobile_menu_visible = 1;
-    this.sidebarVisible = true;
+    // this.sidebarVisible = true;
   }
 
   sidebarClose() {
+    this.sidebarVisible = false;
     let $toggle = document.getElementsByClassName('navbar-toggler')[0];
     const body = document.getElementsByTagName('body')[0];
     let $layer = document.createElement('div');
     $layer.setAttribute('class', 'close-layer');
-
-    this.sidebarVisible = false;
+    // this.sidebarVisible = false;
     body.classList.remove('nav-open');
-    body.classList.remove('nav-open');
+    setTimeout(function() {
+      $toggle.classList.remove('toggled');
+    }, 430);
     if ($layer) {
       $layer.remove();
     }
-
     this.mobile_menu_visible = 0;
   }
+
   sidebarToggle() {
     if (this.sidebarVisible === false) {
       this.sidebarOpen();

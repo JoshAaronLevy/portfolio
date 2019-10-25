@@ -82,6 +82,8 @@
 
     .navbar-toggler {
       cursor: pointer;
+      height: 32px;
+      position: fixed;
       .navbar-toggler-icon {
         width: 22px;
         height: 2px;
