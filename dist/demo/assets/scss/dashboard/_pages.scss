@@ -11,9 +11,7 @@
     }
 }
 
-
 .full-page{
-
     &:after,
     &:before{
         display: block;
@@ -489,4 +487,10 @@
             @include linear-gradient(rgba($pink-100,.56), rgba($pink-300,.95));
         }
     }
+}
+
+h2.page-heading {
+  text-align: center;
+  font-size: 1.75rem !important;
+  margin-bottom: 30px;
 }

@@ -28,7 +28,7 @@ export class AuthLayoutComponent implements OnInit {
     });
   }
   sidebarOpen() {
-    var $toggle = document.getElementsByClassName('navbar-toggler')[0];
+    const $toggle = document.getElementsByClassName('navbar-toggler')[0];
       const toggleButton = this.toggleButton;
       const body = document.getElementsByTagName('body')[0];
       setTimeout(function(){
@@ -39,13 +39,13 @@ export class AuthLayoutComponent implements OnInit {
           $toggle.classList.add('toggled');
       }, 430);
 
-      var $layer = document.createElement('div');
+      const $layer = document.createElement('div');
       $layer.setAttribute('class', 'close-layer');
 
 
       if (body.querySelectorAll('.wrapper-full-page')) {
           document.getElementsByClassName('wrapper-full-page')[0].appendChild($layer);
-      }else if (body.classList.contains('off-canvas-sidebar')) {
+      } else if (body.classList.contains('off-canvas-sidebar')) {
           document.getElementsByClassName('wrapper-full-page')[0].appendChild($layer);
       }
 
@@ -53,7 +53,7 @@ export class AuthLayoutComponent implements OnInit {
           $layer.classList.add('visible');
       }, 100);
 
-      $layer.onclick = function() { //asign a function
+      $layer.onclick = function() { // asign a function
         body.classList.remove('nav-open');
         this.mobile_menu_visible = 0;
         this.sidebarVisible = false;
@@ -70,10 +70,10 @@ export class AuthLayoutComponent implements OnInit {
       this.sidebarVisible = true;
   };
   sidebarClose() {
-    var $toggle = document.getElementsByClassName('navbar-toggler')[0];
+    const $toggle = document.getElementsByClassName('navbar-toggler')[0];
       const body = document.getElementsByTagName('body')[0];
       this.toggleButton.classList.remove('toggled');
-      var $layer = document.createElement('div');
+      const $layer = document.createElement('div');
       $layer.setAttribute('class', 'close-layer');
 
       this.sidebarVisible = false;

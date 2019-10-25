@@ -1,4 +1,7 @@
-import { NgModule } from '@angular/core';
+import { ProjectsComponent } from './projects/projects.component';
+import { SkillsComponent } from './skills/skills.component';
+import { HomeComponent } from './home/home.component';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
 import { HttpModule } from '@angular/http';
@@ -48,8 +51,10 @@ import { FixedpluginModule} from './shared/fixedplugin/fixedplugin.module';
 import { AdminLayoutComponent } from './layouts/admin/admin-layout.component';
 import { AuthLayoutComponent } from './layouts/auth/auth-layout.component';
 
-import { AppRoutes } from './app.routing';
+// import { AppRoutes, AppRoutingModule } from './app.routing';
 import { PrimeNGBundleModule } from './primeng.module';
+import { HttpClientModule } from '@angular/common/http';
+import { AppRoutingModule } from './app.routing';
 
 @NgModule({
   exports: [
@@ -89,27 +94,39 @@ import { PrimeNGBundleModule } from './primeng.module';
 export class MaterialModule {}
 
 @NgModule({
-    imports:      [
-        CommonModule,
-        BrowserAnimationsModule,
-        FormsModule,
-        RouterModule.forRoot(AppRoutes,{
-          useHash: true
-        }),
-        HttpModule,
-        MaterialModule,
-        MatNativeDateModule,
-        SidebarModule,
-        NavbarModule,
-        FooterModule,
-        FixedpluginModule,
-        PrimeNGBundleModule
-    ],
-    declarations: [
-        AppComponent,
-        AdminLayoutComponent,
-        AuthLayoutComponent
-    ],
-    bootstrap:    [ AppComponent ]
+  imports: [
+    CommonModule,
+    BrowserAnimationsModule,
+    FormsModule,
+    // RouterModule.forRoot(AppRoutes, {
+    //   useHash: false,
+    //   onSameUrlNavigation: 'reload'
+    // }),
+    RouterModule,
+    AppRoutingModule,
+    HttpModule,
+    HttpClientModule,
+    MaterialModule,
+    MatNativeDateModule,
+    SidebarModule,
+    NavbarModule,
+    FooterModule,
+    FixedpluginModule,
+    PrimeNGBundleModule
+  ],
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    SkillsComponent,
+    ProjectsComponent,
+    AdminLayoutComponent,
+    AuthLayoutComponent
+  ],
+  schemas: [
+    CUSTOM_ELEMENTS_SCHEMA
+  ],
+  bootstrap: [
+    AppComponent
+  ]
 })
-export class AppModule { }
+export class AppModule {}

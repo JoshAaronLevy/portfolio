@@ -2,7 +2,7 @@ import { Component, OnInit, OnDestroy, ViewChild, HostListener, AfterViewInit } 
 import { Router, NavigationEnd, NavigationStart } from '@angular/router';
 import { NavItem, NavItemType } from '../../md/md.module';
 import { Subscription } from 'rxjs/Subscription';
-import { Location, LocationStrategy, PathLocationStrategy, PopStateEvent } from '@angular/common';
+import { Location, PopStateEvent } from '@angular/common';
 import 'rxjs/add/operator/filter';
 import { NavbarComponent } from '../../shared/navbar/navbar.component';
 import PerfectScrollbar from 'perfect-scrollbar';
@@ -27,12 +27,14 @@ export class AdminLayoutComponent implements OnInit, AfterViewInit {
   constructor(private router: Router, location: Location) {
     this.location = location;
   }
+
   ngOnInit() {
     const elemMainPanel = <HTMLElement>document.querySelector('.main-panel');
     const elemSidebar = <HTMLElement>document.querySelector('.sidebar .sidebar-wrapper');
     this.location.subscribe((ev: PopStateEvent) => {
       this.lastPoppedUrl = ev.url;
     });
+
     this.router.events.subscribe((event: any) => {
       if (event instanceof NavigationStart) {
         if (event.url !== this.lastPoppedUrl) {
@@ -47,10 +49,12 @@ export class AdminLayoutComponent implements OnInit, AfterViewInit {
         }
       }
     });
+
     this._router = this.router.events.filter(event => event instanceof NavigationEnd).subscribe((event: NavigationEnd) => {
       elemMainPanel.scrollTop = 0;
       elemSidebar.scrollTop = 0;
     });
+
     const html = document.getElementsByTagName('html')[0];
     if (window.matchMedia(`(min-width: 960px)`).matches && !this.isMac()) {
       let ps = new PerfectScrollbar(elemMainPanel);
@@ -59,12 +63,13 @@ export class AdminLayoutComponent implements OnInit, AfterViewInit {
     } else {
       html.classList.add('perfect-scrollbar-off');
     }
-    // this._router = this.router.events.filter(event => event instanceof NavigationEnd).subscribe((event: NavigationEnd) => {
-    //   this.navbar.sidebarClose();
-    // });
+
+    this._router = this.router.events.filter(event => event instanceof NavigationEnd).subscribe((event: NavigationEnd) => {
+      this.navbar.sidebarClose();
+    });
 
     this.navItems = [
-      { type: NavItemType.NavbarLeft, title: 'Dashboard', iconClass: 'fa fa-dashboard' },
+      { type: NavItemType.NavbarLeft, title: 'Home', iconClass: 'fad fa-home' },
       {
         type: NavItemType.NavbarRight,
         title: '',
@@ -75,14 +80,15 @@ export class AdminLayoutComponent implements OnInit, AfterViewInit {
         ]
       },
       { type: NavItemType.NavbarLeft, title: 'Search', iconClass: 'fa fa-search' },
-
       { type: NavItemType.NavbarLeft, title: 'Account' },
       { type: NavItemType.NavbarLeft, title: 'Log out' }
     ];
   }
+
   ngAfterViewInit() {
     this.runOnRouteChange();
   }
+
   public isMap() {
     if (this.location.prepareExternalUrl(this.location.path()) === '/maps/fullscreen') {
       return true;
@@ -90,6 +96,7 @@ export class AdminLayoutComponent implements OnInit, AfterViewInit {
       return false;
     }
   }
+
   runOnRouteChange(): void {
     if (window.matchMedia(`(min-width: 960px)`).matches && !this.isMac()) {
       const elemSidebar = <HTMLElement>document.querySelector('.sidebar .sidebar-wrapper');
@@ -99,6 +106,7 @@ export class AdminLayoutComponent implements OnInit, AfterViewInit {
       ps.update();
     }
   }
+
   isMac(): boolean {
     let bool = false;
     if (navigator.platform.toUpperCase().indexOf('MAC') >= 0 || navigator.platform.toUpperCase().indexOf('IPAD') >= 0) {

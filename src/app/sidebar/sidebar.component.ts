@@ -8,7 +8,6 @@ export interface RouteInfo {
   path: string;
   title: string;
   type: string;
-  icontype: string;
   collapse?: string;
   children?: ChildrenItems[];
 }
@@ -22,15 +21,17 @@ export interface ChildrenItems {
 
 // Menu Items
 export const ROUTES: RouteInfo[] = [{
-  path: '/dashboard',
-  title: 'Dashboard',
-  type: 'link',
-  icontype: 'dashboard'
+  path: '/home',
+  title: 'Home',
+  type: 'link'
+}, {
+  path: '/skills',
+  title: 'Skills',
+  type: 'link'
 }, {
   path: '/components',
   title: 'Components',
   type: 'sub',
-  icontype: 'apps',
   collapse: 'components',
   children: [
     { path: 'buttons', title: 'Buttons', ab: 'B' },
@@ -45,7 +46,6 @@ export const ROUTES: RouteInfo[] = [{
   path: '/forms',
   title: 'Forms',
   type: 'sub',
-  icontype: 'content_paste',
   collapse: 'forms',
   children: [
     { path: 'regular', title: 'Regular Forms', ab: 'RF' },
@@ -57,7 +57,6 @@ export const ROUTES: RouteInfo[] = [{
   path: '/tables',
   title: 'Tables',
   type: 'sub',
-  icontype: 'grid_on',
   collapse: 'tables',
   children: [
     { path: 'regular', title: 'Regular Tables', ab: 'RT' },
@@ -67,24 +66,20 @@ export const ROUTES: RouteInfo[] = [{
 }, {
   path: '/widgets',
   title: 'Widgets',
-  type: 'link',
-  icontype: 'widgets'
+  type: 'link'
 },
 {
   path: '/projects',
   title: 'Projects',
-  type: 'link',
-  icontype: 'timeline'
+  type: 'link'
 }, {
   path: '/charts',
   title: 'Charts',
-  type: 'link',
-  icontype: 'timeline'
+  type: 'link'
 }, {
   path: '/pages',
   title: 'Pages',
   type: 'sub',
-  icontype: 'image',
   collapse: 'pages',
   children: [
     { path: 'pricing', title: 'Pricing', ab: 'P' },
@@ -104,11 +99,13 @@ export const ROUTES: RouteInfo[] = [{
 export class SidebarComponent implements OnInit {
   public menuItems: any[];
   ps: any;
+
   isMobileMenu() {
     if ($(window).width() > 991) {
       return false;
+    } else {
+      return true;
     }
-    return true;
   }
 
   ngOnInit() {

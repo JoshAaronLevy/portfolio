@@ -124,12 +124,12 @@
   }
 
   .card-body + .card-footer,
-  .card-footer{
+  .card-footer {
     padding: 0;
     padding-top: 10px;
     margin: 0 15px 10px;
     border-radius: 0;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 
     h6 {
@@ -237,7 +237,7 @@
 
   &:hover {
       [data-header-animation="true"]{
-          @include transform-translate-y(-50px);
+          @include transform-translate-y(-10px);
       }
   }
 

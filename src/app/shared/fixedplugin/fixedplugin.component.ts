@@ -31,11 +31,10 @@ export class FixedpluginComponent implements OnInit {
 
       const fixed_plugin_open = $('.sidebar .sidebar-wrapper .nav li.active a p').html();
 
-      if ( window_width > 767 && fixed_plugin_open === 'Dashboard' ) {
-          if ($('.fixed-plugin .dropdown').hasClass('show-dropdown')) {
-              $('.fixed-plugin .dropdown').addClass('open');
-          }
-
+      if ( window_width > 767 && fixed_plugin_open === 'Home' ) {
+        if ($('.fixed-plugin .dropdown').hasClass('show-dropdown')) {
+          $('.fixed-plugin .dropdown').addClass('open');
+        }
       }
 
       $('.fixed-plugin a').click(function(event) {
@@ -45,7 +44,7 @@ export class FixedpluginComponent implements OnInit {
               if (event.stopPropagation) {
                   event.stopPropagation();
               } else if (window.event) {
-                 window.event.cancelBubble = true;
+                window.event.cancelBubble = true;
               }
           }
       });

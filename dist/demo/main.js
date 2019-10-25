@@ -293,7 +293,18 @@ webpackContext.id = "./node_modules/moment/locale sync recursive ^\\.\\/.*$";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n<router-outlet></router-outlet>\n"
+module.exports = "<div class=\"wrapper\">\n  <div class=\"sidebar\" data-color=\"danger\" data-background-color=\"white\">\n    <app-sidebar-cmp></app-sidebar-cmp>\n    <div class=\"sidebar-background\"></div>\n  </div>\n  <div class=\"main-panel\">\n    <app-navbar-cmp></app-navbar-cmp>\n    <router-outlet></router-outlet>\n    <!-- <div *ngIf=\"!isMap()\">\n    </div> -->\n    <app-footer-cmp></app-footer-cmp>\n  </div>\n</div>\n"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/home/home.component.html":
+/*!********************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/home/home.component.html ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"main-content\">\n    <div class=\"container-fluid\">\n      <div class=\"row\">\n        <div class=\"col-md-4\">\n          <div class=\"card card-product\">\n            <div class=\"card-header card-header-image card-link\" data-header-animation=\"true\">\n              <a href=\"#\">\n                <img class=\"img\" src=\"./assets/img/card-2.jpg\">\n              </a>\n            </div>\n            <div class=\"card-footer\">\n              <h4>Josh Levy</h4>\n            </div>\n          </div>\n        </div>\n        <div class=\"col-md-8\">\n          <div class=\"card card-product\">\n            <div class=\"card-header card-header-image\" data-header-animation=\"false\">\n              <strong>Hello there world! How are you doing today?</strong>\n            </div>\n            <div class=\"card-footer\">\n              <h4>Connect:</h4>\n            </div>\n          </div>\n        </div>\n      </div>\n      <div class=\"row\">\n        <div class=\"col-md-4\">\n          <div class=\"card card-product\">\n            <div class=\"card-header card-header-image card-link\" data-header-animation=\"true\">\n              <a href=\"#\">\n                <img class=\"img\" src=\"./assets/img/card-2.jpg\">\n              </a>\n            </div>\n            <div class=\"card-footer\">\n              <h4>Front-End</h4>\n            </div>\n          </div>\n        </div>\n        <div class=\"col-md-4\">\n          <div class=\"card card-product\">\n            <div class=\"card-header card-header-image card-link\" data-header-animation=\"true\">\n              <a href=\"#\">\n                <img class=\"img\" src=\"./assets/img/card-3.jpg\">\n              </a>\n            </div>\n            <div class=\"card-footer\">\n              <h4>Back-End</h4>\n            </div>\n          </div>\n        </div>\n        <div class=\"col-md-4\">\n          <div class=\"card card-product\">\n            <div class=\"card-header card-header-image card-link\" data-header-animation=\"true\">\n              <a href=\"#\">\n                <img class=\"img\" src=\"./assets/img/card-1.jpg\">\n              </a>\n            </div>\n            <div class=\"card-footer\">\n              <h4>DevOps</h4>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n</div>\n"
 
 /***/ }),
 
@@ -304,7 +315,7 @@ module.exports = "\n<router-outlet></router-outlet>\n"
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n<div class=\"wrapper\">\n  <div class=\"sidebar\" data-color=\"danger\" data-background-color=\"white\">\n    <app-sidebar-cmp></app-sidebar-cmp>\n    <div class=\"sidebar-background\"></div>\n  </div>\n  <div class=\"main-panel\">\n    <app-navbar-cmp></app-navbar-cmp>\n    <router-outlet></router-outlet>\n    <div *ngIf=\"!isMap()\">\n      <app-footer-cmp></app-footer-cmp>\n    </div>\n  </div>\n  <!-- <app-fixedplugin></app-fixedplugin> -->\n</div>\n"
+module.exports = "\n<!-- <div class=\"wrapper\">\n  <div class=\"sidebar\" data-color=\"danger\" data-background-color=\"white\">\n    <app-sidebar-cmp></app-sidebar-cmp>\n    <div class=\"sidebar-background\"></div>\n  </div>\n  <div class=\"main-panel\">\n    <app-navbar-cmp></app-navbar-cmp>\n    <router-outlet></router-outlet>\n    <div *ngIf=\"!isMap()\">\n      <app-footer-cmp></app-footer-cmp>\n    </div>\n  </div>\n</div> -->\n"
 
 /***/ }),
 
@@ -315,7 +326,7 @@ module.exports = "\n<div class=\"wrapper\">\n  <div class=\"sidebar\" data-color
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-expand-lg bg-primary navbar-transparent navbar-absolute\" color-on-scroll=\"500\">\n  <div class=\"container\">\n    <div class=\"navbar-wrapper\">\n      <a class=\"navbar-brand d-none d-sm-none d-md-block\" [routerLink]=\"['/dashboard']\">Material Dashboard Pro Angular</a>\n      <a class=\"navbar-brand d-block d-sm-block d-md-none\" [routerLink]=\"['/dashboard']\">MD Pro Angular</a>\n    </div>\n    <button mat-button class=\"navbar-toggler\" type=\"button\" (click)=\"sidebarToggle()\">\n      <span class=\"sr-only\">Toggle navigation</span>\n      <span class=\"navbar-toggler-icon icon-bar\"></span>\n      <span class=\"navbar-toggler-icon icon-bar\"></span>\n      <span class=\"navbar-toggler-icon icon-bar\"></span>\n    </button>\n    <div class=\"collapse navbar-collapse justify-content-end\">\n      <ul class=\"navbar-nav\">\n        <li class=\"nav-item\" routerLinkActive=\"active\">\n          <a class=\"nav-link\" [routerLink]=\"['/dashboard']\">\n            <i class=\"material-icons\">dashboard</i> Dashboard\n          </a>\n        </li>\n        <li class=\"nav-item\" routerLinkActive=\"active\">\n          <a class=\"nav-link\" [routerLink]=\"['/pages/register']\">\n            <i class=\"material-icons\">person_add</i> Register\n          </a>\n        </li>\n        <li class=\"nav-item\" routerLinkActive=\"active\">\n          <a class=\"nav-link\" [routerLink]=\"['/pages/login']\">\n            <i class=\"material-icons\">fingerprint</i> Login\n          </a>\n        </li>\n        <li class=\"nav-item\" routerLinkActive=\"active\">\n          <a class=\"nav-link\" [routerLink]=\"['/pages/lock']\">\n            <i class=\"material-icons\">lock_open</i> Lock\n          </a>\n        </li>\n      </ul>\n    </div>\n  </div>\n</nav>\n  <router-outlet></router-outlet>\n"
+module.exports = "<nav class=\"navbar navbar-expand-lg bg-primary navbar-transparent navbar-absolute\" color-on-scroll=\"500\">\n  <div class=\"container\">\n    <div class=\"navbar-wrapper\">\n      <a class=\"navbar-brand d-none d-sm-none d-md-block\" [routerLink]=\"['/home']\">Material Home Pro Angular</a>\n      <a class=\"navbar-brand d-block d-sm-block d-md-none\" [routerLink]=\"['/home']\">MD Pro Angular</a>\n    </div>\n    <button mat-button class=\"navbar-toggler\" type=\"button\" (click)=\"sidebarToggle()\">\n      <span class=\"sr-only\">Toggle navigation</span>\n      <span class=\"navbar-toggler-icon icon-bar\"></span>\n      <span class=\"navbar-toggler-icon icon-bar\"></span>\n      <span class=\"navbar-toggler-icon icon-bar\"></span>\n    </button>\n    <div class=\"collapse navbar-collapse justify-content-end\">\n      <ul class=\"navbar-nav\">\n        <li class=\"nav-item\" routerLinkActive=\"active\">\n          <a class=\"nav-link\" [routerLink]=\"['/home']\">\n            <i class=\"material-icons\">home</i> Home\n          </a>\n        </li>\n        <li class=\"nav-item\" routerLinkActive=\"active\">\n          <a class=\"nav-link\" [routerLink]=\"['/pages/register']\">\n            <i class=\"material-icons\">person_add</i> Register\n          </a>\n        </li>\n        <li class=\"nav-item\" routerLinkActive=\"active\">\n          <a class=\"nav-link\" [routerLink]=\"['/pages/login']\">\n            <i class=\"material-icons\">fingerprint</i> Login\n          </a>\n        </li>\n        <li class=\"nav-item\" routerLinkActive=\"active\">\n          <a class=\"nav-link\" [routerLink]=\"['/pages/lock']\">\n            <i class=\"material-icons\">lock_open</i> Lock\n          </a>\n        </li>\n      </ul>\n    </div>\n  </div>\n</nav>\n  <router-outlet></router-outlet>\n"
 
 /***/ }),
 
@@ -338,6 +349,17 @@ module.exports = "<div class=\"card\">\n  <div class=\"header\">\n    <h4 class=
 /***/ (function(module, exports) {
 
 module.exports = "\n  <div class=\"content table-responsive\">\n    <table class=\"table\">\n      <tbody>\n          <tr *ngFor=\"let row of data.dataRows\">\n            <!-- <td *ngFor=\"let cell of row\">{{ cell }}</td> -->\n            <td>\n                <div class=\"flag\">\n                    <img src=\"./assets/img/flags/{{row[0]}}.png\" alt=\"\">\n                </div>\n            </td>\n            <td>\n                {{row[1]}}\n            </td>\n            <td class=\"text-right\">\n                {{row[2]}}\n            </td>\n            <td class=\"text-right\">\n                {{row[3]}}\n            </td>\n          </tr>\n      </tbody>\n    </table>\n\n  </div>\n"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/projects/projects.component.html":
+/*!****************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/projects/projects.component.html ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"main-content\">\n  <div class=\"container-fluid\">\n    <div class=\"row\">\n      <div class=\"col-md-12\">\n        <div class=\"card card-plain\">\n          <div class=\"card-content\">\n            <ul class=\"timeline\">\n              <li class=\"timeline-inverted\">\n                <div class=\"timeline-badge danger\">\n                  <i class=\"material-icons\">card_travel</i>\n                </div>\n                <div class=\"timeline-panel\">\n                  <div class=\"timeline-heading\">\n                    <span class=\"label label-danger\">Some Title</span>\n                  </div>\n                  <div class=\"timeline-body\">\n                    <p>Wifey made the best Father's Day meal ever. So thankful so happy so blessed. Thank you for making\n                      my family We just had fun with the “future” theme !!! It was a fun night all together ... The\n                      always rude Kanye Show at 2am Sold Out Famous viewing @ Figueroa and 12th in downtown.</p>\n                  </div>\n                  <h6>\n                    <i class=\"ti-time\"></i> 11 hours ago via Twitter\n                  </h6>\n                </div>\n              </li>\n              <li>\n                <div class=\"timeline-badge success\">\n                  <i class=\"material-icons\">extension</i>\n                </div>\n                <div class=\"timeline-panel\">\n                  <div class=\"timeline-heading\">\n                    <span class=\"label label-success\">Another One</span>\n                  </div>\n                  <div class=\"timeline-body\">\n                    <p>Thank God for the support of my wife and real friends. I also wanted to point out that it’s the\n                      first album to go number 1 off of streaming!!! I love you Ellen and also my number one design rule\n                      of anything I do from shoes to music to homes is that Kim has to like it....</p>\n                  </div>\n                </div>\n              </li>\n              <li class=\"timeline-inverted\">\n                <div class=\"timeline-badge info\">\n                  <i class=\"material-icons\">fingerprint</i>\n                </div>\n                <div class=\"timeline-panel\">\n                  <div class=\"timeline-heading\">\n                    <span class=\"label label-info\">Another Title</span>\n                  </div>\n                  <div class=\"timeline-body\">\n                    <p>Called I Miss the Old Kanye That’s all it was Kanye And I love you like Kanye loves Kanye Famous\n                      viewing @ Figueroa and 12th in downtown LA 11:10PM</p>\n                    <p>What if Kanye made a song about Kanye Royère doesn't make a Polar bear bed but the Polar bear\n                      couch is my favorite piece of furniture we own It wasn’t any Kanyes Set on his goals Kanye</p>\n                    <hr>\n                    <div class=\"dropdown pull-left\">\n                      <button mat-raised-button type=\"button\" class=\"btn btn-round btn-info dropdown-toggle\"\n                        data-toggle=\"dropdown\">\n                        <i class=\"material-icons\">build</i>\n                        <span class=\"caret\"></span>\n                      </button>\n                      <ul class=\"dropdown-menu dropdown-menu-right\" role=\"menu\">\n                        <li>\n                          <a href=\"#action\">Action</a>\n                        </li>\n                        <li>\n                          <a href=\"#action\">Another action</a>\n                        </li>\n                        <li>\n                          <a href=\"#here\">Something else here</a>\n                        </li>\n                        <li class=\"divider\"></li>\n                        <li>\n                          <a href=\"#link\">Separated link</a>\n                        </li>\n                      </ul>\n                    </div>\n                  </div>\n                </div>\n              </li>\n              <li>\n                <div class=\"timeline-badge warning\">\n                  <i class=\"material-icons\">flight_land</i>\n                </div>\n                <div class=\"timeline-panel\">\n                  <div class=\"timeline-heading\">\n                    <span class=\"label label-warning\">Another One</span>\n                  </div>\n                  <div class=\"timeline-body\">\n                    <p>Tune into Big Boy's 92.3 I'm about to play the first single from Cruel Winter Tune into Big Boy's\n                      92.3 I'm about to play the first single from Cruel Winter also to Kim’s hair and makeup Lorraine\n                      jewelry and the whole style squad at Balmain and the Yeezy team. Thank you Anna for the invite\n                      thank you to the whole Vogue team</p>\n                  </div>\n                </div>\n              </li>\n            </ul>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -370,7 +392,7 @@ module.exports = "<footer class=\"footer \">\n  <div class=\"container-fluid\">\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<nav #navbar class=\"navbar navbar-expand-lg navbar-transparent navbar-absolute\">\n  <div class=\"container-fluid\">\n    <div class=\"navbar-wrapper\">\n      <!-- <div class=\"navbar-minimize\">\n        <button mat-raised-button (click)=\"minimizeSidebar()\" class=\"btn btn-just-icon btn-white btn-fab btn-round\">\n          <i class=\"material-icons text_align-center visible-on-sidebar-regular\">more_vert</i>\n          <i class=\"material-icons design_bullet-list-67 visible-on-sidebar-mini\">view_list</i>\n        </button>\n      </div> -->\n      <a class=\"navbar-brand\" href=\"{{getPath()}}\"> {{getTitle()}}</a>\n    </div>\n    <!-- <button mat-button class=\"navbar-toggler btn-no-ripple\" type=\"button\" (click)=\"sidebarToggle()\">\n      <span class=\"sr-only\">Toggle navigation</span>\n      <span class=\"navbar-toggler-icon icon-bar\"></span>\n      <span class=\"navbar-toggler-icon icon-bar\"></span>\n      <span class=\"navbar-toggler-icon icon-bar\"></span>\n    </button> -->\n  </div>\n</nav>\n"
+module.exports = "<nav #navbar class=\"navbar navbar-expand-lg navbar-transparent navbar-absolute\">\n  <div class=\"container-fluid\">\n    <div class=\"navbar-wrapper\">\n      <a class=\"navbar-brand\"> {{getTitle()}}</a>\n    </div>\n  </div>\n</nav>\n"
 
 /***/ }),
 
@@ -381,7 +403,18 @@ module.exports = "<nav #navbar class=\"navbar navbar-expand-lg navbar-transparen
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"logo\">\n  <a class=\"simple-text logo-mini\">\n    <div class=\"logo-img\">\n      <img src=\"/assets/img/jlevy-logo.png\" />\n    </div>\n  </a>\n  <a href=\"https://joshlevy.tech\" class=\"simple-text logo-normal\">\n    Josh Levy\n  </a>\n</div>\n<!-- <div class=\"sidebar-wrapper\">\n  <ul class=\"nav\">\n    <li routerLinkActive=\"active\" *ngFor=\"let menuitem of menuItems\" class=\"nav-item\">\n      <a [routerLink]=\"[menuitem.path]\" *ngIf=\"menuitem.type === 'link'\" class=\"nav-link\">\n        <i class=\"material-icons\">{{menuitem.icontype}}</i>\n        <p>{{menuitem.title}}</p>\n      </a>\n\n      <a data-toggle=\"collapse\" href=\"#{{menuitem.collapse}}\" *ngIf=\"menuitem.type === 'sub'\" (click)=\"updatePS()\"\n        class=\"nav-link\">\n        <i class=\"material-icons\">{{menuitem.icontype}}</i>\n        <p>{{menuitem.title}}<b class=\"caret\"></b></p>\n      </a>\n\n      <div id=\"{{menuitem.collapse}}\" class=\"collapse\" *ngIf=\"menuitem.type === 'sub'\">\n        <ul class=\"nav\">\n          <li routerLinkActive=\"active\" *ngFor=\"let childitem of menuitem.children\" class=\"nav-item\">\n            <a [routerLink]=\"[menuitem.path, childitem.path]\" class=\"nav-link\">\n              <span class=\"sidebar-mini\">{{childitem.ab}}</span>\n              <span class=\"sidebar-normal\">{{childitem.title}}</span>\n            </a>\n          </li>\n        </ul>\n      </div>\n    </li>\n  </ul>\n</div> -->\n<div class=\"sidebar-wrapper\">\n  <ul class=\"nav\">\n    <li routerLinkActive=\"active\" class=\"nav-item\">\n      <a routerLink=\"/home\" class=\"nav-link\">\n        <i class=\"fas fa-home\"></i>\n        <p>Home</p>\n      </a>\n    </li>\n    <li routerLinkActive=\"active\" class=\"nav-item\">\n      <a routerLink=\"/projects\" class=\"nav-link\">\n        <i class=\"fas fa-code-branch\"></i>\n        <p>Projects</p>\n      </a>\n    </li>\n  </ul>\n</div>\n"
+module.exports = "<div class=\"logo\">\n  <a routerLink=\"/home\" class=\"simple-text logo-mini\">\n    <div class=\"logo-img\">\n      <img src=\"/assets/img/jlevy-header-logo.png\" />\n    </div>\n  </a>\n</div>\n<div class=\"sidebar-wrapper\">\n  <ul class=\"nav\">\n    <li routerLinkActive=\"active\" class=\"nav-item\">\n      <a routerLink=\"/home\" class=\"nav-link\">\n        <i class=\"fad fa-home fa-swap-opacity\"></i>\n        <p>Home</p>\n      </a>\n    </li>\n    <li routerLinkActive=\"active\" class=\"nav-item\">\n      <a routerLink=\"/skills\" class=\"nav-link\">\n        <i class=\"fad fa-brackets-curly\"></i>\n        <p>Skills</p>\n      </a>\n    </li>\n    <li routerLinkActive=\"active\" class=\"nav-item\">\n      <a routerLink=\"/projects\" class=\"nav-link\">\n        <i class=\"fad fa-code-branch\"></i>\n        <p>Projects</p>\n      </a>\n    </li>\n    <li routerLinkActive=\"active\" class=\"nav-item\">\n      <a routerLink=\"/projects\" class=\"nav-link\">\n        <i class=\"fad fa-laptop-code\"></i>\n        <p>Experience</p>\n      </a>\n    </li>\n    <li routerLinkActive=\"active\" class=\"nav-item\">\n      <a routerLink=\"/projects\" class=\"nav-link\">\n        <i class=\"fad fa-file-code\"></i>\n        <p>Resume</p>\n      </a>\n    </li>\n    <li routerLinkActive=\"active\" class=\"nav-item\">\n      <a routerLink=\"/projects\" class=\"nav-link\">\n        <i class=\"fad fa-address-book\"></i>\n        <p>Contact</p>\n      </a>\n    </li>\n  </ul>\n</div>\n"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/skills/skills.component.html":
+/*!************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/skills/skills.component.html ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"main-content\">\n  <div class=\"container-fluid\">\n    <!-- <h2 class=\"page-heading\">Skills</h2> -->\n    <div class=\"row\">\n      <div class=\"col-md-3\">\n        <div class=\"card card-product\">\n          <div class=\"card-header card-header-image card-link\" data-header-animation=\"true\">\n            <a href=\"#\">\n              <img class=\"img\" src=\"./assets/img/card-2.jpg\">\n            </a>\n          </div>\n          <div class=\"card-footer\">\n            <h4>Angular</h4>\n          </div>\n        </div>\n      </div>\n      <div class=\"col-md-3\">\n        <div class=\"card card-product\">\n          <div class=\"card-header card-header-image card-link\" data-header-animation=\"true\">\n            <a href=\"#\">\n              <img class=\"img\" src=\"./assets/img/card-3.jpg\">\n            </a>\n          </div>\n          <div class=\"card-footer\">\n            <h4>Vue</h4>\n          </div>\n        </div>\n      </div>\n      <div class=\"col-md-3\">\n        <div class=\"card card-product\">\n          <div class=\"card-header card-header-image card-link\" data-header-animation=\"true\">\n            <a href=\"#\">\n              <img class=\"img\" src=\"./assets/img/card-1.jpg\">\n            </a>\n          </div>\n          <div class=\"card-footer\">\n            <h4>React</h4>\n          </div>\n        </div>\n      </div>\n      <div class=\"col-md-3\">\n        <div class=\"card card-product\">\n          <div class=\"card-header card-header-image card-link\" data-header-animation=\"true\">\n            <a href=\"#\">\n              <img class=\"img\" src=\"./assets/img/card-2.jpg\">\n            </a>\n          </div>\n          <div class=\"card-footer\">\n            <h4>Node.js</h4>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -390,79 +423,21 @@ module.exports = "<div class=\"logo\">\n  <a class=\"simple-text logo-mini\">\n 
   !*** ./src/$$_lazy_route_resource lazy namespace object ***!
   \**********************************************************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-var map = {
-	"./calendar/calendar.module": [
-		"./src/app/calendar/calendar.module.ts",
-		"default~calendar-calendar-module~components-components-module",
-		"calendar-calendar-module"
-	],
-	"./charts/charts.module": [
-		"./src/app/charts/charts.module.ts",
-		"charts-charts-module"
-	],
-	"./components/components.module": [
-		"./src/app/components/components.module.ts",
-		"default~calendar-calendar-module~components-components-module",
-		"components-components-module"
-	],
-	"./dashboard/dashboard.module": [
-		"./src/app/dashboard/dashboard.module.ts",
-		"dashboard-dashboard-module"
-	],
-	"./forms/forms.module": [
-		"./src/app/forms/forms.module.ts",
-		"forms-forms-module"
-	],
-	"./maps/maps.module": [
-		"./src/app/maps/maps.module.ts",
-		"maps-maps-module"
-	],
-	"./pages/pages.module": [
-		"./src/app/pages/pages.module.ts",
-		"pages-pages-module"
-	],
-	"./projects/projects.module": [
-		"./src/app/projects/projects.module.ts",
-		"projects-projects-module"
-	],
-	"./tables/tables.module": [
-		"./src/app/tables/tables.module.ts",
-		"tables-tables-module"
-	],
-	"./timeline/timeline.module": [
-		"./src/app/timeline/timeline.module.ts",
-		"timeline-timeline-module"
-	],
-	"./userpage/user.module": [
-		"./src/app/userpage/user.module.ts",
-		"userpage-user-module"
-	],
-	"./widgets/widgets.module": [
-		"./src/app/widgets/widgets.module.ts",
-		"widgets-widgets-module"
-	]
-};
-function webpackAsyncContext(req) {
-	if(!__webpack_require__.o(map, req)) {
-		return Promise.resolve().then(function() {
-			var e = new Error("Cannot find module '" + req + "'");
-			e.code = 'MODULE_NOT_FOUND';
-			throw e;
-		});
-	}
-
-	var ids = map[req], id = ids[0];
-	return Promise.all(ids.slice(1).map(__webpack_require__.e)).then(function() {
-		return __webpack_require__(id);
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncaught exception popping up in devtools
+	return Promise.resolve().then(function() {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
 	});
 }
-webpackAsyncContext.keys = function webpackAsyncContextKeys() {
-	return Object.keys(map);
-};
-webpackAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
-module.exports = webpackAsyncContext;
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 
 /***/ }),
 
@@ -528,23 +503,27 @@ var AppComponent = /** @class */ (function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MaterialModule", function() { return MaterialModule; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/fesm5/animations.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var _angular_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/http */ "./node_modules/@angular/http/fesm5/http.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
-/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
-/* harmony import */ var _angular_material_datepicker__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/material/datepicker */ "./node_modules/@angular/material/esm5/datepicker.es5.js");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _sidebar_sidebar_module__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./sidebar/sidebar.module */ "./src/app/sidebar/sidebar.module.ts");
-/* harmony import */ var _shared_footer_footer_module__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./shared/footer/footer.module */ "./src/app/shared/footer/footer.module.ts");
-/* harmony import */ var _shared_navbar_navbar_module__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./shared/navbar/navbar.module */ "./src/app/shared/navbar/navbar.module.ts");
-/* harmony import */ var _shared_fixedplugin_fixedplugin_module__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./shared/fixedplugin/fixedplugin.module */ "./src/app/shared/fixedplugin/fixedplugin.module.ts");
-/* harmony import */ var _layouts_admin_admin_layout_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./layouts/admin/admin-layout.component */ "./src/app/layouts/admin/admin-layout.component.ts");
-/* harmony import */ var _layouts_auth_auth_layout_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./layouts/auth/auth-layout.component */ "./src/app/layouts/auth/auth-layout.component.ts");
-/* harmony import */ var _app_routing__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./app.routing */ "./src/app/app.routing.ts");
-/* harmony import */ var _primeng_module__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./primeng.module */ "./src/app/primeng.module.ts");
+/* harmony import */ var _projects_projects_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./projects/projects.component */ "./src/app/projects/projects.component.ts");
+/* harmony import */ var _skills_skills_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./skills/skills.component */ "./src/app/skills/skills.component.ts");
+/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/fesm5/animations.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _angular_http__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/http */ "./node_modules/@angular/http/fesm5/http.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+/* harmony import */ var _angular_material_datepicker__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/material/datepicker */ "./node_modules/@angular/material/esm5/datepicker.es5.js");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _sidebar_sidebar_module__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./sidebar/sidebar.module */ "./src/app/sidebar/sidebar.module.ts");
+/* harmony import */ var _shared_footer_footer_module__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./shared/footer/footer.module */ "./src/app/shared/footer/footer.module.ts");
+/* harmony import */ var _shared_navbar_navbar_module__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./shared/navbar/navbar.module */ "./src/app/shared/navbar/navbar.module.ts");
+/* harmony import */ var _shared_fixedplugin_fixedplugin_module__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./shared/fixedplugin/fixedplugin.module */ "./src/app/shared/fixedplugin/fixedplugin.module.ts");
+/* harmony import */ var _layouts_admin_admin_layout_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./layouts/admin/admin-layout.component */ "./src/app/layouts/admin/admin-layout.component.ts");
+/* harmony import */ var _layouts_auth_auth_layout_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./layouts/auth/auth-layout.component */ "./src/app/layouts/auth/auth-layout.component.ts");
+/* harmony import */ var _primeng_module__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./primeng.module */ "./src/app/primeng.module.ts");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _app_routing__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./app.routing */ "./src/app/app.routing.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -568,43 +547,48 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 
+
+// import { AppRoutes, AppRoutingModule } from './app.routing';
+
+
+
 var MaterialModule = /** @class */ (function () {
     function MaterialModule() {
     }
     MaterialModule = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_3__["NgModule"])({
             exports: [
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatAutocompleteModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatButtonModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatButtonToggleModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatCardModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatCheckboxModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatChipsModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatStepperModule"],
-                _angular_material_datepicker__WEBPACK_IMPORTED_MODULE_7__["MatDatepickerModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatDialogModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatExpansionModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatGridListModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatIconModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatInputModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatListModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatMenuModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatNativeDateModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatPaginatorModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatProgressBarModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatProgressSpinnerModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatRadioModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatRippleModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatSelectModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatSidenavModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatSliderModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatSlideToggleModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatSnackBarModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatSortModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatTableModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatTabsModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatToolbarModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatTooltipModule"]
+                _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatAutocompleteModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatButtonModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatButtonToggleModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatCardModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatCheckboxModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatChipsModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatStepperModule"],
+                _angular_material_datepicker__WEBPACK_IMPORTED_MODULE_10__["MatDatepickerModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatDialogModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatExpansionModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatGridListModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatIconModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatInputModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatListModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatMenuModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatNativeDateModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatPaginatorModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatProgressBarModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatProgressSpinnerModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatRadioModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatRippleModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatSelectModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatSidenavModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatSliderModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatSlideToggleModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatSnackBarModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatSortModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatTableModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatTabsModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatToolbarModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatTooltipModule"]
             ]
         })
     ], MaterialModule);
@@ -615,29 +599,41 @@ var AppModule = /** @class */ (function () {
     function AppModule() {
     }
     AppModule = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_3__["NgModule"])({
             imports: [
-                _angular_common__WEBPACK_IMPORTED_MODULE_5__["CommonModule"],
-                _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_1__["BrowserAnimationsModule"],
-                _angular_forms__WEBPACK_IMPORTED_MODULE_4__["FormsModule"],
-                _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forRoot(_app_routing__WEBPACK_IMPORTED_MODULE_15__["AppRoutes"], {
-                    useHash: true
-                }),
-                _angular_http__WEBPACK_IMPORTED_MODULE_3__["HttpModule"],
+                _angular_common__WEBPACK_IMPORTED_MODULE_8__["CommonModule"],
+                _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_4__["BrowserAnimationsModule"],
+                _angular_forms__WEBPACK_IMPORTED_MODULE_7__["FormsModule"],
+                // RouterModule.forRoot(AppRoutes, {
+                //   useHash: false,
+                //   onSameUrlNavigation: 'reload'
+                // }),
+                _angular_router__WEBPACK_IMPORTED_MODULE_5__["RouterModule"],
+                _app_routing__WEBPACK_IMPORTED_MODULE_20__["AppRoutingModule"],
+                _angular_http__WEBPACK_IMPORTED_MODULE_6__["HttpModule"],
+                _angular_common_http__WEBPACK_IMPORTED_MODULE_19__["HttpClientModule"],
                 MaterialModule,
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatNativeDateModule"],
-                _sidebar_sidebar_module__WEBPACK_IMPORTED_MODULE_9__["SidebarModule"],
-                _shared_navbar_navbar_module__WEBPACK_IMPORTED_MODULE_11__["NavbarModule"],
-                _shared_footer_footer_module__WEBPACK_IMPORTED_MODULE_10__["FooterModule"],
-                _shared_fixedplugin_fixedplugin_module__WEBPACK_IMPORTED_MODULE_12__["FixedpluginModule"],
-                _primeng_module__WEBPACK_IMPORTED_MODULE_16__["PrimeNGBundleModule"]
+                _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatNativeDateModule"],
+                _sidebar_sidebar_module__WEBPACK_IMPORTED_MODULE_12__["SidebarModule"],
+                _shared_navbar_navbar_module__WEBPACK_IMPORTED_MODULE_14__["NavbarModule"],
+                _shared_footer_footer_module__WEBPACK_IMPORTED_MODULE_13__["FooterModule"],
+                _shared_fixedplugin_fixedplugin_module__WEBPACK_IMPORTED_MODULE_15__["FixedpluginModule"],
+                _primeng_module__WEBPACK_IMPORTED_MODULE_18__["PrimeNGBundleModule"]
             ],
             declarations: [
-                _app_component__WEBPACK_IMPORTED_MODULE_8__["AppComponent"],
-                _layouts_admin_admin_layout_component__WEBPACK_IMPORTED_MODULE_13__["AdminLayoutComponent"],
-                _layouts_auth_auth_layout_component__WEBPACK_IMPORTED_MODULE_14__["AuthLayoutComponent"]
+                _app_component__WEBPACK_IMPORTED_MODULE_11__["AppComponent"],
+                _home_home_component__WEBPACK_IMPORTED_MODULE_2__["HomeComponent"],
+                _skills_skills_component__WEBPACK_IMPORTED_MODULE_1__["SkillsComponent"],
+                _projects_projects_component__WEBPACK_IMPORTED_MODULE_0__["ProjectsComponent"],
+                _layouts_admin_admin_layout_component__WEBPACK_IMPORTED_MODULE_16__["AdminLayoutComponent"],
+                _layouts_auth_auth_layout_component__WEBPACK_IMPORTED_MODULE_17__["AuthLayoutComponent"]
             ],
-            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_8__["AppComponent"]]
+            schemas: [
+                _angular_core__WEBPACK_IMPORTED_MODULE_3__["CUSTOM_ELEMENTS_SCHEMA"]
+            ],
+            bootstrap: [
+                _app_component__WEBPACK_IMPORTED_MODULE_11__["AppComponent"]
+            ]
         })
     ], AppModule);
     return AppModule;
@@ -651,121 +647,107 @@ var AppModule = /** @class */ (function () {
 /*!********************************!*\
   !*** ./src/app/app.routing.ts ***!
   \********************************/
-/*! exports provided: AppRoutes */
+/*! exports provided: AppRoutingModule */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppRoutes", function() { return AppRoutes; });
-/* harmony import */ var _layouts_admin_admin_layout_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./layouts/admin/admin-layout.component */ "./src/app/layouts/admin/admin-layout.component.ts");
-/* harmony import */ var _layouts_auth_auth_layout_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./layouts/auth/auth-layout.component */ "./src/app/layouts/auth/auth-layout.component.ts");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppRoutingModule", function() { return AppRoutingModule; });
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
+/* harmony import */ var _skills_skills_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./skills/skills.component */ "./src/app/skills/skills.component.ts");
+/* harmony import */ var _projects_projects_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./projects/projects.component */ "./src/app/projects/projects.component.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
 
 
-var AppRoutes = [
+
+
+
+
+
+var routes = [
+    {
+        path: 'home',
+        component: _home_home_component__WEBPACK_IMPORTED_MODULE_4__["HomeComponent"]
+    },
     {
         path: '',
-        redirectTo: 'dashboard',
-        pathMatch: 'full',
-    }, {
-        path: '',
-        component: _layouts_admin_admin_layout_component__WEBPACK_IMPORTED_MODULE_0__["AdminLayoutComponent"],
-        children: [
-            {
-                path: '',
-                loadChildren: './dashboard/dashboard.module#DashboardModule'
-            }, {
-                path: 'components',
-                loadChildren: './components/components.module#ComponentsModule'
-            }, {
-                path: 'forms',
-                loadChildren: './forms/forms.module#Forms'
-            }, {
-                path: 'tables',
-                loadChildren: './tables/tables.module#TablesModule'
-            }, {
-                path: 'maps',
-                loadChildren: './maps/maps.module#MapsModule'
-            }, {
-                path: 'widgets',
-                loadChildren: './widgets/widgets.module#WidgetsModule'
-            }, {
-                path: 'charts',
-                loadChildren: './charts/charts.module#ChartsModule'
-            }, {
-                path: 'calendar',
-                loadChildren: './calendar/calendar.module#CalendarModule'
-            }, {
-                path: '',
-                loadChildren: './userpage/user.module#UserModule'
-            }, {
-                path: '',
-                loadChildren: './timeline/timeline.module#TimelineModule'
-            }, {
-                path: '',
-                loadChildren: './projects/projects.module#ProjectsModule'
-            }
-        ]
-    }, {
-        path: '',
-        component: _layouts_auth_auth_layout_component__WEBPACK_IMPORTED_MODULE_1__["AuthLayoutComponent"],
-        children: [{
-                path: 'pages',
-                loadChildren: './pages/pages.module#PagesModule'
-            }]
+        redirectTo: 'home',
+        pathMatch: 'full'
+    },
+    {
+        path: 'skills',
+        component: _skills_skills_component__WEBPACK_IMPORTED_MODULE_5__["SkillsComponent"]
+    },
+    {
+        path: 'projects',
+        component: _projects_projects_component__WEBPACK_IMPORTED_MODULE_6__["ProjectsComponent"]
     }
 ];
-// const routes: Routes = [
-//   {
-//     path: '',
-//     component: HomeComponent
-//   },
-//   {
-//     path: 'home',
-//     redirectTo: ''
-//   },
-//   {
-//     path: 'login',
-//     component: LoginComponent
-//   },
-//   {
-//     path: 'add',
-//     component: AddEpisodeComponent
-//   },
-//   {
-//     path: 'categories',
-//     component: CategoriesComponent
-//   },
-//   {
-//     path: 'tags',
-//     component: TagsComponent
-//   },
-//   {
-//     path: 'about',
-//     component: AboutComponent
-//   },
-//   {
-//     path: 'category/:slug',
-//     component: PostsByCategoryComponent
-//   },
-//   {
-//     path: 'tag/:slug',
-//     component: PostsByTagComponent
-//   },
-//   {
-//     path: ':slug',
-//     component: PostComponent
-//   }
-// ];
-// @NgModule({
-//   imports: [
-//     CommonModule,
-//     BrowserModule,
-//     RouterModule.forRoot(routes)
-//   ],
-//   exports: [
-//   ],
-// })
-// export class AppRoutingModule { }
+var AppRoutingModule = /** @class */ (function () {
+    function AppRoutingModule() {
+    }
+    AppRoutingModule = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
+            imports: [
+                _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
+                _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+                _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"].forRoot(routes)
+            ],
+            exports: [],
+        })
+    ], AppRoutingModule);
+    return AppRoutingModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/home/home.component.ts":
+/*!****************************************!*\
+  !*** ./src/app/home/home.component.ts ***!
+  \****************************************/
+/*! exports provided: HomeComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomeComponent", function() { return HomeComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var HomeComponent = /** @class */ (function () {
+    function HomeComponent() {
+    }
+    HomeComponent.prototype.ngOnInit = function () { };
+    HomeComponent.prototype.ngAfterViewInit = function () { };
+    HomeComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-home',
+            template: __webpack_require__(/*! raw-loader!./home.component.html */ "./node_modules/raw-loader/index.js!./src/app/home/home.component.html")
+        }),
+        __metadata("design:paramtypes", [])
+    ], HomeComponent);
+    return HomeComponent;
+}());
+
 
 
 /***/ }),
@@ -845,11 +827,11 @@ var AdminLayoutComponent = /** @class */ (function () {
         else {
             html.classList.add('perfect-scrollbar-off');
         }
-        // this._router = this.router.events.filter(event => event instanceof NavigationEnd).subscribe((event: NavigationEnd) => {
-        //   this.navbar.sidebarClose();
-        // });
+        this._router = this.router.events.filter(function (event) { return event instanceof _angular_router__WEBPACK_IMPORTED_MODULE_1__["NavigationEnd"]; }).subscribe(function (event) {
+            _this.navbar.sidebarClose();
+        });
         this.navItems = [
-            { type: _md_md_module__WEBPACK_IMPORTED_MODULE_2__["NavItemType"].NavbarLeft, title: 'Dashboard', iconClass: 'fa fa-dashboard' },
+            { type: _md_md_module__WEBPACK_IMPORTED_MODULE_2__["NavItemType"].NavbarLeft, title: 'Home', iconClass: 'fad fa-home' },
             {
                 type: _md_md_module__WEBPACK_IMPORTED_MODULE_2__["NavItemType"].NavbarRight,
                 title: '',
@@ -1607,6 +1589,40 @@ var PrimeNGBundleModule = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/projects/projects.component.ts":
+/*!************************************************!*\
+  !*** ./src/app/projects/projects.component.ts ***!
+  \************************************************/
+/*! exports provided: ProjectsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProjectsComponent", function() { return ProjectsComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+var ProjectsComponent = /** @class */ (function () {
+    function ProjectsComponent() {
+    }
+    ProjectsComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-projects',
+            template: __webpack_require__(/*! raw-loader!./projects.component.html */ "./node_modules/raw-loader/index.js!./src/app/projects/projects.component.html")
+        })
+    ], ProjectsComponent);
+    return ProjectsComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/shared/fixedplugin/fixedplugin.component.css":
 /*!**************************************************************!*\
   !*** ./src/app/shared/fixedplugin/fixedplugin.component.css ***!
@@ -1659,7 +1675,7 @@ var FixedpluginComponent = /** @class */ (function () {
         var $sidebar_responsive = $('body > .navbar-collapse');
         var window_width = $(window).width();
         var fixed_plugin_open = $('.sidebar .sidebar-wrapper .nav li.active a p').html();
-        if (window_width > 767 && fixed_plugin_open === 'Dashboard') {
+        if (window_width > 767 && fixed_plugin_open === 'Home') {
             if ($('.fixed-plugin .dropdown').hasClass('show-dropdown')) {
                 $('.fixed-plugin .dropdown').addClass('open');
             }
@@ -1951,54 +1967,6 @@ var NavbarComponent = /** @class */ (function () {
         this.nativeElement = element.nativeElement;
         this.sidebarVisible = false;
     }
-    // minimizeSidebar() {
-    //   const body = document.getElementsByTagName('body')[0];
-    //   if (misc.sidebar_mini_active === true) {
-    //     body.classList.remove('sidebar-mini');
-    //     misc.sidebar_mini_active = false;
-    //   } else {
-    //     setTimeout(function() {
-    //       body.classList.add('sidebar-mini');
-    //       misc.sidebar_mini_active = true;
-    //     }, 300);
-    //   }
-    //   // we simulate the window Resize so the charts will get updated in realtime.
-    //   const simulateWindowResize = setInterval(function() {
-    //     window.dispatchEvent(new Event('resize'));
-    //   }, 180);
-    //   // we stop the simulation of Window Resize after the animations are completed
-    //   setTimeout(function() {
-    //     clearInterval(simulateWindowResize);
-    //   }, 1000);
-    // }
-    // hideSidebar() {
-    //   const body = document.getElementsByTagName('body')[0];
-    //   const sidebar = document.getElementsByClassName('sidebar')[0];
-    //   if (misc.hide_sidebar_active === true) {
-    //       setTimeout(function() {
-    //           body.classList.remove('hide-sidebar');
-    //           misc.hide_sidebar_active = false;
-    //       }, 300);
-    //       setTimeout(function () {
-    //           sidebar.classList.remove('animation');
-    //       }, 600);
-    //       sidebar.classList.add('animation');
-    //   } else {
-    //       setTimeout(function() {
-    //         body.classList.add('hide-sidebar');
-    //           // $('.sidebar').addClass('animation');
-    //           misc.hide_sidebar_active = true;
-    //       }, 300);
-    //   }
-    //   // we simulate the window Resize so the charts will get updated in realtime.
-    //   const simulateWindowResize = setInterval(function() {
-    //       window.dispatchEvent(new Event('resize'));
-    //   }, 180);
-    //   // we stop the simulation of Window Resize after the animations are completed
-    //   setTimeout(function() {
-    //       clearInterval(simulateWindowResize);
-    //   }, 1000);
-    // }
     NavbarComponent.prototype.ngOnInit = function () {
         var _this = this;
         this.listTitles = _sidebar_sidebar_component__WEBPACK_IMPORTED_MODULE_1__["ROUTES"].filter(function (listTitle) { return listTitle; });
@@ -2047,16 +2015,6 @@ var NavbarComponent = /** @class */ (function () {
         setTimeout(function () {
             $layer.classList.add('visible');
         }, 100);
-        // $layer.onclick = function() {
-        //   body.classList.remove('nav-open');
-        //   this.mobile_menu_visible = 0;
-        //   this.sidebarVisible = false;
-        //   $layer.classList.remove('visible');
-        //   setTimeout(function() {
-        //       $layer.remove();
-        //       $toggle.classList.remove('toggled');
-        //   }, 400);
-        // }.bind(this);
         body.classList.add('nav-open');
         this.mobile_menu_visible = 1;
         this.sidebarVisible = true;
@@ -2064,7 +2022,6 @@ var NavbarComponent = /** @class */ (function () {
     NavbarComponent.prototype.sidebarClose = function () {
         var $toggle = document.getElementsByClassName('navbar-toggler')[0];
         var body = document.getElementsByTagName('body')[0];
-        this.toggleButton.classList.remove('toggled');
         var $layer = document.createElement('div');
         $layer.setAttribute('class', 'close-layer');
         this.sidebarVisible = false;
@@ -2073,9 +2030,6 @@ var NavbarComponent = /** @class */ (function () {
         if ($layer) {
             $layer.remove();
         }
-        setTimeout(function () {
-            $toggle.classList.remove('toggled');
-        }, 400);
         this.mobile_menu_visible = 0;
     };
     NavbarComponent.prototype.sidebarToggle = function () {
@@ -2104,7 +2058,7 @@ var NavbarComponent = /** @class */ (function () {
                 }
             }
         }
-        return 'Dashboard';
+        return 'Home';
     };
     NavbarComponent.prototype.getPath = function () {
         return this.location.prepareExternalUrl(this.location.path());
@@ -2196,15 +2150,17 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 // Menu Items
 var ROUTES = [{
-        path: '/dashboard',
-        title: 'Dashboard',
-        type: 'link',
-        icontype: 'dashboard'
+        path: '/home',
+        title: 'Home',
+        type: 'link'
+    }, {
+        path: '/skills',
+        title: 'Skills',
+        type: 'link'
     }, {
         path: '/components',
         title: 'Components',
         type: 'sub',
-        icontype: 'apps',
         collapse: 'components',
         children: [
             { path: 'buttons', title: 'Buttons', ab: 'B' },
@@ -2219,7 +2175,6 @@ var ROUTES = [{
         path: '/forms',
         title: 'Forms',
         type: 'sub',
-        icontype: 'content_paste',
         collapse: 'forms',
         children: [
             { path: 'regular', title: 'Regular Forms', ab: 'RF' },
@@ -2231,7 +2186,6 @@ var ROUTES = [{
         path: '/tables',
         title: 'Tables',
         type: 'sub',
-        icontype: 'grid_on',
         collapse: 'tables',
         children: [
             { path: 'regular', title: 'Regular Tables', ab: 'RT' },
@@ -2241,24 +2195,20 @@ var ROUTES = [{
     }, {
         path: '/widgets',
         title: 'Widgets',
-        type: 'link',
-        icontype: 'widgets'
+        type: 'link'
     },
     {
         path: '/projects',
         title: 'Projects',
-        type: 'link',
-        icontype: 'timeline'
+        type: 'link'
     }, {
         path: '/charts',
         title: 'Charts',
-        type: 'link',
-        icontype: 'timeline'
+        type: 'link'
     }, {
         path: '/pages',
         title: 'Pages',
         type: 'sub',
-        icontype: 'image',
         collapse: 'pages',
         children: [
             { path: 'pricing', title: 'Pricing', ab: 'P' },
@@ -2346,6 +2296,40 @@ var SidebarModule = /** @class */ (function () {
         })
     ], SidebarModule);
     return SidebarModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/skills/skills.component.ts":
+/*!********************************************!*\
+  !*** ./src/app/skills/skills.component.ts ***!
+  \********************************************/
+/*! exports provided: SkillsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SkillsComponent", function() { return SkillsComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+var SkillsComponent = /** @class */ (function () {
+    function SkillsComponent() {
+    }
+    SkillsComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-skills',
+            template: __webpack_require__(/*! raw-loader!./skills.component.html */ "./node_modules/raw-loader/index.js!./src/app/skills/skills.component.html")
+        })
+    ], SkillsComponent);
+    return SkillsComponent;
 }());
 
 
