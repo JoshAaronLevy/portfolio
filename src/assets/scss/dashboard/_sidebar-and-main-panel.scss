@@ -15,14 +15,14 @@
     @include shadow-big();
 
     .logo-img {
-      width: 42px;
-      max-height: 42px;
+      // width: 42px;
+      // max-height: 42px;
 
       img {
-        width: 42px;
-        top: 13px;
-        left: 18px;
-        position: absolute;
+        width: 62px;
+        // top: 13px;
+        // left: 18px;
+        // position: absolute;
       }
     }
 
@@ -38,273 +38,276 @@
       border-left: 4px solid transparent;
     }
 
-    &[data-background-color="black"]{
-        background-color: #191919;
+    &[data-background-color="black"] {
+      background-color: #191919;
     }
 
-    &[data-background-color="red"]{
-        background-color: #e53935;
+    &[data-background-color="red"] {
+      background-color: #e53935;
     }
 
-    .sidebar-wrapper{
-        position: relative;
-        height: calc(100vh - 75px);
-        overflow: auto;
-        width: 260px;
-        z-index: 4;
+    .sidebar-wrapper {
+      position: relative;
+      height: calc(100vh - 75px);
+      overflow: auto;
+      width: 260px;
+      z-index: 4;
 
-        padding-bottom: 30px;
+      padding-bottom: 30px;
 
-        .dropdown .dropdown-backdrop{
-            display: none !important;
+      .dropdown .dropdown-backdrop {
+        display: none !important;
+      }
+
+      .navbar-form {
+        border: none;
+        box-shadow: none;
+
+        .input-group {
+          font-size: 1.7em;
+          height: 36px;
+          width: 78%;
+          padding-left: 17px;
         }
+      }
 
-        .navbar-form{
-            border: none;
-            box-shadow: none;
+      > .nav,
+      .user .user-info {
+        [data-toggle="collapse"] ~ div > ul > li > a {
+          span {
+            display: inline-block;
+            // @extend .animation-transition-general;
+          }
 
-          .input-group {
-            font-size: 1.7em;
-            height: 36px;
-            width: 78%;
-            padding-left: 17px;
+          .sidebar-normal {
+            margin: 0;
+            position: relative;
+            transform: translateX(0px);
+            opacity: 1;
+            white-space: nowrap;
+            display: block;
+            font-size: 14px;
+          }
+
+          .sidebar-mini {
+            text-transform: uppercase;
+            width: 30px;
+            margin-right: 15px;
+            text-align: center;
+            letter-spacing: 1px;
+            position: relative;
+            float: left;
+            display: inherit;
+          }
+
+          i {
+            font-size: 17px;
+            line-height: 20px;
+            width: 26px;
           }
         }
-
-        > .nav,
-        .user .user-info{
-            [data-toggle="collapse"] ~ div > ul > li > a {
-                span {
-                  display: inline-block;
-                  // @extend .animation-transition-general;
-                }
-
-                .sidebar-normal {
-                  margin: 0;
-                  position: relative;
-                  transform: translateX(0px);
-                  opacity: 1;
-                  white-space: nowrap;
-                  display: block;
-                  font-size: 14px;
-                }
-
-                .sidebar-mini {
-                  text-transform: uppercase;
-                  width: 30px;
-                  margin-right: 15px;
-                  text-align: center;
-                  letter-spacing: 1px;
-                  position: relative;
-                  float: left;
-                  display: inherit;
-                }
-
-                i {
-                  font-size: 17px;
-                  line-height: 20px;
-                  width: 26px;
-                }
-            }
-        }
+      }
     }
 
     .logo-demo {
-        border-radius: 50%;
-        border: 1px solid #333;
-        display: block;
-        height: 61px;
-        width: 61px;
-        float: left;
-        overflow: hidden;
+      border-radius: 50%;
+      border: 1px solid #333;
+      display: block;
+      height: 61px;
+      width: 61px;
+      float: left;
+      overflow: hidden;
 
-        img {
-            width: 60px;
-            height: 60px;
-        }
+      img {
+        width: 60px;
+        height: 60px;
+      }
     }
 
     .nav {
-        margin-top: 15px;
-        display: block;
+      margin-top: 15px;
+      display: block;
 
-        .caret {
-            margin-top: 13px;
+      .caret {
+        margin-top: 13px;
+        position: absolute;
+        right: 6px;
+      }
+
+      li {
+        > a {
+          &:hover,
+          &:focus {
+            background-color: transparent;
+            outline: none;
+          }
+        }
+
+        &:first-child > a {
+          margin: 0 15px;
+        }
+
+        &:hover > a,
+        & .dropdown-menu a:hover,
+        & .dropdown-menu a:focus,
+        &.active > [data-toggle="collapse"] {
+          background-color: rgba(200, 200, 200, 0.2);
+          color: #666;
+          box-shadow: none;
+        }
+
+        &:hover,
+        &.active > [data-toggle="collapse"] {
+          i {
+            color: #666;
+          }
+        }
+
+        &.active > a,
+        &.active > a i {
+          color: $white-color;
+          font-weight: 500;
+        }
+
+        &.separator {
+          margin: 15px 0;
+
+          &:after {
+            width: 100%;
+            content: "";
             position: absolute;
-            right: 6px;
+            height: 1px;
+            background-color: rgba(180,180,180, .3);
+          }
+
+          & + li {
+            margin-top: 31px;
+          }
         }
+      }
 
-        li {
-            > a {
-              &:hover,
-              &:focus {
-                background-color: transparent;
-                outline: none;
-              }
-            }
+      p {
+        margin: 0;
+        line-height: 30px;
+        font-size: 16px;
+        position: relative;
+        display: block;
+        height: auto;
+        white-space: nowrap;
+        // @extend .animation-transition-general;
+      }
 
-            &:first-child > a {
-              margin: 0 15px;
-            }
-
-            &:hover > a,
-            & .dropdown-menu a:hover,
-            & .dropdown-menu a:focus,
-            &.active > [data-toggle="collapse"] {
-              background-color: rgba(200, 200, 200, 0.2);
-              color: #222;
-              box-shadow: none;
-            }
-
-            &:hover,
-            &.active > [data-toggle="collapse"] {
-              i {
-                color: #222;
-              }
-            }
-
-            &.active > a,
-            &.active > a i {
-              color: $white-color;
-              font-weight: 500;
-            }
-
-            &.separator {
-                margin: 15px 0;
-
-                &:after {
-                    width: 100%;
-                    content: "";
-                    position: absolute;
-                    height: 1px;
-                    // left: 15px;
-                    background-color: rgba(180,180,180, .3);
-                }
-
-                & + li {
-                    margin-top: 31px;
-                }
-            }
-        }
-
-        p {
-            margin: 0;
-            line-height: 30px;
-            font-size: 16px;
-            position: relative;
-            display: block;
-            height: auto;
-            white-space: nowrap;
-            // @extend .animation-transition-general;
-        }
-
-        i {
-            font-size: 28px;
-            float: left;
-            margin-right: 15px;
-            line-height: 30px;
-            width: 30px;
-            text-align: center;
-            color: #a9afbb;
-        }
+      i {
+        font-size: 28px;
+        float: left;
+        margin-right: 15px;
+        line-height: 30px;
+        width: 30px;
+        text-align: center;
+        color: #a9afbb;
+      }
     }
     .nav li a,
-    .nav li .dropdown-menu a{
-          margin: 10px 15px 0;
-          border-radius: $border-radius-base;
-          // color: $black-color;
-          color: #333;
-          padding-left: 10px;
-          padding-right: 10px;
-          text-transform: capitalize;
-          font-size: $font-paragraph - 1;
+    .nav li .dropdown-menu a {
+      margin: 10px 15px 0;
+      border-radius: $border-radius-base;
+      // color: $black-color;
+      color: #333;
+      padding-left: 10px;
+      padding-right: 10px;
+      text-transform: capitalize;
+      font-size: $font-paragraph - 1;
     }
 
-    .sidebar-background{
-        position: absolute;
-        z-index: 1;
-        height: 100%;
-        width: 100%;
-        display: block;
-        top: 0;
-        left: 0;
-        background-size: cover;
-        background-position: center center;
+    .sidebar-background {
+      position: absolute;
+      z-index: 1;
+      height: 100%;
+      width: 100%;
+      display: block;
+      top: 0;
+      left: 0;
+      background-size: cover;
+      background-position: center center;
 
-        &:after{
-            position: absolute;
-            z-index: 3;
-            width: 100%;
-            height: 100%;
-            content: "";
-            display: block;
-            background: #FFFFFF;
-            opacity: .93;
-        }
+      &:after {
+        position: absolute;
+        z-index: 3;
+        width: 100%;
+        height: 100%;
+        content: "";
+        display: block;
+        background: #FFFFFF;
+        opacity: .93;
+      }
     }
 
     .logo {
-        padding: 15px 0px;
-        margin: 0;
+      padding: 4px 0px;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      position: relative;
+      z-index: 4;
+      border-bottom: 1px solid rgba(180,180,180, .8);
+
+      a.logo-mini,
+      a.logo-normal {
+        @extend .animation-transition-general;
+      }
+
+      a.logo-mini {
+        opacity: 1;
+        // float: left;
+        // width: 30px;
+        text-align: center;
+        // margin-left: -10px;
+        padding-left: 20px;
+        margin-right: 20px;
+      }
+
+      a.logo-normal {
         display: block;
-        position: relative;
-        z-index: 4;
-        border-bottom: 1px solid rgba(180,180,180, .8);
+        font-weight: 500;
+        opacity: 1;
+        @include transform-translate-x(0px);
+        margin-right: 30px;
+      }
 
-        a.logo-mini,
-        a.logo-normal{
-            @extend .animation-transition-general;
-        }
+      p {
+        float: left;
+        font-size: 20px;
+        margin: 10px 10px;
+        color: $white-color;
+        line-height: 20px;
+      }
 
-        a.logo-mini{
-            opacity: 1;
-            float: left;
-            width: 30px;
-            text-align: center;
-            margin-left: 23px;
-            margin-right: 15px;
-        }
-
-        a.logo-normal {
-            display: block;
-            opacity: 1;
-            @include transform-translate-x(0px);
-        }
-
-        p {
-            float: left;
-            font-size: 20px;
-            margin: 10px 10px;
-            color: $white-color;
-            line-height: 20px;
-        }
-
-        .simple-text {
-            text-transform: uppercase;
-            padding: $padding-small-vertical $padding-zero;
-            display: inline-block;
-            font-size: 18px;
-            color: $black-color;
-            white-space: nowrap;
-            font-weight: $font-weight-default;
-            line-height: 30px;
-            overflow: hidden;
-        }
+      .simple-text {
+        text-transform: uppercase;
+        padding: $padding-small-vertical $padding-zero;
+        display: inline-block;
+        font-size: 18px;
+        color: $black-color;
+        white-space: nowrap;
+        font-weight: $font-weight-default;
+        line-height: 30px;
+        overflow: hidden;
+      }
     }
 
     .logo-demo {
-        border-radius: 50%;
-        border: 1px solid #333;
-        display: block;
-        height: 61px;
-        width: 61px;
-        float: left;
-        overflow: hidden;
+      border-radius: 50%;
+      border: 1px solid #333;
+      display: block;
+      height: 61px;
+      width: 61px;
+      float: left;
+      overflow: hidden;
 
-        img {
-            width: 60px;
-            height: 60px;
-        }
+      img {
+        width: 60px;
+        height: 60px;
+      }
     }
 
     .user {
@@ -345,25 +348,25 @@
             white-space: nowrap;
         }
 
-        .user-info{
-            > a{
-               display: block;
-               line-height: 18px;
-               font-size: 14px;
+        .user-info {
+          > a {
+            display: block;
+            line-height: 18px;
+            font-size: 14px;
 
-                > span{
-                   @extend .animation-transition-general;
-                   display: block;
-                   position: relative;
-                   opacity: 1;
-                }
+            > span {
+              @extend .animation-transition-general;
+              display: block;
+              position: relative;
+              opacity: 1;
             }
+          }
 
-            .caret{
-                position: absolute;
-                top: 8px;
-                right: 15px;
-            }
+          .caret {
+            position: absolute;
+            top: 8px;
+            right: 15px;
+          }
         }
     }
     &[data-background-color="black"]{
@@ -431,48 +434,48 @@
 }
 
 .off-canvas-sidebar .navbar-collapse{
-    .nav {
-        > li > a,
-        > li > a:hover{
-            color: $white-color;
-            margin: 0 15px;
-        }
-
-        > li > a:focus,
-        > li > a:hover{
-            background: rgba(200, 200, 200, 0.2);
-        }
+  .nav {
+    > li > a,
+    > li > a:hover {
+      color: $white-color;
+      margin: 0 15px;
     }
+
+    > li > a:focus,
+    > li > a:hover {
+      background: rgba(200, 200, 200, 0.2);
+    }
+  }
 }
 
 
-.main-panel{
+.main-panel {
     position: relative;
     float: right;
     width: $sidebar-width;
     @include transition (0.33s, cubic-bezier(0.685, 0.0473, 0.346, 1));
 
-    .main-content{
-        margin-top: 70px;
-        padding: 30px 15px;
-        min-height: calc(100vh - 123px);
+    .main-content {
+      margin-top: 70px;
+      padding: 30px 15px;
+      min-height: calc(100vh - 123px);
     }
 
-    .footer{
-        border-top: 1px solid #e7e7e7;
+    .footer {
+      border-top: 1px solid #e7e7e7;
     }
 
-    .navbar{
-        margin-bottom: 0;
+    .navbar {
+      margin-bottom: 0;
     }
 
-    .header{
-        margin-bottom: 30px;
+    .header {
+      margin-bottom: 30px;
 
-        .title{
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
+      .title {
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
     }
 }
 
