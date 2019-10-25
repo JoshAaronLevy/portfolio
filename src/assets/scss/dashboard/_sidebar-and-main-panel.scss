@@ -19,7 +19,7 @@
       // max-height: 42px;
 
       img {
-        width: 62px;
+        width: 92px;
         // top: 13px;
         // left: 18px;
         // position: absolute;
@@ -243,9 +243,10 @@
     }
 
     .logo {
-      padding: 4px 0px;
+      padding: 6px 0px;
       margin: 0;
       display: flex;
+      justify-content: center;
       align-items: center;
       position: relative;
       z-index: 4;

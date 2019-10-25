@@ -119,6 +119,7 @@
             margin-right: 15px;
             margin-top: -30px;
             border-radius: $border-radius-large;
+            cursor: pointer;
 
             img {
                 width: 100%;
@@ -126,6 +127,7 @@
                 pointer-events: none;
                 @include shadow-big-image();
             }
+
             .card-title {
                 position: absolute;
                 bottom: 15px;

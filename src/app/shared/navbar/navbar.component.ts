@@ -38,84 +38,85 @@ export class NavbarComponent implements OnInit {
       this.sidebarVisible = false;
     }
 
-    minimizeSidebar() {
-      const body = document.getElementsByTagName('body')[0];
-      if (misc.sidebar_mini_active === true) {
-        body.classList.remove('sidebar-mini');
-        misc.sidebar_mini_active = false;
-      } else {
-        setTimeout(function() {
-          body.classList.add('sidebar-mini');
+    // minimizeSidebar() {
+    //   const body = document.getElementsByTagName('body')[0];
+    //   if (misc.sidebar_mini_active === true) {
+    //     body.classList.remove('sidebar-mini');
+    //     misc.sidebar_mini_active = false;
+    //   } else {
+    //     setTimeout(function() {
+    //       body.classList.add('sidebar-mini');
 
-          misc.sidebar_mini_active = true;
-        }, 300);
-      }
+    //       misc.sidebar_mini_active = true;
+    //     }, 300);
+    //   }
 
-      // we simulate the window Resize so the charts will get updated in realtime.
-      const simulateWindowResize = setInterval(function() {
-        window.dispatchEvent(new Event('resize'));
-      }, 180);
+    //   // we simulate the window Resize so the charts will get updated in realtime.
+    //   const simulateWindowResize = setInterval(function() {
+    //     window.dispatchEvent(new Event('resize'));
+    //   }, 180);
 
-      // we stop the simulation of Window Resize after the animations are completed
-      setTimeout(function() {
-        clearInterval(simulateWindowResize);
-      }, 1000);
-    }
-    hideSidebar() {
-      const body = document.getElementsByTagName('body')[0];
-      const sidebar = document.getElementsByClassName('sidebar')[0];
+    //   // we stop the simulation of Window Resize after the animations are completed
+    //   setTimeout(function() {
+    //     clearInterval(simulateWindowResize);
+    //   }, 1000);
+    // }
 
-      if (misc.hide_sidebar_active === true) {
-          setTimeout(function() {
-              body.classList.remove('hide-sidebar');
-              misc.hide_sidebar_active = false;
-          }, 300);
-          setTimeout(function () {
-              sidebar.classList.remove('animation');
-          }, 600);
-          sidebar.classList.add('animation');
+    // hideSidebar() {
+    //   const body = document.getElementsByTagName('body')[0];
+    //   const sidebar = document.getElementsByClassName('sidebar')[0];
 
-      } else {
-          setTimeout(function() {
-            body.classList.add('hide-sidebar');
-              // $('.sidebar').addClass('animation');
-              misc.hide_sidebar_active = true;
-          }, 300);
-      }
+    //   if (misc.hide_sidebar_active === true) {
+    //       setTimeout(function() {
+    //           body.classList.remove('hide-sidebar');
+    //           misc.hide_sidebar_active = false;
+    //       }, 300);
+    //       setTimeout(function () {
+    //           sidebar.classList.remove('animation');
+    //       }, 600);
+    //       sidebar.classList.add('animation');
 
-      // we simulate the window Resize so the charts will get updated in realtime.
-      const simulateWindowResize = setInterval(function() {
-          window.dispatchEvent(new Event('resize'));
-      }, 180);
+    //   } else {
+    //       setTimeout(function() {
+    //         body.classList.add('hide-sidebar');
+    //           // $('.sidebar').addClass('animation');
+    //           misc.hide_sidebar_active = true;
+    //       }, 300);
+    //   }
 
-      // we stop the simulation of Window Resize after the animations are completed
-      setTimeout(function() {
-          clearInterval(simulateWindowResize);
-      }, 1000);
-    }
+    //   // we simulate the window Resize so the charts will get updated in realtime.
+    //   const simulateWindowResize = setInterval(function() {
+    //       window.dispatchEvent(new Event('resize'));
+    //   }, 180);
+
+    //   // we stop the simulation of Window Resize after the animations are completed
+    //   setTimeout(function() {
+    //       clearInterval(simulateWindowResize);
+    //   }, 1000);
+    // }
 
     ngOnInit() {
-        this.listTitles = ROUTES.filter(listTitle => listTitle);
+      this.listTitles = ROUTES.filter(listTitle => listTitle);
 
-        const navbar: HTMLElement = this.element.nativeElement;
-        const body = document.getElementsByTagName('body')[0];
-        this.toggleButton = navbar.getElementsByClassName('navbar-toggler')[0];
-        if (body.classList.contains('sidebar-mini')) {
-          misc.sidebar_mini_active = true;
+      const navbar: HTMLElement = this.element.nativeElement;
+      const body = document.getElementsByTagName('body')[0];
+      this.toggleButton = navbar.getElementsByClassName('navbar-toggler')[0];
+      if (body.classList.contains('sidebar-mini')) {
+        misc.sidebar_mini_active = true;
+      }
+
+      if (body.classList.contains('hide-sidebar')) {
+        misc.hide_sidebar_active = true;
+      }
+
+      this._router = this.router.events.filter(event => event instanceof NavigationEnd).subscribe((event: NavigationEnd) => {
+        this.sidebarClose();
+
+        const $layer = document.getElementsByClassName('close-layer')[0];
+        if ($layer) {
+          $layer.remove();
         }
-
-        if (body.classList.contains('hide-sidebar')) {
-          misc.hide_sidebar_active = true;
-        }
-
-        this._router = this.router.events.filter(event => event instanceof NavigationEnd).subscribe((event: NavigationEnd) => {
-          this.sidebarClose();
-
-          const $layer = document.getElementsByClassName('close-layer')[0];
-          if ($layer) {
-            $layer.remove();
-          }
-        });
+      });
     }
 
     onResize(event) {
@@ -150,17 +151,17 @@ export class NavbarComponent implements OnInit {
         $layer.classList.add('visible');
       }, 100);
 
-      $layer.onclick = function() {
-        body.classList.remove('nav-open');
-        this.mobile_menu_visible = 0;
-        this.sidebarVisible = false;
+      // $layer.onclick = function() {
+      //   body.classList.remove('nav-open');
+      //   this.mobile_menu_visible = 0;
+      //   this.sidebarVisible = false;
 
-        $layer.classList.remove('visible');
-        setTimeout(function() {
-            $layer.remove();
-            $toggle.classList.remove('toggled');
-        }, 400);
-      }.bind(this);
+      //   $layer.classList.remove('visible');
+      //   setTimeout(function() {
+      //       $layer.remove();
+      //       $toggle.classList.remove('toggled');
+      //   }, 400);
+      // }.bind(this);
 
       body.classList.add('nav-open');
       this.mobile_menu_visible = 1;

@@ -49,6 +49,7 @@ import { AdminLayoutComponent } from './layouts/admin/admin-layout.component';
 import { AuthLayoutComponent } from './layouts/auth/auth-layout.component';
 
 import { AppRoutes } from './app.routing';
+import { PrimeNGBundleModule } from './primeng.module';
 
 @NgModule({
   exports: [
@@ -101,7 +102,8 @@ export class MaterialModule {}
         SidebarModule,
         NavbarModule,
         FooterModule,
-        FixedpluginModule
+        FixedpluginModule,
+        PrimeNGBundleModule
     ],
     declarations: [
         AppComponent,

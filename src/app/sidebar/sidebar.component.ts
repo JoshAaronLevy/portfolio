@@ -69,13 +69,17 @@ export const ROUTES: RouteInfo[] = [{
   title: 'Widgets',
   type: 'link',
   icontype: 'widgets'
-
+},
+{
+  path: '/projects',
+  title: 'Projects',
+  type: 'link',
+  icontype: 'timeline'
 }, {
   path: '/charts',
   title: 'Charts',
   type: 'link',
   icontype: 'timeline'
-
 }, {
   path: '/pages',
   title: 'Pages',

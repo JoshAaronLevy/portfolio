@@ -1,5 +1,291 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
 
+/***/ "./node_modules/moment/locale sync recursive ^\\.\\/.*$":
+/*!**************************************************!*\
+  !*** ./node_modules/moment/locale sync ^\.\/.*$ ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./af": "./node_modules/moment/locale/af.js",
+	"./af.js": "./node_modules/moment/locale/af.js",
+	"./ar": "./node_modules/moment/locale/ar.js",
+	"./ar-dz": "./node_modules/moment/locale/ar-dz.js",
+	"./ar-dz.js": "./node_modules/moment/locale/ar-dz.js",
+	"./ar-kw": "./node_modules/moment/locale/ar-kw.js",
+	"./ar-kw.js": "./node_modules/moment/locale/ar-kw.js",
+	"./ar-ly": "./node_modules/moment/locale/ar-ly.js",
+	"./ar-ly.js": "./node_modules/moment/locale/ar-ly.js",
+	"./ar-ma": "./node_modules/moment/locale/ar-ma.js",
+	"./ar-ma.js": "./node_modules/moment/locale/ar-ma.js",
+	"./ar-sa": "./node_modules/moment/locale/ar-sa.js",
+	"./ar-sa.js": "./node_modules/moment/locale/ar-sa.js",
+	"./ar-tn": "./node_modules/moment/locale/ar-tn.js",
+	"./ar-tn.js": "./node_modules/moment/locale/ar-tn.js",
+	"./ar.js": "./node_modules/moment/locale/ar.js",
+	"./az": "./node_modules/moment/locale/az.js",
+	"./az.js": "./node_modules/moment/locale/az.js",
+	"./be": "./node_modules/moment/locale/be.js",
+	"./be.js": "./node_modules/moment/locale/be.js",
+	"./bg": "./node_modules/moment/locale/bg.js",
+	"./bg.js": "./node_modules/moment/locale/bg.js",
+	"./bm": "./node_modules/moment/locale/bm.js",
+	"./bm.js": "./node_modules/moment/locale/bm.js",
+	"./bn": "./node_modules/moment/locale/bn.js",
+	"./bn.js": "./node_modules/moment/locale/bn.js",
+	"./bo": "./node_modules/moment/locale/bo.js",
+	"./bo.js": "./node_modules/moment/locale/bo.js",
+	"./br": "./node_modules/moment/locale/br.js",
+	"./br.js": "./node_modules/moment/locale/br.js",
+	"./bs": "./node_modules/moment/locale/bs.js",
+	"./bs.js": "./node_modules/moment/locale/bs.js",
+	"./ca": "./node_modules/moment/locale/ca.js",
+	"./ca.js": "./node_modules/moment/locale/ca.js",
+	"./cs": "./node_modules/moment/locale/cs.js",
+	"./cs.js": "./node_modules/moment/locale/cs.js",
+	"./cv": "./node_modules/moment/locale/cv.js",
+	"./cv.js": "./node_modules/moment/locale/cv.js",
+	"./cy": "./node_modules/moment/locale/cy.js",
+	"./cy.js": "./node_modules/moment/locale/cy.js",
+	"./da": "./node_modules/moment/locale/da.js",
+	"./da.js": "./node_modules/moment/locale/da.js",
+	"./de": "./node_modules/moment/locale/de.js",
+	"./de-at": "./node_modules/moment/locale/de-at.js",
+	"./de-at.js": "./node_modules/moment/locale/de-at.js",
+	"./de-ch": "./node_modules/moment/locale/de-ch.js",
+	"./de-ch.js": "./node_modules/moment/locale/de-ch.js",
+	"./de.js": "./node_modules/moment/locale/de.js",
+	"./dv": "./node_modules/moment/locale/dv.js",
+	"./dv.js": "./node_modules/moment/locale/dv.js",
+	"./el": "./node_modules/moment/locale/el.js",
+	"./el.js": "./node_modules/moment/locale/el.js",
+	"./en-SG": "./node_modules/moment/locale/en-SG.js",
+	"./en-SG.js": "./node_modules/moment/locale/en-SG.js",
+	"./en-au": "./node_modules/moment/locale/en-au.js",
+	"./en-au.js": "./node_modules/moment/locale/en-au.js",
+	"./en-ca": "./node_modules/moment/locale/en-ca.js",
+	"./en-ca.js": "./node_modules/moment/locale/en-ca.js",
+	"./en-gb": "./node_modules/moment/locale/en-gb.js",
+	"./en-gb.js": "./node_modules/moment/locale/en-gb.js",
+	"./en-ie": "./node_modules/moment/locale/en-ie.js",
+	"./en-ie.js": "./node_modules/moment/locale/en-ie.js",
+	"./en-il": "./node_modules/moment/locale/en-il.js",
+	"./en-il.js": "./node_modules/moment/locale/en-il.js",
+	"./en-nz": "./node_modules/moment/locale/en-nz.js",
+	"./en-nz.js": "./node_modules/moment/locale/en-nz.js",
+	"./eo": "./node_modules/moment/locale/eo.js",
+	"./eo.js": "./node_modules/moment/locale/eo.js",
+	"./es": "./node_modules/moment/locale/es.js",
+	"./es-do": "./node_modules/moment/locale/es-do.js",
+	"./es-do.js": "./node_modules/moment/locale/es-do.js",
+	"./es-us": "./node_modules/moment/locale/es-us.js",
+	"./es-us.js": "./node_modules/moment/locale/es-us.js",
+	"./es.js": "./node_modules/moment/locale/es.js",
+	"./et": "./node_modules/moment/locale/et.js",
+	"./et.js": "./node_modules/moment/locale/et.js",
+	"./eu": "./node_modules/moment/locale/eu.js",
+	"./eu.js": "./node_modules/moment/locale/eu.js",
+	"./fa": "./node_modules/moment/locale/fa.js",
+	"./fa.js": "./node_modules/moment/locale/fa.js",
+	"./fi": "./node_modules/moment/locale/fi.js",
+	"./fi.js": "./node_modules/moment/locale/fi.js",
+	"./fo": "./node_modules/moment/locale/fo.js",
+	"./fo.js": "./node_modules/moment/locale/fo.js",
+	"./fr": "./node_modules/moment/locale/fr.js",
+	"./fr-ca": "./node_modules/moment/locale/fr-ca.js",
+	"./fr-ca.js": "./node_modules/moment/locale/fr-ca.js",
+	"./fr-ch": "./node_modules/moment/locale/fr-ch.js",
+	"./fr-ch.js": "./node_modules/moment/locale/fr-ch.js",
+	"./fr.js": "./node_modules/moment/locale/fr.js",
+	"./fy": "./node_modules/moment/locale/fy.js",
+	"./fy.js": "./node_modules/moment/locale/fy.js",
+	"./ga": "./node_modules/moment/locale/ga.js",
+	"./ga.js": "./node_modules/moment/locale/ga.js",
+	"./gd": "./node_modules/moment/locale/gd.js",
+	"./gd.js": "./node_modules/moment/locale/gd.js",
+	"./gl": "./node_modules/moment/locale/gl.js",
+	"./gl.js": "./node_modules/moment/locale/gl.js",
+	"./gom-latn": "./node_modules/moment/locale/gom-latn.js",
+	"./gom-latn.js": "./node_modules/moment/locale/gom-latn.js",
+	"./gu": "./node_modules/moment/locale/gu.js",
+	"./gu.js": "./node_modules/moment/locale/gu.js",
+	"./he": "./node_modules/moment/locale/he.js",
+	"./he.js": "./node_modules/moment/locale/he.js",
+	"./hi": "./node_modules/moment/locale/hi.js",
+	"./hi.js": "./node_modules/moment/locale/hi.js",
+	"./hr": "./node_modules/moment/locale/hr.js",
+	"./hr.js": "./node_modules/moment/locale/hr.js",
+	"./hu": "./node_modules/moment/locale/hu.js",
+	"./hu.js": "./node_modules/moment/locale/hu.js",
+	"./hy-am": "./node_modules/moment/locale/hy-am.js",
+	"./hy-am.js": "./node_modules/moment/locale/hy-am.js",
+	"./id": "./node_modules/moment/locale/id.js",
+	"./id.js": "./node_modules/moment/locale/id.js",
+	"./is": "./node_modules/moment/locale/is.js",
+	"./is.js": "./node_modules/moment/locale/is.js",
+	"./it": "./node_modules/moment/locale/it.js",
+	"./it-ch": "./node_modules/moment/locale/it-ch.js",
+	"./it-ch.js": "./node_modules/moment/locale/it-ch.js",
+	"./it.js": "./node_modules/moment/locale/it.js",
+	"./ja": "./node_modules/moment/locale/ja.js",
+	"./ja.js": "./node_modules/moment/locale/ja.js",
+	"./jv": "./node_modules/moment/locale/jv.js",
+	"./jv.js": "./node_modules/moment/locale/jv.js",
+	"./ka": "./node_modules/moment/locale/ka.js",
+	"./ka.js": "./node_modules/moment/locale/ka.js",
+	"./kk": "./node_modules/moment/locale/kk.js",
+	"./kk.js": "./node_modules/moment/locale/kk.js",
+	"./km": "./node_modules/moment/locale/km.js",
+	"./km.js": "./node_modules/moment/locale/km.js",
+	"./kn": "./node_modules/moment/locale/kn.js",
+	"./kn.js": "./node_modules/moment/locale/kn.js",
+	"./ko": "./node_modules/moment/locale/ko.js",
+	"./ko.js": "./node_modules/moment/locale/ko.js",
+	"./ku": "./node_modules/moment/locale/ku.js",
+	"./ku.js": "./node_modules/moment/locale/ku.js",
+	"./ky": "./node_modules/moment/locale/ky.js",
+	"./ky.js": "./node_modules/moment/locale/ky.js",
+	"./lb": "./node_modules/moment/locale/lb.js",
+	"./lb.js": "./node_modules/moment/locale/lb.js",
+	"./lo": "./node_modules/moment/locale/lo.js",
+	"./lo.js": "./node_modules/moment/locale/lo.js",
+	"./lt": "./node_modules/moment/locale/lt.js",
+	"./lt.js": "./node_modules/moment/locale/lt.js",
+	"./lv": "./node_modules/moment/locale/lv.js",
+	"./lv.js": "./node_modules/moment/locale/lv.js",
+	"./me": "./node_modules/moment/locale/me.js",
+	"./me.js": "./node_modules/moment/locale/me.js",
+	"./mi": "./node_modules/moment/locale/mi.js",
+	"./mi.js": "./node_modules/moment/locale/mi.js",
+	"./mk": "./node_modules/moment/locale/mk.js",
+	"./mk.js": "./node_modules/moment/locale/mk.js",
+	"./ml": "./node_modules/moment/locale/ml.js",
+	"./ml.js": "./node_modules/moment/locale/ml.js",
+	"./mn": "./node_modules/moment/locale/mn.js",
+	"./mn.js": "./node_modules/moment/locale/mn.js",
+	"./mr": "./node_modules/moment/locale/mr.js",
+	"./mr.js": "./node_modules/moment/locale/mr.js",
+	"./ms": "./node_modules/moment/locale/ms.js",
+	"./ms-my": "./node_modules/moment/locale/ms-my.js",
+	"./ms-my.js": "./node_modules/moment/locale/ms-my.js",
+	"./ms.js": "./node_modules/moment/locale/ms.js",
+	"./mt": "./node_modules/moment/locale/mt.js",
+	"./mt.js": "./node_modules/moment/locale/mt.js",
+	"./my": "./node_modules/moment/locale/my.js",
+	"./my.js": "./node_modules/moment/locale/my.js",
+	"./nb": "./node_modules/moment/locale/nb.js",
+	"./nb.js": "./node_modules/moment/locale/nb.js",
+	"./ne": "./node_modules/moment/locale/ne.js",
+	"./ne.js": "./node_modules/moment/locale/ne.js",
+	"./nl": "./node_modules/moment/locale/nl.js",
+	"./nl-be": "./node_modules/moment/locale/nl-be.js",
+	"./nl-be.js": "./node_modules/moment/locale/nl-be.js",
+	"./nl.js": "./node_modules/moment/locale/nl.js",
+	"./nn": "./node_modules/moment/locale/nn.js",
+	"./nn.js": "./node_modules/moment/locale/nn.js",
+	"./pa-in": "./node_modules/moment/locale/pa-in.js",
+	"./pa-in.js": "./node_modules/moment/locale/pa-in.js",
+	"./pl": "./node_modules/moment/locale/pl.js",
+	"./pl.js": "./node_modules/moment/locale/pl.js",
+	"./pt": "./node_modules/moment/locale/pt.js",
+	"./pt-br": "./node_modules/moment/locale/pt-br.js",
+	"./pt-br.js": "./node_modules/moment/locale/pt-br.js",
+	"./pt.js": "./node_modules/moment/locale/pt.js",
+	"./ro": "./node_modules/moment/locale/ro.js",
+	"./ro.js": "./node_modules/moment/locale/ro.js",
+	"./ru": "./node_modules/moment/locale/ru.js",
+	"./ru.js": "./node_modules/moment/locale/ru.js",
+	"./sd": "./node_modules/moment/locale/sd.js",
+	"./sd.js": "./node_modules/moment/locale/sd.js",
+	"./se": "./node_modules/moment/locale/se.js",
+	"./se.js": "./node_modules/moment/locale/se.js",
+	"./si": "./node_modules/moment/locale/si.js",
+	"./si.js": "./node_modules/moment/locale/si.js",
+	"./sk": "./node_modules/moment/locale/sk.js",
+	"./sk.js": "./node_modules/moment/locale/sk.js",
+	"./sl": "./node_modules/moment/locale/sl.js",
+	"./sl.js": "./node_modules/moment/locale/sl.js",
+	"./sq": "./node_modules/moment/locale/sq.js",
+	"./sq.js": "./node_modules/moment/locale/sq.js",
+	"./sr": "./node_modules/moment/locale/sr.js",
+	"./sr-cyrl": "./node_modules/moment/locale/sr-cyrl.js",
+	"./sr-cyrl.js": "./node_modules/moment/locale/sr-cyrl.js",
+	"./sr.js": "./node_modules/moment/locale/sr.js",
+	"./ss": "./node_modules/moment/locale/ss.js",
+	"./ss.js": "./node_modules/moment/locale/ss.js",
+	"./sv": "./node_modules/moment/locale/sv.js",
+	"./sv.js": "./node_modules/moment/locale/sv.js",
+	"./sw": "./node_modules/moment/locale/sw.js",
+	"./sw.js": "./node_modules/moment/locale/sw.js",
+	"./ta": "./node_modules/moment/locale/ta.js",
+	"./ta.js": "./node_modules/moment/locale/ta.js",
+	"./te": "./node_modules/moment/locale/te.js",
+	"./te.js": "./node_modules/moment/locale/te.js",
+	"./tet": "./node_modules/moment/locale/tet.js",
+	"./tet.js": "./node_modules/moment/locale/tet.js",
+	"./tg": "./node_modules/moment/locale/tg.js",
+	"./tg.js": "./node_modules/moment/locale/tg.js",
+	"./th": "./node_modules/moment/locale/th.js",
+	"./th.js": "./node_modules/moment/locale/th.js",
+	"./tl-ph": "./node_modules/moment/locale/tl-ph.js",
+	"./tl-ph.js": "./node_modules/moment/locale/tl-ph.js",
+	"./tlh": "./node_modules/moment/locale/tlh.js",
+	"./tlh.js": "./node_modules/moment/locale/tlh.js",
+	"./tr": "./node_modules/moment/locale/tr.js",
+	"./tr.js": "./node_modules/moment/locale/tr.js",
+	"./tzl": "./node_modules/moment/locale/tzl.js",
+	"./tzl.js": "./node_modules/moment/locale/tzl.js",
+	"./tzm": "./node_modules/moment/locale/tzm.js",
+	"./tzm-latn": "./node_modules/moment/locale/tzm-latn.js",
+	"./tzm-latn.js": "./node_modules/moment/locale/tzm-latn.js",
+	"./tzm.js": "./node_modules/moment/locale/tzm.js",
+	"./ug-cn": "./node_modules/moment/locale/ug-cn.js",
+	"./ug-cn.js": "./node_modules/moment/locale/ug-cn.js",
+	"./uk": "./node_modules/moment/locale/uk.js",
+	"./uk.js": "./node_modules/moment/locale/uk.js",
+	"./ur": "./node_modules/moment/locale/ur.js",
+	"./ur.js": "./node_modules/moment/locale/ur.js",
+	"./uz": "./node_modules/moment/locale/uz.js",
+	"./uz-latn": "./node_modules/moment/locale/uz-latn.js",
+	"./uz-latn.js": "./node_modules/moment/locale/uz-latn.js",
+	"./uz.js": "./node_modules/moment/locale/uz.js",
+	"./vi": "./node_modules/moment/locale/vi.js",
+	"./vi.js": "./node_modules/moment/locale/vi.js",
+	"./x-pseudo": "./node_modules/moment/locale/x-pseudo.js",
+	"./x-pseudo.js": "./node_modules/moment/locale/x-pseudo.js",
+	"./yo": "./node_modules/moment/locale/yo.js",
+	"./yo.js": "./node_modules/moment/locale/yo.js",
+	"./zh-cn": "./node_modules/moment/locale/zh-cn.js",
+	"./zh-cn.js": "./node_modules/moment/locale/zh-cn.js",
+	"./zh-hk": "./node_modules/moment/locale/zh-hk.js",
+	"./zh-hk.js": "./node_modules/moment/locale/zh-hk.js",
+	"./zh-tw": "./node_modules/moment/locale/zh-tw.js",
+	"./zh-tw.js": "./node_modules/moment/locale/zh-tw.js"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./node_modules/moment/locale sync recursive ^\\.\\/.*$";
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/index.js!./src/app/app.component.html":
 /*!**************************************************************!*\
   !*** ./node_modules/raw-loader!./src/app/app.component.html ***!
@@ -18,7 +304,7 @@ module.exports = "\n<router-outlet></router-outlet>\n"
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n<div class=\"wrapper\">\n    <div class=\"sidebar\" data-color=\"white\" data-background-color=\"red\" data-image=\"./assets/img/sidebar-1.jpg\">\n        <app-sidebar-cmp></app-sidebar-cmp>\n        <div class=\"sidebar-background\" style=\"background-image: url(assets/img/sidebar-1.jpg)\"></div>\n    </div>\n    <div class=\"main-panel\">\n        <app-navbar-cmp></app-navbar-cmp>\n        <router-outlet></router-outlet>\n        <div *ngIf=\"!isMap()\">\n            <app-footer-cmp></app-footer-cmp>\n        </div>\n    </div>\n    <app-fixedplugin></app-fixedplugin>\n</div>\n"
+module.exports = "\n<div class=\"wrapper\">\n  <div class=\"sidebar\" data-color=\"danger\" data-background-color=\"white\">\n    <app-sidebar-cmp></app-sidebar-cmp>\n    <div class=\"sidebar-background\"></div>\n  </div>\n  <div class=\"main-panel\">\n    <app-navbar-cmp></app-navbar-cmp>\n    <router-outlet></router-outlet>\n    <div *ngIf=\"!isMap()\">\n      <app-footer-cmp></app-footer-cmp>\n    </div>\n  </div>\n  <!-- <app-fixedplugin></app-fixedplugin> -->\n</div>\n"
 
 /***/ }),
 
@@ -73,7 +359,7 @@ module.exports = "<!-- Fixed Plugin configurator, used just for Demo Purpose -->
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<footer class=\"footer \">\n  <div class=\"container-fluid\">\n    <nav class=\"pull-left\">\n      <ul>\n        <li>\n          <a href=\"https://www.angular-material.com\">\n            Angular Material\n          </a>\n        </li>\n        <li>\n          <a href=\"https://angular-material.com/about-us\">\n            About Us\n          </a>\n        </li>\n        <li>\n          <a href=\"http://blog.angular-material.com\">\n            Blog\n          </a>\n        </li>\n        <li>\n          <a href=\"https://www.angular-material.com/license\">\n            Licenses\n          </a>\n        </li>\n      </ul>\n    </nav>\n    <div class=\"copyright pull-right\">\n      &copy;\n      {{test | date: 'yyyy'}}, <a href=\"https://www.angular-material.com\" target=\"_blank\">Angular Material</a>.\n    </div>\n  </div>\n</footer>\n"
+module.exports = "<footer class=\"footer \">\n  <div class=\"container-fluid\">\n    <div class=\"copyright pull-right\">\n      &copy;\n      {{test | date: 'yyyy'}}, <a href=\"https://joshlevy.tech\" target=\"_blank\">Josh Levy</a>.\n    </div>\n  </div>\n</footer>\n"
 
 /***/ }),
 
@@ -84,7 +370,7 @@ module.exports = "<footer class=\"footer \">\n  <div class=\"container-fluid\">\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<nav #navbar class=\"navbar navbar-expand-lg navbar-transparent  navbar-absolute\">\n  <div class=\"container-fluid\">\n    <div class=\"navbar-wrapper\">\n      <div class=\"navbar-minimize\">\n        <button mat-raised-button (click)=\"minimizeSidebar()\" class=\"btn btn-just-icon btn-white btn-fab btn-round\">\n          <i class=\"material-icons text_align-center visible-on-sidebar-regular\">more_vert</i>\n          <i class=\"material-icons design_bullet-list-67 visible-on-sidebar-mini\">view_list</i>\n        </button>\n      </div>\n      <a class=\"navbar-brand\" href=\"{{getPath()}}\"> {{getTitle()}}</a>\n    </div>\n    <button mat-button class=\"navbar-toggler btn-no-ripple\" type=\"button\" (click)=\"sidebarToggle()\">\n      <span class=\"sr-only\">Toggle navigation</span>\n      <span class=\"navbar-toggler-icon icon-bar\"></span>\n      <span class=\"navbar-toggler-icon icon-bar\"></span>\n      <span class=\"navbar-toggler-icon icon-bar\"></span>\n    </button>\n    <div class=\"collapse navbar-collapse justify-content-end\" id=\"navigation\">\n      <form class=\"navbar-form\">\n        <div class=\"input-group no-border\">\n          <input type=\"text\" value=\"\" class=\"form-control\" placeholder=\"Search...\">\n          <button mat-raised-button type=\"submit\" class=\"btn btn-white btn-round btn-just-icon\">\n            <i class=\"material-icons\">search</i>\n            <div class=\"ripple-container\"></div>\n          </button>\n        </div>\n      </form>\n      <ul class=\"navbar-nav\">\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" href=\"#pablo\">\n            <i class=\"material-icons\">dashboard</i>\n            <p>\n              <span class=\"d-lg-none d-md-block\">Stats</span>\n            </p>\n          </a>\n        </li>\n        <li class=\"nav-item dropdown\">\n          <a class=\"nav-link\" href=\"#pablo\" id=\"navbarDropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n            <i class=\"material-icons\">notifications</i>\n            <span class=\"notification\">5</span>\n            <p>\n              <span class=\"d-lg-none d-md-block\">Some Actions</span>\n            </p>\n          </a>\n          <div class=\"dropdown-menu dropdown-menu-right\" aria-labelledby=\"navbarDropdownMenuLink\">\n            <a class=\"dropdown-item\" href=\"#\">Mike John responded to your email</a>\n            <a class=\"dropdown-item\" href=\"#\">You have 5 new tasks</a>\n            <a class=\"dropdown-item\" href=\"#\">You're now friend with Andrew</a>\n            <a class=\"dropdown-item\" href=\"#\">Another Notification</a>\n            <a class=\"dropdown-item\" href=\"#\">Another One</a>\n          </div>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" href=\"#pablo\">\n            <i class=\"material-icons\">person</i>\n            <p>\n              <span class=\"d-lg-none d-md-block\">Account</span>\n            </p>\n          </a>\n        </li>\n      </ul>\n    </div>\n  </div>\n</nav>\n"
+module.exports = "<nav #navbar class=\"navbar navbar-expand-lg navbar-transparent navbar-absolute\">\n  <div class=\"container-fluid\">\n    <div class=\"navbar-wrapper\">\n      <!-- <div class=\"navbar-minimize\">\n        <button mat-raised-button (click)=\"minimizeSidebar()\" class=\"btn btn-just-icon btn-white btn-fab btn-round\">\n          <i class=\"material-icons text_align-center visible-on-sidebar-regular\">more_vert</i>\n          <i class=\"material-icons design_bullet-list-67 visible-on-sidebar-mini\">view_list</i>\n        </button>\n      </div> -->\n      <a class=\"navbar-brand\" href=\"{{getPath()}}\"> {{getTitle()}}</a>\n    </div>\n    <!-- <button mat-button class=\"navbar-toggler btn-no-ripple\" type=\"button\" (click)=\"sidebarToggle()\">\n      <span class=\"sr-only\">Toggle navigation</span>\n      <span class=\"navbar-toggler-icon icon-bar\"></span>\n      <span class=\"navbar-toggler-icon icon-bar\"></span>\n      <span class=\"navbar-toggler-icon icon-bar\"></span>\n    </button> -->\n  </div>\n</nav>\n"
 
 /***/ }),
 
@@ -95,7 +381,7 @@ module.exports = "<nav #navbar class=\"navbar navbar-expand-lg navbar-transparen
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n\n        <div class=\"logo\">\n          <a class=\"simple-text logo-mini\">\n            <div class=\"logo-img\">\n                <img src=\"/assets/img/angular2-logo-white.png\"/>\n            </div>\n          </a>\n            <a href=\"https://www.angular-material.com\" class=\"simple-text logo-normal\">\n              Angular Material\n            </a>\n        </div>\n\n\n        <div class=\"sidebar-wrapper\">\n\n            <div class=\"user\">\n                <div class=\"photo\">\n                    <img src=\"./assets/img/faces/avatar.jpg\" />\n                </div>\n                <div class=\"user-info\">\n                    <a data-toggle=\"collapse\" href=\"#collapseExample\" class=\"collapsed\">\n                        <span>\n                            Tania Andrew\n                            <b class=\"caret\"></b>\n                        </span>\n                    </a>\n                    <div class=\"collapse\" id=\"collapseExample\">\n                        <ul class=\"nav\">\n                            <li class=\"nav-item\">\n                                <a href=\"javascript:void(0)\" class=\"nav-link\">\n                                    <span class=\"sidebar-mini\">MP</span>\n                                    <span class=\"sidebar-normal\">My Profile</span>\n                                </a>\n                            </li>\n                            <li class=\"nav-item\">\n                                <a href=\"javascript:void(0)\" class=\"nav-link\">\n                                    <span class=\"sidebar-mini\">EP</span>\n                                    <span class=\"sidebar-normal\">Edit Profile</span>\n                                </a>\n                            </li>\n                            <li class=\"nav-item\">\n                                <a href=\"javascript:void(0)\" class=\"nav-link\">\n                                    <span class=\"sidebar-mini\">S</span>\n                                    <span class=\"sidebar-normal\">Settings</span>\n                                </a>\n                            </li>\n                        </ul>\n                    </div>\n                </div>\n            </div>\n            <div *ngIf=\"isMobileMenu()\">\n              <form class=\"navbar-form\">\n                <span class=\"bmd-form-group\"><div class=\"input-group no-border\">\n                  <input type=\"text\" value=\"\" class=\"form-control\" placeholder=\"Search...\">\n                  <button mat-raised-button type=\"submit\" class=\"btn btn-white btn-round btn-just-icon\">\n                    <i class=\"material-icons\">search</i>\n                    <div class=\"ripple-container\"></div>\n                  </button>\n                </div></span>\n              </form>\n              <ul class=\"nav navbar-nav nav-mobile-menu\">\n                <li class=\"nav-item\">\n                  <a class=\"nav-link\" href=\"#pablo\">\n                    <i class=\"material-icons\">dashboard</i>\n                    <p>\n                      <span class=\"d-lg-none d-md-block\">Stats</span>\n                    </p>\n                  </a>\n                </li>\n                <li class=\"nav-item dropdown\">\n                  <a class=\"nav-link\" href=\"#pablo\" id=\"navbarDropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                    <i class=\"material-icons\">notifications</i>\n                    <span class=\"notification\">5</span>\n                    <p>\n                      <span class=\"d-lg-none d-md-block\">Some Actions</span>\n                    </p>\n                  </a>\n                  <div class=\"dropdown-menu dropdown-menu-right\" aria-labelledby=\"navbarDropdownMenuLink\">\n                    <a class=\"dropdown-item\" href=\"#\">Mike John responded to your email</a>\n                    <a class=\"dropdown-item\" href=\"#\">You have 5 new tasks</a>\n                    <a class=\"dropdown-item\" href=\"#\">You're now friend with Andrew</a>\n                    <a class=\"dropdown-item\" href=\"#\">Another Notification</a>\n                    <a class=\"dropdown-item\" href=\"#\">Another One</a>\n                  </div>\n                </li>\n                <li class=\"nav-item\">\n                  <a class=\"nav-link\" href=\"#pablo\">\n                    <i class=\"material-icons\">person</i>\n                    <p>\n                      <span class=\"d-lg-none d-md-block\">Account</span>\n                    </p>\n                  </a>\n                </li>\n              </ul>\n            </div>\n            <ul class=\"nav\">\n                <li routerLinkActive=\"active\" *ngFor=\"let menuitem of menuItems\" class=\"nav-item\">\n                    <!--If is a single link-->\n                    <a [routerLink]=\"[menuitem.path]\" *ngIf=\"menuitem.type === 'link'\" class=\"nav-link\">\n                        <i class=\"material-icons\">{{menuitem.icontype}}</i>\n                        <p>{{menuitem.title}}</p>\n                    </a>\n                    <!--If it have a submenu-->\n                    <a data-toggle=\"collapse\" href=\"#{{menuitem.collapse}}\" *ngIf=\"menuitem.type === 'sub'\" (click)=\"updatePS()\" class=\"nav-link\">\n                        <i class=\"material-icons\">{{menuitem.icontype}}</i>\n                        <p>{{menuitem.title}}<b class=\"caret\"></b></p>\n                    </a>\n\n                    <!--Display the submenu items-->\n                    <div id=\"{{menuitem.collapse}}\" class=\"collapse\" *ngIf=\"menuitem.type === 'sub'\">\n                        <ul class=\"nav\">\n                            <li routerLinkActive=\"active\" *ngFor=\"let childitem of menuitem.children\" class=\"nav-item\">\n                                <a [routerLink]=\"[menuitem.path, childitem.path]\" class=\"nav-link\">\n                                    <span class=\"sidebar-mini\">{{childitem.ab}}</span>\n                                    <span class=\"sidebar-normal\">{{childitem.title}}</span>\n                                </a>\n                            </li>\n                        </ul>\n                    </div>\n                </li>\n                <li class=\"nav-item\">\n                    <a href=\"http://md-pro-angular.angular-material.com/documentation/tutorial?ref=md-pro-archive\" class=\"nav-link\">\n                        <i class=\"material-icons\">school</i>\n                        <p>Documentation</p>\n                    </a>\n                </li>\n            </ul>\n\n        </div>\n"
+module.exports = "<div class=\"logo\">\n  <a class=\"simple-text logo-mini\">\n    <div class=\"logo-img\">\n      <img src=\"/assets/img/jlevy-logo.png\" />\n    </div>\n  </a>\n  <a href=\"https://joshlevy.tech\" class=\"simple-text logo-normal\">\n    Josh Levy\n  </a>\n</div>\n<!-- <div class=\"sidebar-wrapper\">\n  <ul class=\"nav\">\n    <li routerLinkActive=\"active\" *ngFor=\"let menuitem of menuItems\" class=\"nav-item\">\n      <a [routerLink]=\"[menuitem.path]\" *ngIf=\"menuitem.type === 'link'\" class=\"nav-link\">\n        <i class=\"material-icons\">{{menuitem.icontype}}</i>\n        <p>{{menuitem.title}}</p>\n      </a>\n\n      <a data-toggle=\"collapse\" href=\"#{{menuitem.collapse}}\" *ngIf=\"menuitem.type === 'sub'\" (click)=\"updatePS()\"\n        class=\"nav-link\">\n        <i class=\"material-icons\">{{menuitem.icontype}}</i>\n        <p>{{menuitem.title}}<b class=\"caret\"></b></p>\n      </a>\n\n      <div id=\"{{menuitem.collapse}}\" class=\"collapse\" *ngIf=\"menuitem.type === 'sub'\">\n        <ul class=\"nav\">\n          <li routerLinkActive=\"active\" *ngFor=\"let childitem of menuitem.children\" class=\"nav-item\">\n            <a [routerLink]=\"[menuitem.path, childitem.path]\" class=\"nav-link\">\n              <span class=\"sidebar-mini\">{{childitem.ab}}</span>\n              <span class=\"sidebar-normal\">{{childitem.title}}</span>\n            </a>\n          </li>\n        </ul>\n      </div>\n    </li>\n  </ul>\n</div> -->\n<div class=\"sidebar-wrapper\">\n  <ul class=\"nav\">\n    <li routerLinkActive=\"active\" class=\"nav-item\">\n      <a routerLink=\"/home\" class=\"nav-link\">\n        <i class=\"fas fa-home\"></i>\n        <p>Home</p>\n      </a>\n    </li>\n    <li routerLinkActive=\"active\" class=\"nav-item\">\n      <a routerLink=\"/projects\" class=\"nav-link\">\n        <i class=\"fas fa-code-branch\"></i>\n        <p>Projects</p>\n      </a>\n    </li>\n  </ul>\n</div>\n"
 
 /***/ }),
 
@@ -136,6 +422,10 @@ var map = {
 	"./pages/pages.module": [
 		"./src/app/pages/pages.module.ts",
 		"pages-pages-module"
+	],
+	"./projects/projects.module": [
+		"./src/app/projects/projects.module.ts",
+		"projects-projects-module"
 	],
 	"./tables/tables.module": [
 		"./src/app/tables/tables.module.ts",
@@ -254,12 +544,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _layouts_admin_admin_layout_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./layouts/admin/admin-layout.component */ "./src/app/layouts/admin/admin-layout.component.ts");
 /* harmony import */ var _layouts_auth_auth_layout_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./layouts/auth/auth-layout.component */ "./src/app/layouts/auth/auth-layout.component.ts");
 /* harmony import */ var _app_routing__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./app.routing */ "./src/app/app.routing.ts");
+/* harmony import */ var _primeng_module__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./primeng.module */ "./src/app/primeng.module.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -337,7 +629,8 @@ var AppModule = /** @class */ (function () {
                 _sidebar_sidebar_module__WEBPACK_IMPORTED_MODULE_9__["SidebarModule"],
                 _shared_navbar_navbar_module__WEBPACK_IMPORTED_MODULE_11__["NavbarModule"],
                 _shared_footer_footer_module__WEBPACK_IMPORTED_MODULE_10__["FooterModule"],
-                _shared_fixedplugin_fixedplugin_module__WEBPACK_IMPORTED_MODULE_12__["FixedpluginModule"]
+                _shared_fixedplugin_fixedplugin_module__WEBPACK_IMPORTED_MODULE_12__["FixedpluginModule"],
+                _primeng_module__WEBPACK_IMPORTED_MODULE_16__["PrimeNGBundleModule"]
             ],
             declarations: [
                 _app_component__WEBPACK_IMPORTED_MODULE_8__["AppComponent"],
@@ -407,6 +700,9 @@ var AppRoutes = [
             }, {
                 path: '',
                 loadChildren: './timeline/timeline.module#TimelineModule'
+            }, {
+                path: '',
+                loadChildren: './projects/projects.module#ProjectsModule'
             }
         ]
     }, {
@@ -418,6 +714,58 @@ var AppRoutes = [
             }]
     }
 ];
+// const routes: Routes = [
+//   {
+//     path: '',
+//     component: HomeComponent
+//   },
+//   {
+//     path: 'home',
+//     redirectTo: ''
+//   },
+//   {
+//     path: 'login',
+//     component: LoginComponent
+//   },
+//   {
+//     path: 'add',
+//     component: AddEpisodeComponent
+//   },
+//   {
+//     path: 'categories',
+//     component: CategoriesComponent
+//   },
+//   {
+//     path: 'tags',
+//     component: TagsComponent
+//   },
+//   {
+//     path: 'about',
+//     component: AboutComponent
+//   },
+//   {
+//     path: 'category/:slug',
+//     component: PostsByCategoryComponent
+//   },
+//   {
+//     path: 'tag/:slug',
+//     component: PostsByTagComponent
+//   },
+//   {
+//     path: ':slug',
+//     component: PostComponent
+//   }
+// ];
+// @NgModule({
+//   imports: [
+//     CommonModule,
+//     BrowserModule,
+//     RouterModule.forRoot(routes)
+//   ],
+//   exports: [
+//   ],
+// })
+// export class AppRoutingModule { }
 
 
 /***/ }),
@@ -470,16 +818,18 @@ var AdminLayoutComponent = /** @class */ (function () {
         });
         this.router.events.subscribe(function (event) {
             if (event instanceof _angular_router__WEBPACK_IMPORTED_MODULE_1__["NavigationStart"]) {
-                if (event.url != _this.lastPoppedUrl)
+                if (event.url !== _this.lastPoppedUrl) {
                     _this.yScrollStack.push(window.scrollY);
+                }
             }
             else if (event instanceof _angular_router__WEBPACK_IMPORTED_MODULE_1__["NavigationEnd"]) {
-                if (event.url == _this.lastPoppedUrl) {
+                if (event.url === _this.lastPoppedUrl) {
                     _this.lastPoppedUrl = undefined;
                     window.scrollTo(0, _this.yScrollStack.pop());
                 }
-                else
+                else {
                     window.scrollTo(0, 0);
+                }
             }
         });
         this._router = this.router.events.filter(function (event) { return event instanceof _angular_router__WEBPACK_IMPORTED_MODULE_1__["NavigationEnd"]; }).subscribe(function (event) {
@@ -495,52 +845,21 @@ var AdminLayoutComponent = /** @class */ (function () {
         else {
             html.classList.add('perfect-scrollbar-off');
         }
-        this._router = this.router.events.filter(function (event) { return event instanceof _angular_router__WEBPACK_IMPORTED_MODULE_1__["NavigationEnd"]; }).subscribe(function (event) {
-            _this.navbar.sidebarClose();
-        });
+        // this._router = this.router.events.filter(event => event instanceof NavigationEnd).subscribe((event: NavigationEnd) => {
+        //   this.navbar.sidebarClose();
+        // });
         this.navItems = [
             { type: _md_md_module__WEBPACK_IMPORTED_MODULE_2__["NavItemType"].NavbarLeft, title: 'Dashboard', iconClass: 'fa fa-dashboard' },
             {
                 type: _md_md_module__WEBPACK_IMPORTED_MODULE_2__["NavItemType"].NavbarRight,
                 title: '',
-                iconClass: 'fa fa-bell-o',
-                numNotifications: 5,
-                dropdownItems: [
-                    { title: 'Notification 1' },
-                    { title: 'Notification 2' },
-                    { title: 'Notification 3' },
-                    { title: 'Notification 4' },
-                    { title: 'Another Notification' }
-                ]
-            },
-            {
-                type: _md_md_module__WEBPACK_IMPORTED_MODULE_2__["NavItemType"].NavbarRight,
-                title: '',
                 iconClass: 'fa fa-list',
                 dropdownItems: [
-                    { iconClass: 'pe-7s-mail', title: 'Messages' },
-                    { iconClass: 'pe-7s-help1', title: 'Help Center' },
-                    { iconClass: 'pe-7s-tools', title: 'Settings' },
-                    'separator',
-                    { iconClass: 'pe-7s-lock', title: 'Lock Screen' },
                     { iconClass: 'pe-7s-close-circle', title: 'Log Out' }
                 ]
             },
             { type: _md_md_module__WEBPACK_IMPORTED_MODULE_2__["NavItemType"].NavbarLeft, title: 'Search', iconClass: 'fa fa-search' },
             { type: _md_md_module__WEBPACK_IMPORTED_MODULE_2__["NavItemType"].NavbarLeft, title: 'Account' },
-            {
-                type: _md_md_module__WEBPACK_IMPORTED_MODULE_2__["NavItemType"].NavbarLeft,
-                title: 'Dropdown',
-                dropdownItems: [
-                    { title: 'Action' },
-                    { title: 'Another action' },
-                    { title: 'Something' },
-                    { title: 'Another action' },
-                    { title: 'Something' },
-                    'separator',
-                    { title: 'Separated link' },
-                ]
-            },
             { type: _md_md_module__WEBPACK_IMPORTED_MODULE_2__["NavItemType"].NavbarLeft, title: 'Log out' }
         ];
     };
@@ -950,6 +1269,344 @@ var MdModule = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/primeng.module.ts":
+/*!***********************************!*\
+  !*** ./src/app/primeng.module.ts ***!
+  \***********************************/
+/*! exports provided: PrimeNGBundleModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PrimeNGBundleModule", function() { return PrimeNGBundleModule; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var primeng_calendar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! primeng/calendar */ "./node_modules/primeng/calendar.js");
+/* harmony import */ var primeng_calendar__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(primeng_calendar__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var primeng_chips__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! primeng/chips */ "./node_modules/primeng/chips.js");
+/* harmony import */ var primeng_chips__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(primeng_chips__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var primeng_dropdown__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! primeng/dropdown */ "./node_modules/primeng/dropdown.js");
+/* harmony import */ var primeng_dropdown__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(primeng_dropdown__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var primeng_keyfilter__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! primeng/keyfilter */ "./node_modules/primeng/keyfilter.js");
+/* harmony import */ var primeng_keyfilter__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(primeng_keyfilter__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var primeng_inputtext__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! primeng/inputtext */ "./node_modules/primeng/inputtext.js");
+/* harmony import */ var primeng_inputtext__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(primeng_inputtext__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var primeng_listbox__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! primeng/listbox */ "./node_modules/primeng/listbox.js");
+/* harmony import */ var primeng_listbox__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(primeng_listbox__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var primeng_multiselect__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! primeng/multiselect */ "./node_modules/primeng/multiselect.js");
+/* harmony import */ var primeng_multiselect__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(primeng_multiselect__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var primeng_radiobutton__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! primeng/radiobutton */ "./node_modules/primeng/radiobutton.js");
+/* harmony import */ var primeng_radiobutton__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(primeng_radiobutton__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var primeng_slider__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! primeng/slider */ "./node_modules/primeng/slider.js");
+/* harmony import */ var primeng_slider__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(primeng_slider__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var primeng_selectbutton__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! primeng/selectbutton */ "./node_modules/primeng/selectbutton.js");
+/* harmony import */ var primeng_selectbutton__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(primeng_selectbutton__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var primeng_tristatecheckbox__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! primeng/tristatecheckbox */ "./node_modules/primeng/tristatecheckbox.js");
+/* harmony import */ var primeng_tristatecheckbox__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(primeng_tristatecheckbox__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var primeng_autocomplete__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! primeng/autocomplete */ "./node_modules/primeng/autocomplete.js");
+/* harmony import */ var primeng_autocomplete__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(primeng_autocomplete__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var primeng_checkbox__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! primeng/checkbox */ "./node_modules/primeng/checkbox.js");
+/* harmony import */ var primeng_checkbox__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(primeng_checkbox__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var primeng_colorpicker__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! primeng/colorpicker */ "./node_modules/primeng/colorpicker.js");
+/* harmony import */ var primeng_colorpicker__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(primeng_colorpicker__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var primeng_editor__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! primeng/editor */ "./node_modules/primeng/editor.js");
+/* harmony import */ var primeng_editor__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(primeng_editor__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var primeng_inputswitch__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! primeng/inputswitch */ "./node_modules/primeng/inputswitch.js");
+/* harmony import */ var primeng_inputswitch__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(primeng_inputswitch__WEBPACK_IMPORTED_MODULE_16__);
+/* harmony import */ var primeng_inputtextarea__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! primeng/inputtextarea */ "./node_modules/primeng/inputtextarea.js");
+/* harmony import */ var primeng_inputtextarea__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(primeng_inputtextarea__WEBPACK_IMPORTED_MODULE_17__);
+/* harmony import */ var primeng_inputmask__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! primeng/inputmask */ "./node_modules/primeng/inputmask.js");
+/* harmony import */ var primeng_inputmask__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(primeng_inputmask__WEBPACK_IMPORTED_MODULE_18__);
+/* harmony import */ var primeng_password__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! primeng/password */ "./node_modules/primeng/password.js");
+/* harmony import */ var primeng_password__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(primeng_password__WEBPACK_IMPORTED_MODULE_19__);
+/* harmony import */ var primeng_rating__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! primeng/rating */ "./node_modules/primeng/rating.js");
+/* harmony import */ var primeng_rating__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(primeng_rating__WEBPACK_IMPORTED_MODULE_20__);
+/* harmony import */ var primeng_spinner__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! primeng/spinner */ "./node_modules/primeng/spinner.js");
+/* harmony import */ var primeng_spinner__WEBPACK_IMPORTED_MODULE_21___default = /*#__PURE__*/__webpack_require__.n(primeng_spinner__WEBPACK_IMPORTED_MODULE_21__);
+/* harmony import */ var primeng_togglebutton__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! primeng/togglebutton */ "./node_modules/primeng/togglebutton.js");
+/* harmony import */ var primeng_togglebutton__WEBPACK_IMPORTED_MODULE_22___default = /*#__PURE__*/__webpack_require__.n(primeng_togglebutton__WEBPACK_IMPORTED_MODULE_22__);
+/* harmony import */ var primeng_button__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! primeng/button */ "./node_modules/primeng/button.js");
+/* harmony import */ var primeng_button__WEBPACK_IMPORTED_MODULE_23___default = /*#__PURE__*/__webpack_require__.n(primeng_button__WEBPACK_IMPORTED_MODULE_23__);
+/* harmony import */ var primeng_splitbutton__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! primeng/splitbutton */ "./node_modules/primeng/splitbutton.js");
+/* harmony import */ var primeng_splitbutton__WEBPACK_IMPORTED_MODULE_24___default = /*#__PURE__*/__webpack_require__.n(primeng_splitbutton__WEBPACK_IMPORTED_MODULE_24__);
+/* harmony import */ var primeng_carousel__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! primeng/carousel */ "./node_modules/primeng/carousel.js");
+/* harmony import */ var primeng_carousel__WEBPACK_IMPORTED_MODULE_25___default = /*#__PURE__*/__webpack_require__.n(primeng_carousel__WEBPACK_IMPORTED_MODULE_25__);
+/* harmony import */ var primeng_fullcalendar__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! primeng/fullcalendar */ "./node_modules/primeng/fullcalendar.js");
+/* harmony import */ var primeng_fullcalendar__WEBPACK_IMPORTED_MODULE_26___default = /*#__PURE__*/__webpack_require__.n(primeng_fullcalendar__WEBPACK_IMPORTED_MODULE_26__);
+/* harmony import */ var primeng_orderlist__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! primeng/orderlist */ "./node_modules/primeng/orderlist.js");
+/* harmony import */ var primeng_orderlist__WEBPACK_IMPORTED_MODULE_27___default = /*#__PURE__*/__webpack_require__.n(primeng_orderlist__WEBPACK_IMPORTED_MODULE_27__);
+/* harmony import */ var primeng_paginator__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! primeng/paginator */ "./node_modules/primeng/paginator.js");
+/* harmony import */ var primeng_paginator__WEBPACK_IMPORTED_MODULE_28___default = /*#__PURE__*/__webpack_require__.n(primeng_paginator__WEBPACK_IMPORTED_MODULE_28__);
+/* harmony import */ var primeng_table__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! primeng/table */ "./node_modules/primeng/table.js");
+/* harmony import */ var primeng_table__WEBPACK_IMPORTED_MODULE_29___default = /*#__PURE__*/__webpack_require__.n(primeng_table__WEBPACK_IMPORTED_MODULE_29__);
+/* harmony import */ var primeng_treetable__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! primeng/treetable */ "./node_modules/primeng/treetable.js");
+/* harmony import */ var primeng_treetable__WEBPACK_IMPORTED_MODULE_30___default = /*#__PURE__*/__webpack_require__.n(primeng_treetable__WEBPACK_IMPORTED_MODULE_30__);
+/* harmony import */ var primeng_dataview__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! primeng/dataview */ "./node_modules/primeng/dataview.js");
+/* harmony import */ var primeng_dataview__WEBPACK_IMPORTED_MODULE_31___default = /*#__PURE__*/__webpack_require__.n(primeng_dataview__WEBPACK_IMPORTED_MODULE_31__);
+/* harmony import */ var primeng_organizationchart__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! primeng/organizationchart */ "./node_modules/primeng/organizationchart.js");
+/* harmony import */ var primeng_organizationchart__WEBPACK_IMPORTED_MODULE_32___default = /*#__PURE__*/__webpack_require__.n(primeng_organizationchart__WEBPACK_IMPORTED_MODULE_32__);
+/* harmony import */ var primeng_gmap__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! primeng/gmap */ "./node_modules/primeng/gmap.js");
+/* harmony import */ var primeng_gmap__WEBPACK_IMPORTED_MODULE_33___default = /*#__PURE__*/__webpack_require__.n(primeng_gmap__WEBPACK_IMPORTED_MODULE_33__);
+/* harmony import */ var primeng_picklist__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! primeng/picklist */ "./node_modules/primeng/picklist.js");
+/* harmony import */ var primeng_picklist__WEBPACK_IMPORTED_MODULE_34___default = /*#__PURE__*/__webpack_require__.n(primeng_picklist__WEBPACK_IMPORTED_MODULE_34__);
+/* harmony import */ var primeng_tree__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! primeng/tree */ "./node_modules/primeng/tree.js");
+/* harmony import */ var primeng_tree__WEBPACK_IMPORTED_MODULE_35___default = /*#__PURE__*/__webpack_require__.n(primeng_tree__WEBPACK_IMPORTED_MODULE_35__);
+/* harmony import */ var primeng_virtualscroller__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! primeng/virtualscroller */ "./node_modules/primeng/virtualscroller.js");
+/* harmony import */ var primeng_virtualscroller__WEBPACK_IMPORTED_MODULE_36___default = /*#__PURE__*/__webpack_require__.n(primeng_virtualscroller__WEBPACK_IMPORTED_MODULE_36__);
+/* harmony import */ var primeng_accordion__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! primeng/accordion */ "./node_modules/primeng/accordion.js");
+/* harmony import */ var primeng_accordion__WEBPACK_IMPORTED_MODULE_37___default = /*#__PURE__*/__webpack_require__.n(primeng_accordion__WEBPACK_IMPORTED_MODULE_37__);
+/* harmony import */ var primeng_fieldset__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! primeng/fieldset */ "./node_modules/primeng/fieldset.js");
+/* harmony import */ var primeng_fieldset__WEBPACK_IMPORTED_MODULE_38___default = /*#__PURE__*/__webpack_require__.n(primeng_fieldset__WEBPACK_IMPORTED_MODULE_38__);
+/* harmony import */ var primeng_scrollpanel__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! primeng/scrollpanel */ "./node_modules/primeng/scrollpanel.js");
+/* harmony import */ var primeng_scrollpanel__WEBPACK_IMPORTED_MODULE_39___default = /*#__PURE__*/__webpack_require__.n(primeng_scrollpanel__WEBPACK_IMPORTED_MODULE_39__);
+/* harmony import */ var primeng_toolbar__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! primeng/toolbar */ "./node_modules/primeng/toolbar.js");
+/* harmony import */ var primeng_toolbar__WEBPACK_IMPORTED_MODULE_40___default = /*#__PURE__*/__webpack_require__.n(primeng_toolbar__WEBPACK_IMPORTED_MODULE_40__);
+/* harmony import */ var primeng_card__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! primeng/card */ "./node_modules/primeng/card.js");
+/* harmony import */ var primeng_card__WEBPACK_IMPORTED_MODULE_41___default = /*#__PURE__*/__webpack_require__.n(primeng_card__WEBPACK_IMPORTED_MODULE_41__);
+/* harmony import */ var primeng_panel__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! primeng/panel */ "./node_modules/primeng/panel.js");
+/* harmony import */ var primeng_panel__WEBPACK_IMPORTED_MODULE_42___default = /*#__PURE__*/__webpack_require__.n(primeng_panel__WEBPACK_IMPORTED_MODULE_42__);
+/* harmony import */ var primeng_tabview__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! primeng/tabview */ "./node_modules/primeng/tabview.js");
+/* harmony import */ var primeng_tabview__WEBPACK_IMPORTED_MODULE_43___default = /*#__PURE__*/__webpack_require__.n(primeng_tabview__WEBPACK_IMPORTED_MODULE_43__);
+/* harmony import */ var primeng_confirmdialog__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! primeng/confirmdialog */ "./node_modules/primeng/confirmdialog.js");
+/* harmony import */ var primeng_confirmdialog__WEBPACK_IMPORTED_MODULE_44___default = /*#__PURE__*/__webpack_require__.n(primeng_confirmdialog__WEBPACK_IMPORTED_MODULE_44__);
+/* harmony import */ var primeng_dynamicdialog__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! primeng/dynamicdialog */ "./node_modules/primeng/dynamicdialog.js");
+/* harmony import */ var primeng_dynamicdialog__WEBPACK_IMPORTED_MODULE_45___default = /*#__PURE__*/__webpack_require__.n(primeng_dynamicdialog__WEBPACK_IMPORTED_MODULE_45__);
+/* harmony import */ var primeng_sidebar__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! primeng/sidebar */ "./node_modules/primeng/sidebar.js");
+/* harmony import */ var primeng_sidebar__WEBPACK_IMPORTED_MODULE_46___default = /*#__PURE__*/__webpack_require__.n(primeng_sidebar__WEBPACK_IMPORTED_MODULE_46__);
+/* harmony import */ var primeng_tooltip__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! primeng/tooltip */ "./node_modules/primeng/tooltip.js");
+/* harmony import */ var primeng_tooltip__WEBPACK_IMPORTED_MODULE_47___default = /*#__PURE__*/__webpack_require__.n(primeng_tooltip__WEBPACK_IMPORTED_MODULE_47__);
+/* harmony import */ var primeng_dialog__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! primeng/dialog */ "./node_modules/primeng/dialog.js");
+/* harmony import */ var primeng_dialog__WEBPACK_IMPORTED_MODULE_48___default = /*#__PURE__*/__webpack_require__.n(primeng_dialog__WEBPACK_IMPORTED_MODULE_48__);
+/* harmony import */ var primeng_lightbox__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! primeng/lightbox */ "./node_modules/primeng/lightbox.js");
+/* harmony import */ var primeng_lightbox__WEBPACK_IMPORTED_MODULE_49___default = /*#__PURE__*/__webpack_require__.n(primeng_lightbox__WEBPACK_IMPORTED_MODULE_49__);
+/* harmony import */ var primeng_overlaypanel__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! primeng/overlaypanel */ "./node_modules/primeng/overlaypanel.js");
+/* harmony import */ var primeng_overlaypanel__WEBPACK_IMPORTED_MODULE_50___default = /*#__PURE__*/__webpack_require__.n(primeng_overlaypanel__WEBPACK_IMPORTED_MODULE_50__);
+/* harmony import */ var primeng_fileupload__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! primeng/fileupload */ "./node_modules/primeng/fileupload.js");
+/* harmony import */ var primeng_fileupload__WEBPACK_IMPORTED_MODULE_51___default = /*#__PURE__*/__webpack_require__.n(primeng_fileupload__WEBPACK_IMPORTED_MODULE_51__);
+/* harmony import */ var primeng_menu__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(/*! primeng/menu */ "./node_modules/primeng/menu.js");
+/* harmony import */ var primeng_menu__WEBPACK_IMPORTED_MODULE_52___default = /*#__PURE__*/__webpack_require__.n(primeng_menu__WEBPACK_IMPORTED_MODULE_52__);
+/* harmony import */ var primeng_contextmenu__WEBPACK_IMPORTED_MODULE_53__ = __webpack_require__(/*! primeng/contextmenu */ "./node_modules/primeng/contextmenu.js");
+/* harmony import */ var primeng_contextmenu__WEBPACK_IMPORTED_MODULE_53___default = /*#__PURE__*/__webpack_require__.n(primeng_contextmenu__WEBPACK_IMPORTED_MODULE_53__);
+/* harmony import */ var primeng_panelmenu__WEBPACK_IMPORTED_MODULE_54__ = __webpack_require__(/*! primeng/panelmenu */ "./node_modules/primeng/panelmenu.js");
+/* harmony import */ var primeng_panelmenu__WEBPACK_IMPORTED_MODULE_54___default = /*#__PURE__*/__webpack_require__.n(primeng_panelmenu__WEBPACK_IMPORTED_MODULE_54__);
+/* harmony import */ var primeng_steps__WEBPACK_IMPORTED_MODULE_55__ = __webpack_require__(/*! primeng/steps */ "./node_modules/primeng/steps.js");
+/* harmony import */ var primeng_steps__WEBPACK_IMPORTED_MODULE_55___default = /*#__PURE__*/__webpack_require__.n(primeng_steps__WEBPACK_IMPORTED_MODULE_55__);
+/* harmony import */ var primeng_tieredmenu__WEBPACK_IMPORTED_MODULE_56__ = __webpack_require__(/*! primeng/tieredmenu */ "./node_modules/primeng/tieredmenu.js");
+/* harmony import */ var primeng_tieredmenu__WEBPACK_IMPORTED_MODULE_56___default = /*#__PURE__*/__webpack_require__.n(primeng_tieredmenu__WEBPACK_IMPORTED_MODULE_56__);
+/* harmony import */ var primeng_breadcrumb__WEBPACK_IMPORTED_MODULE_57__ = __webpack_require__(/*! primeng/breadcrumb */ "./node_modules/primeng/breadcrumb.js");
+/* harmony import */ var primeng_breadcrumb__WEBPACK_IMPORTED_MODULE_57___default = /*#__PURE__*/__webpack_require__.n(primeng_breadcrumb__WEBPACK_IMPORTED_MODULE_57__);
+/* harmony import */ var primeng_megamenu__WEBPACK_IMPORTED_MODULE_58__ = __webpack_require__(/*! primeng/megamenu */ "./node_modules/primeng/megamenu.js");
+/* harmony import */ var primeng_megamenu__WEBPACK_IMPORTED_MODULE_58___default = /*#__PURE__*/__webpack_require__.n(primeng_megamenu__WEBPACK_IMPORTED_MODULE_58__);
+/* harmony import */ var primeng_menubar__WEBPACK_IMPORTED_MODULE_59__ = __webpack_require__(/*! primeng/menubar */ "./node_modules/primeng/menubar.js");
+/* harmony import */ var primeng_menubar__WEBPACK_IMPORTED_MODULE_59___default = /*#__PURE__*/__webpack_require__.n(primeng_menubar__WEBPACK_IMPORTED_MODULE_59__);
+/* harmony import */ var primeng_slidemenu__WEBPACK_IMPORTED_MODULE_60__ = __webpack_require__(/*! primeng/slidemenu */ "./node_modules/primeng/slidemenu.js");
+/* harmony import */ var primeng_slidemenu__WEBPACK_IMPORTED_MODULE_60___default = /*#__PURE__*/__webpack_require__.n(primeng_slidemenu__WEBPACK_IMPORTED_MODULE_60__);
+/* harmony import */ var primeng_tabmenu__WEBPACK_IMPORTED_MODULE_61__ = __webpack_require__(/*! primeng/tabmenu */ "./node_modules/primeng/tabmenu.js");
+/* harmony import */ var primeng_tabmenu__WEBPACK_IMPORTED_MODULE_61___default = /*#__PURE__*/__webpack_require__.n(primeng_tabmenu__WEBPACK_IMPORTED_MODULE_61__);
+/* harmony import */ var primeng_chart__WEBPACK_IMPORTED_MODULE_62__ = __webpack_require__(/*! primeng/chart */ "./node_modules/primeng/chart.js");
+/* harmony import */ var primeng_chart__WEBPACK_IMPORTED_MODULE_62___default = /*#__PURE__*/__webpack_require__.n(primeng_chart__WEBPACK_IMPORTED_MODULE_62__);
+/* harmony import */ var primeng_messages__WEBPACK_IMPORTED_MODULE_63__ = __webpack_require__(/*! primeng/messages */ "./node_modules/primeng/messages.js");
+/* harmony import */ var primeng_messages__WEBPACK_IMPORTED_MODULE_63___default = /*#__PURE__*/__webpack_require__.n(primeng_messages__WEBPACK_IMPORTED_MODULE_63__);
+/* harmony import */ var primeng_message__WEBPACK_IMPORTED_MODULE_64__ = __webpack_require__(/*! primeng/message */ "./node_modules/primeng/message.js");
+/* harmony import */ var primeng_message__WEBPACK_IMPORTED_MODULE_64___default = /*#__PURE__*/__webpack_require__.n(primeng_message__WEBPACK_IMPORTED_MODULE_64__);
+/* harmony import */ var primeng_toast__WEBPACK_IMPORTED_MODULE_65__ = __webpack_require__(/*! primeng/toast */ "./node_modules/primeng/toast.js");
+/* harmony import */ var primeng_toast__WEBPACK_IMPORTED_MODULE_65___default = /*#__PURE__*/__webpack_require__.n(primeng_toast__WEBPACK_IMPORTED_MODULE_65__);
+/* harmony import */ var primeng_galleria__WEBPACK_IMPORTED_MODULE_66__ = __webpack_require__(/*! primeng/galleria */ "./node_modules/primeng/galleria.js");
+/* harmony import */ var primeng_galleria__WEBPACK_IMPORTED_MODULE_66___default = /*#__PURE__*/__webpack_require__.n(primeng_galleria__WEBPACK_IMPORTED_MODULE_66__);
+/* harmony import */ var primeng_dragdrop__WEBPACK_IMPORTED_MODULE_67__ = __webpack_require__(/*! primeng/dragdrop */ "./node_modules/primeng/dragdrop.js");
+/* harmony import */ var primeng_dragdrop__WEBPACK_IMPORTED_MODULE_67___default = /*#__PURE__*/__webpack_require__.n(primeng_dragdrop__WEBPACK_IMPORTED_MODULE_67__);
+/* harmony import */ var primeng_defer__WEBPACK_IMPORTED_MODULE_68__ = __webpack_require__(/*! primeng/defer */ "./node_modules/primeng/defer.js");
+/* harmony import */ var primeng_defer__WEBPACK_IMPORTED_MODULE_68___default = /*#__PURE__*/__webpack_require__.n(primeng_defer__WEBPACK_IMPORTED_MODULE_68__);
+/* harmony import */ var primeng_blockui__WEBPACK_IMPORTED_MODULE_69__ = __webpack_require__(/*! primeng/blockui */ "./node_modules/primeng/blockui.js");
+/* harmony import */ var primeng_blockui__WEBPACK_IMPORTED_MODULE_69___default = /*#__PURE__*/__webpack_require__.n(primeng_blockui__WEBPACK_IMPORTED_MODULE_69__);
+/* harmony import */ var primeng_inplace__WEBPACK_IMPORTED_MODULE_70__ = __webpack_require__(/*! primeng/inplace */ "./node_modules/primeng/inplace.js");
+/* harmony import */ var primeng_inplace__WEBPACK_IMPORTED_MODULE_70___default = /*#__PURE__*/__webpack_require__.n(primeng_inplace__WEBPACK_IMPORTED_MODULE_70__);
+/* harmony import */ var primeng_progressbar__WEBPACK_IMPORTED_MODULE_71__ = __webpack_require__(/*! primeng/progressbar */ "./node_modules/primeng/progressbar.js");
+/* harmony import */ var primeng_progressbar__WEBPACK_IMPORTED_MODULE_71___default = /*#__PURE__*/__webpack_require__.n(primeng_progressbar__WEBPACK_IMPORTED_MODULE_71__);
+/* harmony import */ var primeng_codehighlighter__WEBPACK_IMPORTED_MODULE_72__ = __webpack_require__(/*! primeng/codehighlighter */ "./node_modules/primeng/codehighlighter.js");
+/* harmony import */ var primeng_codehighlighter__WEBPACK_IMPORTED_MODULE_72___default = /*#__PURE__*/__webpack_require__.n(primeng_codehighlighter__WEBPACK_IMPORTED_MODULE_72__);
+/* harmony import */ var primeng_focustrap__WEBPACK_IMPORTED_MODULE_73__ = __webpack_require__(/*! primeng/focustrap */ "./node_modules/primeng/focustrap.js");
+/* harmony import */ var primeng_focustrap__WEBPACK_IMPORTED_MODULE_73___default = /*#__PURE__*/__webpack_require__.n(primeng_focustrap__WEBPACK_IMPORTED_MODULE_73__);
+/* harmony import */ var primeng_captcha__WEBPACK_IMPORTED_MODULE_74__ = __webpack_require__(/*! primeng/captcha */ "./node_modules/primeng/captcha.js");
+/* harmony import */ var primeng_captcha__WEBPACK_IMPORTED_MODULE_74___default = /*#__PURE__*/__webpack_require__.n(primeng_captcha__WEBPACK_IMPORTED_MODULE_74__);
+/* harmony import */ var primeng_progressspinner__WEBPACK_IMPORTED_MODULE_75__ = __webpack_require__(/*! primeng/progressspinner */ "./node_modules/primeng/progressspinner.js");
+/* harmony import */ var primeng_progressspinner__WEBPACK_IMPORTED_MODULE_75___default = /*#__PURE__*/__webpack_require__.n(primeng_progressspinner__WEBPACK_IMPORTED_MODULE_75__);
+/* harmony import */ var primeng_terminal__WEBPACK_IMPORTED_MODULE_76__ = __webpack_require__(/*! primeng/terminal */ "./node_modules/primeng/terminal.js");
+/* harmony import */ var primeng_terminal__WEBPACK_IMPORTED_MODULE_76___default = /*#__PURE__*/__webpack_require__.n(primeng_terminal__WEBPACK_IMPORTED_MODULE_76__);
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var PrimeNGBundleModule = /** @class */ (function () {
+    function PrimeNGBundleModule() {
+    }
+    PrimeNGBundleModule = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
+            exports: [
+                primeng_calendar__WEBPACK_IMPORTED_MODULE_1__["CalendarModule"],
+                primeng_chips__WEBPACK_IMPORTED_MODULE_2__["ChipsModule"],
+                primeng_dropdown__WEBPACK_IMPORTED_MODULE_3__["DropdownModule"],
+                primeng_keyfilter__WEBPACK_IMPORTED_MODULE_4__["KeyFilterModule"],
+                primeng_inputtext__WEBPACK_IMPORTED_MODULE_5__["InputTextModule"],
+                primeng_listbox__WEBPACK_IMPORTED_MODULE_6__["ListboxModule"],
+                primeng_multiselect__WEBPACK_IMPORTED_MODULE_7__["MultiSelectModule"],
+                primeng_radiobutton__WEBPACK_IMPORTED_MODULE_8__["RadioButtonModule"],
+                primeng_slider__WEBPACK_IMPORTED_MODULE_9__["SliderModule"],
+                primeng_selectbutton__WEBPACK_IMPORTED_MODULE_10__["SelectButtonModule"],
+                primeng_tristatecheckbox__WEBPACK_IMPORTED_MODULE_11__["TriStateCheckboxModule"],
+                primeng_autocomplete__WEBPACK_IMPORTED_MODULE_12__["AutoCompleteModule"],
+                primeng_checkbox__WEBPACK_IMPORTED_MODULE_13__["CheckboxModule"],
+                primeng_colorpicker__WEBPACK_IMPORTED_MODULE_14__["ColorPickerModule"],
+                primeng_editor__WEBPACK_IMPORTED_MODULE_15__["EditorModule"],
+                primeng_inputswitch__WEBPACK_IMPORTED_MODULE_16__["InputSwitchModule"],
+                primeng_inputtextarea__WEBPACK_IMPORTED_MODULE_17__["InputTextareaModule"],
+                primeng_inputmask__WEBPACK_IMPORTED_MODULE_18__["InputMaskModule"],
+                primeng_password__WEBPACK_IMPORTED_MODULE_19__["PasswordModule"],
+                primeng_rating__WEBPACK_IMPORTED_MODULE_20__["RatingModule"],
+                primeng_spinner__WEBPACK_IMPORTED_MODULE_21__["SpinnerModule"],
+                primeng_togglebutton__WEBPACK_IMPORTED_MODULE_22__["ToggleButtonModule"],
+                primeng_button__WEBPACK_IMPORTED_MODULE_23__["ButtonModule"],
+                primeng_splitbutton__WEBPACK_IMPORTED_MODULE_24__["SplitButtonModule"],
+                primeng_carousel__WEBPACK_IMPORTED_MODULE_25__["CarouselModule"],
+                primeng_fullcalendar__WEBPACK_IMPORTED_MODULE_26__["FullCalendarModule"],
+                primeng_orderlist__WEBPACK_IMPORTED_MODULE_27__["OrderListModule"],
+                primeng_paginator__WEBPACK_IMPORTED_MODULE_28__["PaginatorModule"],
+                primeng_table__WEBPACK_IMPORTED_MODULE_29__["TableModule"],
+                primeng_treetable__WEBPACK_IMPORTED_MODULE_30__["TreeTableModule"],
+                primeng_dataview__WEBPACK_IMPORTED_MODULE_31__["DataViewModule"],
+                primeng_organizationchart__WEBPACK_IMPORTED_MODULE_32__["OrganizationChartModule"],
+                primeng_gmap__WEBPACK_IMPORTED_MODULE_33__["GMapModule"],
+                primeng_picklist__WEBPACK_IMPORTED_MODULE_34__["PickListModule"],
+                primeng_tree__WEBPACK_IMPORTED_MODULE_35__["TreeModule"],
+                primeng_virtualscroller__WEBPACK_IMPORTED_MODULE_36__["VirtualScrollerModule"],
+                primeng_accordion__WEBPACK_IMPORTED_MODULE_37__["AccordionModule"],
+                primeng_fieldset__WEBPACK_IMPORTED_MODULE_38__["FieldsetModule"],
+                primeng_scrollpanel__WEBPACK_IMPORTED_MODULE_39__["ScrollPanelModule"],
+                primeng_toolbar__WEBPACK_IMPORTED_MODULE_40__["ToolbarModule"],
+                primeng_card__WEBPACK_IMPORTED_MODULE_41__["CardModule"],
+                primeng_panel__WEBPACK_IMPORTED_MODULE_42__["PanelModule"],
+                primeng_tabview__WEBPACK_IMPORTED_MODULE_43__["TabViewModule"],
+                primeng_confirmdialog__WEBPACK_IMPORTED_MODULE_44__["ConfirmDialogModule"],
+                primeng_dynamicdialog__WEBPACK_IMPORTED_MODULE_45__["DynamicDialogModule"],
+                primeng_sidebar__WEBPACK_IMPORTED_MODULE_46__["SidebarModule"],
+                primeng_tooltip__WEBPACK_IMPORTED_MODULE_47__["TooltipModule"],
+                primeng_dialog__WEBPACK_IMPORTED_MODULE_48__["DialogModule"],
+                primeng_lightbox__WEBPACK_IMPORTED_MODULE_49__["LightboxModule"],
+                primeng_overlaypanel__WEBPACK_IMPORTED_MODULE_50__["OverlayPanelModule"],
+                primeng_fileupload__WEBPACK_IMPORTED_MODULE_51__["FileUploadModule"],
+                primeng_menu__WEBPACK_IMPORTED_MODULE_52__["MenuModule"],
+                primeng_contextmenu__WEBPACK_IMPORTED_MODULE_53__["ContextMenuModule"],
+                primeng_panelmenu__WEBPACK_IMPORTED_MODULE_54__["PanelMenuModule"],
+                primeng_steps__WEBPACK_IMPORTED_MODULE_55__["StepsModule"],
+                primeng_tieredmenu__WEBPACK_IMPORTED_MODULE_56__["TieredMenuModule"],
+                primeng_breadcrumb__WEBPACK_IMPORTED_MODULE_57__["BreadcrumbModule"],
+                primeng_megamenu__WEBPACK_IMPORTED_MODULE_58__["MegaMenuModule"],
+                primeng_menubar__WEBPACK_IMPORTED_MODULE_59__["MenubarModule"],
+                primeng_slidemenu__WEBPACK_IMPORTED_MODULE_60__["SlideMenuModule"],
+                primeng_tabmenu__WEBPACK_IMPORTED_MODULE_61__["TabMenuModule"],
+                primeng_chart__WEBPACK_IMPORTED_MODULE_62__["ChartModule"],
+                primeng_messages__WEBPACK_IMPORTED_MODULE_63__["MessagesModule"],
+                primeng_message__WEBPACK_IMPORTED_MODULE_64__["MessageModule"],
+                primeng_toast__WEBPACK_IMPORTED_MODULE_65__["ToastModule"],
+                primeng_galleria__WEBPACK_IMPORTED_MODULE_66__["GalleriaModule"],
+                primeng_dragdrop__WEBPACK_IMPORTED_MODULE_67__["DragDropModule"],
+                primeng_defer__WEBPACK_IMPORTED_MODULE_68__["DeferModule"],
+                primeng_blockui__WEBPACK_IMPORTED_MODULE_69__["BlockUIModule"],
+                primeng_inplace__WEBPACK_IMPORTED_MODULE_70__["InplaceModule"],
+                primeng_progressbar__WEBPACK_IMPORTED_MODULE_71__["ProgressBarModule"],
+                primeng_codehighlighter__WEBPACK_IMPORTED_MODULE_72__["CodeHighlighterModule"],
+                primeng_focustrap__WEBPACK_IMPORTED_MODULE_73__["FocusTrapModule"],
+                primeng_captcha__WEBPACK_IMPORTED_MODULE_74__["CaptchaModule"],
+                primeng_progressspinner__WEBPACK_IMPORTED_MODULE_75__["ProgressSpinnerModule"],
+                primeng_terminal__WEBPACK_IMPORTED_MODULE_76__["TerminalModule"]
+            ]
+        })
+    ], PrimeNGBundleModule);
+    return PrimeNGBundleModule;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/shared/fixedplugin/fixedplugin.component.css":
 /*!**************************************************************!*\
   !*** ./src/app/shared/fixedplugin/fixedplugin.component.css ***!
@@ -1294,56 +1951,54 @@ var NavbarComponent = /** @class */ (function () {
         this.nativeElement = element.nativeElement;
         this.sidebarVisible = false;
     }
-    NavbarComponent.prototype.minimizeSidebar = function () {
-        var body = document.getElementsByTagName('body')[0];
-        if (misc.sidebar_mini_active === true) {
-            body.classList.remove('sidebar-mini');
-            misc.sidebar_mini_active = false;
-        }
-        else {
-            setTimeout(function () {
-                body.classList.add('sidebar-mini');
-                misc.sidebar_mini_active = true;
-            }, 300);
-        }
-        // we simulate the window Resize so the charts will get updated in realtime.
-        var simulateWindowResize = setInterval(function () {
-            window.dispatchEvent(new Event('resize'));
-        }, 180);
-        // we stop the simulation of Window Resize after the animations are completed
-        setTimeout(function () {
-            clearInterval(simulateWindowResize);
-        }, 1000);
-    };
-    NavbarComponent.prototype.hideSidebar = function () {
-        var body = document.getElementsByTagName('body')[0];
-        var sidebar = document.getElementsByClassName('sidebar')[0];
-        if (misc.hide_sidebar_active === true) {
-            setTimeout(function () {
-                body.classList.remove('hide-sidebar');
-                misc.hide_sidebar_active = false;
-            }, 300);
-            setTimeout(function () {
-                sidebar.classList.remove('animation');
-            }, 600);
-            sidebar.classList.add('animation');
-        }
-        else {
-            setTimeout(function () {
-                body.classList.add('hide-sidebar');
-                // $('.sidebar').addClass('animation');
-                misc.hide_sidebar_active = true;
-            }, 300);
-        }
-        // we simulate the window Resize so the charts will get updated in realtime.
-        var simulateWindowResize = setInterval(function () {
-            window.dispatchEvent(new Event('resize'));
-        }, 180);
-        // we stop the simulation of Window Resize after the animations are completed
-        setTimeout(function () {
-            clearInterval(simulateWindowResize);
-        }, 1000);
-    };
+    // minimizeSidebar() {
+    //   const body = document.getElementsByTagName('body')[0];
+    //   if (misc.sidebar_mini_active === true) {
+    //     body.classList.remove('sidebar-mini');
+    //     misc.sidebar_mini_active = false;
+    //   } else {
+    //     setTimeout(function() {
+    //       body.classList.add('sidebar-mini');
+    //       misc.sidebar_mini_active = true;
+    //     }, 300);
+    //   }
+    //   // we simulate the window Resize so the charts will get updated in realtime.
+    //   const simulateWindowResize = setInterval(function() {
+    //     window.dispatchEvent(new Event('resize'));
+    //   }, 180);
+    //   // we stop the simulation of Window Resize after the animations are completed
+    //   setTimeout(function() {
+    //     clearInterval(simulateWindowResize);
+    //   }, 1000);
+    // }
+    // hideSidebar() {
+    //   const body = document.getElementsByTagName('body')[0];
+    //   const sidebar = document.getElementsByClassName('sidebar')[0];
+    //   if (misc.hide_sidebar_active === true) {
+    //       setTimeout(function() {
+    //           body.classList.remove('hide-sidebar');
+    //           misc.hide_sidebar_active = false;
+    //       }, 300);
+    //       setTimeout(function () {
+    //           sidebar.classList.remove('animation');
+    //       }, 600);
+    //       sidebar.classList.add('animation');
+    //   } else {
+    //       setTimeout(function() {
+    //         body.classList.add('hide-sidebar');
+    //           // $('.sidebar').addClass('animation');
+    //           misc.hide_sidebar_active = true;
+    //       }, 300);
+    //   }
+    //   // we simulate the window Resize so the charts will get updated in realtime.
+    //   const simulateWindowResize = setInterval(function() {
+    //       window.dispatchEvent(new Event('resize'));
+    //   }, 180);
+    //   // we stop the simulation of Window Resize after the animations are completed
+    //   setTimeout(function() {
+    //       clearInterval(simulateWindowResize);
+    //   }, 1000);
+    // }
     NavbarComponent.prototype.ngOnInit = function () {
         var _this = this;
         this.listTitles = _sidebar_sidebar_component__WEBPACK_IMPORTED_MODULE_1__["ROUTES"].filter(function (listTitle) { return listTitle; });
@@ -1392,21 +2047,20 @@ var NavbarComponent = /** @class */ (function () {
         setTimeout(function () {
             $layer.classList.add('visible');
         }, 100);
-        $layer.onclick = function () {
-            body.classList.remove('nav-open');
-            this.mobile_menu_visible = 0;
-            this.sidebarVisible = false;
-            $layer.classList.remove('visible');
-            setTimeout(function () {
-                $layer.remove();
-                $toggle.classList.remove('toggled');
-            }, 400);
-        }.bind(this);
+        // $layer.onclick = function() {
+        //   body.classList.remove('nav-open');
+        //   this.mobile_menu_visible = 0;
+        //   this.sidebarVisible = false;
+        //   $layer.classList.remove('visible');
+        //   setTimeout(function() {
+        //       $layer.remove();
+        //       $toggle.classList.remove('toggled');
+        //   }, 400);
+        // }.bind(this);
         body.classList.add('nav-open');
         this.mobile_menu_visible = 1;
         this.sidebarVisible = true;
     };
-    ;
     NavbarComponent.prototype.sidebarClose = function () {
         var $toggle = document.getElementsByClassName('navbar-toggler')[0];
         var body = document.getElementsByTagName('body')[0];
@@ -1415,7 +2069,6 @@ var NavbarComponent = /** @class */ (function () {
         $layer.setAttribute('class', 'close-layer');
         this.sidebarVisible = false;
         body.classList.remove('nav-open');
-        // $('html').removeClass('nav-open');
         body.classList.remove('nav-open');
         if ($layer) {
             $layer.remove();
@@ -1425,7 +2078,6 @@ var NavbarComponent = /** @class */ (function () {
         }, 400);
         this.mobile_menu_visible = 0;
     };
-    ;
     NavbarComponent.prototype.sidebarToggle = function () {
         if (this.sidebarVisible === false) {
             this.sidebarOpen();
@@ -1435,20 +2087,18 @@ var NavbarComponent = /** @class */ (function () {
         }
     };
     NavbarComponent.prototype.getTitle = function () {
-        var titlee = this.location.prepareExternalUrl(this.location.path());
-        if (titlee.charAt(0) === '#') {
-            titlee = titlee.slice(1);
+        var title = this.location.prepareExternalUrl(this.location.path());
+        if (title.charAt(0) === '#') {
+            title = title.slice(1);
         }
         for (var i = 0; i < this.listTitles.length; i++) {
-            if (this.listTitles[i].type === "link" && this.listTitles[i].path === titlee) {
+            if (this.listTitles[i].type === 'link' && this.listTitles[i].path === title) {
                 return this.listTitles[i].title;
             }
-            else if (this.listTitles[i].type === "sub") {
+            else if (this.listTitles[i].type === 'sub') {
                 for (var j = 0; j < this.listTitles[i].children.length; j++) {
                     var subtitle = this.listTitles[i].path + '/' + this.listTitles[i].children[j].path;
-                    // console.log(subtitle)
-                    // console.log(titlee)
-                    if (subtitle === titlee) {
+                    if (subtitle === title) {
                         return this.listTitles[i].children[j].title;
                     }
                 }
@@ -1468,7 +2118,10 @@ var NavbarComponent = /** @class */ (function () {
             selector: 'app-navbar-cmp',
             template: __webpack_require__(/*! raw-loader!./navbar.component.html */ "./node_modules/raw-loader/index.js!./src/app/shared/navbar/navbar.component.html")
         }),
-        __metadata("design:paramtypes", [_angular_common__WEBPACK_IMPORTED_MODULE_3__["Location"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["Renderer"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]])
+        __metadata("design:paramtypes", [_angular_common__WEBPACK_IMPORTED_MODULE_3__["Location"],
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["Renderer2"],
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"],
+            _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]])
     ], NavbarComponent);
     return NavbarComponent;
 }());
@@ -1541,7 +2194,7 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 };
 
 
-//Menu Items
+// Menu Items
 var ROUTES = [{
         path: '/dashboard',
         title: 'Dashboard',
@@ -1586,31 +2239,21 @@ var ROUTES = [{
             { path: 'datatables.net', title: 'Datatables.net', ab: 'DT' }
         ]
     }, {
-        path: '/maps',
-        title: 'Maps',
-        type: 'sub',
-        icontype: 'place',
-        collapse: 'maps',
-        children: [
-            { path: 'google', title: 'Google Maps', ab: 'GM' },
-            { path: 'fullscreen', title: 'Full Screen Map', ab: 'FSM' },
-            { path: 'vector', title: 'Vector Map', ab: 'VM' }
-        ]
-    }, {
         path: '/widgets',
         title: 'Widgets',
         type: 'link',
         icontype: 'widgets'
+    },
+    {
+        path: '/projects',
+        title: 'Projects',
+        type: 'link',
+        icontype: 'timeline'
     }, {
         path: '/charts',
         title: 'Charts',
         type: 'link',
         icontype: 'timeline'
-    }, {
-        path: '/calendar',
-        title: 'Calendar',
-        type: 'link',
-        icontype: 'date_range'
     }, {
         path: '/pages',
         title: 'Pages',
@@ -1636,7 +2279,6 @@ var SidebarComponent = /** @class */ (function () {
         }
         return true;
     };
-    ;
     SidebarComponent.prototype.ngOnInit = function () {
         this.menuItems = ROUTES.filter(function (menuItem) { return menuItem; });
         if (window.matchMedia("(min-width: 960px)").matches && !this.isMac()) {

@@ -1,30 +1,27 @@
 <div class="logo">
   <a class="simple-text logo-mini">
     <div class="logo-img">
-      <img src="/assets/img/Josh_Levy-Round.png" />
+      <img src="/assets/img/jlevy-header-logo.png" />
     </div>
   </a>
-  <a href="https://joshlevy.tech" class="simple-text logo-normal">
+  <!-- <a href="https://joshlevy.tech" class="simple-text logo-normal">
     Josh Levy
-  </a>
+  </a> -->
 </div>
-<div class="sidebar-wrapper">
+<!-- <div class="sidebar-wrapper">
   <ul class="nav">
     <li routerLinkActive="active" *ngFor="let menuitem of menuItems" class="nav-item">
-      <!--If is a single link-->
       <a [routerLink]="[menuitem.path]" *ngIf="menuitem.type === 'link'" class="nav-link">
         <i class="material-icons">{{menuitem.icontype}}</i>
         <p>{{menuitem.title}}</p>
       </a>
 
-      <!--If it has a submenu-->
       <a data-toggle="collapse" href="#{{menuitem.collapse}}" *ngIf="menuitem.type === 'sub'" (click)="updatePS()"
         class="nav-link">
         <i class="material-icons">{{menuitem.icontype}}</i>
         <p>{{menuitem.title}}<b class="caret"></b></p>
       </a>
 
-      <!--Display the submenu items-->
       <div id="{{menuitem.collapse}}" class="collapse" *ngIf="menuitem.type === 'sub'">
         <ul class="nav">
           <li routerLinkActive="active" *ngFor="let childitem of menuitem.children" class="nav-item">
@@ -37,5 +34,44 @@
       </div>
     </li>
   </ul>
-
+</div> -->
+<div class="sidebar-wrapper">
+  <ul class="nav">
+    <li routerLinkActive="active" class="nav-item">
+      <a routerLink="/home" class="nav-link">
+        <i class="fad fa-home fa-swap-opacity"></i>
+        <p>Home</p>
+      </a>
+    </li>
+    <li routerLinkActive="active" class="nav-item">
+      <a routerLink="/projects" class="nav-link">
+        <i class="fad fa-brackets-curly"></i>
+        <p>Skills</p>
+      </a>
+    </li>
+    <li routerLinkActive="active" class="nav-item">
+      <a routerLink="/projects" class="nav-link">
+        <i class="fad fa-code-branch"></i>
+        <p>Projects</p>
+      </a>
+    </li>
+    <li routerLinkActive="active" class="nav-item">
+      <a routerLink="/projects" class="nav-link">
+        <i class="fad fa-laptop-code"></i>
+        <p>Experience</p>
+      </a>
+    </li>
+    <li routerLinkActive="active" class="nav-item">
+      <a routerLink="/projects" class="nav-link">
+        <i class="fad fa-file-code"></i>
+        <p>Resume</p>
+      </a>
+    </li>
+    <li routerLinkActive="active" class="nav-item">
+      <a routerLink="/projects" class="nav-link">
+        <i class="fad fa-address-book"></i>
+        <p>Contact</p>
+      </a>
+    </li>
+  </ul>
 </div>

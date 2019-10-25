@@ -83,7 +83,9 @@ var TimelineModule = /** @class */ (function () {
                 _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"].forChild(_timeline_routing__WEBPACK_IMPORTED_MODULE_5__["TimelineRoutes"]),
                 _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormsModule"]
             ],
-            declarations: [_timeline_component__WEBPACK_IMPORTED_MODULE_4__["TimelineComponent"]]
+            declarations: [
+                _timeline_component__WEBPACK_IMPORTED_MODULE_4__["TimelineComponent"]
+            ]
         })
     ], TimelineModule);
     return TimelineModule;
