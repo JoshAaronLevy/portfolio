@@ -10,7 +10,7 @@ const misc: any = {
 const ROUTES: any = [
   {
     path: '/home',
-    title: 'Home',
+    title: 'Web Developer',
     type: 'link'
   }, {
     path: '/skills',
@@ -161,7 +161,7 @@ export class NavbarComponent implements OnInit {
         }
       }
     }
-    return 'Home';
+    return 'Web Developer';
   }
 
   getPath() {
