@@ -1,9 +1,9 @@
 <div class="main-content">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-3">
-        <ul class="skill-list">
-          <li *ngFor="let skill of skills" class="skill-list-item">
+      <ul class="skill-list">
+        <li *ngFor="let skill of skills" class="skill-list-item">
+          <div class="col-md-3 skill-card">
             <div class="card card-product">
               <div class="card-header-4w card-header-image card-link" data-header-animation="true">
                 <div class="card-image-container">
@@ -12,12 +12,12 @@
               </div>
               <div class="card-footer skill-footer">
                 <h4>{{ skill.name }}</h4>
-                <!-- <h5>{{ skill.category }}</h5> -->
+                <h5>{{ skill.category }}</h5>
               </div>
             </div>
-          </li>
-        </ul>
-      </div>
+          </div>
+        </li>
+      </ul>
     </div>
   </div>
 </div>

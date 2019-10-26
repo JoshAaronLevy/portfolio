@@ -1,0 +1,38 @@
+<div class="main-content">
+  <div class="container-fluid">
+    <div class="row">
+      <p-toast position="top-center"></p-toast>
+      <div class="col-md-12 about-container">
+        <div class="col-md-6 about-section">
+          <div class="card">
+            <div class="card-body ">
+              <form [formGroup]="addSkill" (ngSubmit)="post()">
+                <mat-form-field appearance="outline">
+                  <mat-label>Name</mat-label>
+                  <input matInput type="text" formControlName="name" placeholder="Name">
+                </mat-form-field>
+                <mat-form-field appearance="outline">
+                  <mat-label>Logo URL</mat-label>
+                  <input matInput type="text" formControlName="img" placeholder="Logo URL">
+                </mat-form-field>
+                <mat-form-field>
+                  <mat-label>Category</mat-label>
+                  <mat-select formControlName="category" placeholder="Category">
+                    <mat-option value="Front-End">Front-End</mat-option>
+                    <mat-option value="Back-End">Back-End</mat-option>
+                    <mat-option value="Front/Back-End">Front/Back-End</mat-option>
+                    <mat-option value="Middleware">Middleware</mat-option>
+                    <mat-option value="Tools/Utilities">Tools/Utilities</mat-option>
+                  </mat-select>
+                </mat-form-field>
+                <div class="card-footer ">
+                  <button mat-raised-button type="submit" class="btn btn-fill btn-success">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

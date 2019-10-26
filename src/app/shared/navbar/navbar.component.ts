@@ -36,6 +36,16 @@ const ROUTES: any = [
     path: '/contact',
     title: 'Contact',
     type: 'link'
+  },
+  {
+    path: '/login',
+    title: 'Login',
+    type: 'link'
+  },
+  {
+    path: '/add-skill',
+    title: 'Add Skills',
+    type: 'link'
   }
 ];
 

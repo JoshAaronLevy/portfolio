@@ -6,7 +6,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
 import { HttpModule } from '@angular/http';
 import { APP_BASE_HREF } from '@angular/common';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import {
   MatAutocompleteModule,
@@ -58,6 +58,8 @@ import { AppRoutingModule } from './app.routing';
 import { ExperienceComponent } from './experience/experience.component';
 import { ResumeComponent } from './resume/resume.component';
 import { ContactComponent } from './contact/contact.component';
+import { AuthComponent } from './auth/auth.component';
+import { AddSkillComponent } from './add-skill/add-skill.component';
 
 @NgModule({
   exports: [
@@ -101,6 +103,7 @@ export class MaterialModule {}
     CommonModule,
     BrowserAnimationsModule,
     FormsModule,
+    ReactiveFormsModule,
     // RouterModule.forRoot(AppRoutes, {
     //   useHash: false,
     //   onSameUrlNavigation: 'reload'
@@ -125,6 +128,8 @@ export class MaterialModule {}
     ExperienceComponent,
     ResumeComponent,
     ContactComponent,
+    AuthComponent,
+    AddSkillComponent,
     AdminLayoutComponent,
     AuthLayoutComponent
   ],

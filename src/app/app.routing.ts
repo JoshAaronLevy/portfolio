@@ -10,6 +10,8 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { ResumeComponent } from './resume/resume.component';
 import { ContactComponent } from './contact/contact.component';
+import { AuthComponent } from './auth/auth.component';
+import { AddSkillComponent } from './add-skill/add-skill.component';
 
 const routes: Routes = [
   {
@@ -40,6 +42,14 @@ const routes: Routes = [
   {
     path: 'contact',
     component: ContactComponent
+  },
+  {
+    path: 'login',
+    component: AuthComponent
+  },
+  {
+    path: 'add-skill',
+    component: AddSkillComponent
   }
 ];
 

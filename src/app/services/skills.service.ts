@@ -2,6 +2,7 @@ import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Skill } from '../models/skill';
 import { environment } from 'src/environments/environment';
+import { map } from 'rxjs/operators';
 
 const httpOptions = {
   headers: new HttpHeaders({
@@ -54,6 +55,18 @@ export class SkillsService {
       .catch(error => {
         return error;
       });
+  }
+
+  postSkill(
+    params: HttpParams = new HttpParams()
+  ) {
+    return this.http.post<any>(apiUrl, params)
+      .pipe(
+        map(res => {
+          console.log(res);
+          return res;
+        })
+      );
   }
 
   updateSkill(
