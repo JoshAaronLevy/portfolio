@@ -7,6 +7,9 @@ import { AuthLayoutComponent } from './layouts/auth/auth-layout.component';
 import { HomeComponent } from './home/home.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { ResumeComponent } from './resume/resume.component';
+import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
   {
@@ -25,6 +28,18 @@ const routes: Routes = [
   {
     path: 'projects',
     component: ProjectsComponent
+  },
+  {
+    path: 'experience',
+    component: ExperienceComponent
+  },
+  {
+    path: 'resume',
+    component: ResumeComponent
+  },
+  {
+    path: 'contact',
+    component: ContactComponent
   }
 ];
 

@@ -55,6 +55,9 @@ import { AuthLayoutComponent } from './layouts/auth/auth-layout.component';
 import { PrimeNGBundleModule } from './primeng.module';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app.routing';
+import { ExperienceComponent } from './experience/experience.component';
+import { ResumeComponent } from './resume/resume.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   exports: [
@@ -119,6 +122,9 @@ export class MaterialModule {}
     HomeComponent,
     SkillsComponent,
     ProjectsComponent,
+    ExperienceComponent,
+    ResumeComponent,
+    ContactComponent,
     AdminLayoutComponent,
     AuthLayoutComponent
   ],

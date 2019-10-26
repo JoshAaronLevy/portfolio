@@ -21,6 +21,21 @@ const ROUTES: any = [
     path: '/projects',
     title: 'Projects',
     type: 'link'
+  },
+  {
+    path: '/experience',
+    title: 'Experience',
+    type: 'link'
+  },
+  {
+    path: '/resume',
+    title: 'Resume',
+    type: 'link'
+  },
+  {
+    path: '/contact',
+    title: 'Contact',
+    type: 'link'
   }
 ];
 

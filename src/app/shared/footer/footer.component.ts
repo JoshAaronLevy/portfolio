@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-    selector: 'app-footer',
-    templateUrl: 'footer.component.html'
+  selector: 'app-footer',
+  templateUrl: 'footer.component.html'
 })
 
 export class FooterComponent {
-    test: Date = new Date();
+  test: Date = new Date();
 }
