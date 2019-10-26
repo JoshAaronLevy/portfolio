@@ -2,17 +2,21 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-3">
-        <div class="card card-product">
-          <div class="card-header-4w card-header-image card-link" data-header-animation="true">
-            <div class="card-image-container">
-              <img class="img" src="https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/Angular-Logo.png">
+        <ul class="skill-list">
+          <li *ngFor="let skill of skills" class="skill-list-item">
+            <div class="card card-product">
+              <div class="card-header-4w card-header-image card-link" data-header-animation="true">
+                <div class="card-image-container">
+                  <img class="img" src="{{ skill.img }}">
+                </div>
+              </div>
+              <div class="card-footer skill-footer">
+                <h4>{{ skill.name }}</h4>
+                <!-- <h5>{{ skill.category }}</h5> -->
+              </div>
             </div>
-          </div>
-          <div class="card-footer skill-footer">
-            <h4>Angular</h4>
-            <!-- <h5>Front-End</h5> -->
-          </div>
-        </div>
+          </li>
+        </ul>
       </div>
     </div>
   </div>

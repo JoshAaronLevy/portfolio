@@ -237,7 +237,7 @@
 
   &:hover {
       [data-header-animation="true"]{
-          @include transform-translate-y(-10px);
+          @include transform-translate-y(-5px);
       }
   }
 

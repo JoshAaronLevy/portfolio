@@ -99,7 +99,7 @@
 
     &.navbar-absolute {
         position: absolute;
-        width: 100%;
+        width: calc(100% - 260px);
         padding-top: 10px;
         z-index: 1029;
     }
@@ -120,7 +120,7 @@
         padding: $padding-general-y 0;
         font-weight: 500;
         margin-left: 1rem;
-        right: 260px;
+        // right: 260px;
     }
 
     &.bg-primary {

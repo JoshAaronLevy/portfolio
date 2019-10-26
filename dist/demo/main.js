@@ -326,7 +326,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"main-content\">\n  <div class=\"container-fluid\">\n    <div class=\"row\">\n      <div class=\"col-md-4\">\n        <div class=\"card card-product\">\n          <div class=\"card-header card-header-image card-link\" data-header-animation=\"true\">\n            <a href=\"#\">\n              <img class=\"img\" src=\"./assets/img/card-2.jpg\">\n            </a>\n          </div>\n          <div class=\"card-footer\">\n            <h4>Josh Levy</h4>\n          </div>\n        </div>\n      </div>\n      <div class=\"col-md-8\">\n        <div class=\"card card-product\">\n          <div class=\"card-header card-header-image\" data-header-animation=\"false\">\n            <strong>Hello there world! How are you doing today?</strong>\n          </div>\n          <div class=\"card-footer\">\n            <h4>Connect:</h4>\n          </div>\n        </div>\n      </div>\n    </div>\n    <div class=\"row\">\n      <div class=\"col-md-4\">\n        <div class=\"card card-product\">\n          <div class=\"card-header card-header-image card-link\" data-header-animation=\"true\">\n            <a href=\"#\">\n              <img class=\"img\" src=\"./assets/img/card-2.jpg\">\n            </a>\n          </div>\n          <div class=\"card-footer\">\n            <h4>Front-End</h4>\n          </div>\n        </div>\n      </div>\n      <div class=\"col-md-4\">\n        <div class=\"card card-product\">\n          <div class=\"card-header card-header-image card-link\" data-header-animation=\"true\">\n            <a href=\"#\">\n              <img class=\"img\" src=\"./assets/img/card-3.jpg\">\n            </a>\n          </div>\n          <div class=\"card-footer\">\n            <h4>Back-End</h4>\n          </div>\n        </div>\n      </div>\n      <div class=\"col-md-4\">\n        <div class=\"card card-product\">\n          <div class=\"card-header card-header-image card-link\" data-header-animation=\"true\">\n            <a href=\"#\">\n              <img class=\"img\" src=\"./assets/img/card-1.jpg\">\n            </a>\n          </div>\n          <div class=\"card-footer\">\n            <h4>DevOps</h4>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"main-content\">\n  <div class=\"container-fluid\">\n    <h2 class=\"page-heading\">About Me</h2>\n    <div class=\"row\">\n      <div class=\"col-md-12 about-container\">\n        <div class=\"col-md-10 about-section\">\n          <div class=\"col-md-3\">\n            <div class=\"card-header card-image-free\" data-header-animation=\"false\">\n              <img class=\"profile\" src=\"./assets/img/JoshLevy.jpeg\">\n            </div>\n            <div class=\"social-connect\">\n              <a href=\"https://github.com/JoshAaronLevy\" target=\"_blank\">\n                <i class=\"fab fa-github\"></i>\n              </a>\n              <a href=\"https://www.linkedin.com/in/joshaaronlevy/\" target=\"_blank\">\n                <i class=\"fab fa-linkedin\"></i>\n              </a>\n            </div>\n          </div>\n          <div class=\"col-md-9\">\n            <div class=\"card-header card-text-free\" data-header-animation=\"false\">\n              <div class=\"text-card\">\n                <h5>I believe we're living in the most exciting time for technology. Many of the biggest challenges we face now are going to be solved by developers. I am a full stack web developer with over 6 years of experience.</h5>\n                <h5>My experience includes responsive UI/UX design in HTML5, CSS3 and Bootstrap. I also have solid working experience with modern front-end frameworks such as Vue.js and Angular, and back-end/API tech, such as Node.js, Express, SQL and NoSQL databases. Furthermore, I have worked with dev ops technologies such as Firebase, Heroku, Docker and AWS. But I wouldn't be able to keep track of it all if it weren't for my strong working knowledge of Git.</h5>\n                <h5>I take pride in combining my skills to develop apps with the highest standards of security, stability and scalability. But when I'm not geeking out over dev tech, you can catch me playing my guitars, or spending a day at my favorite place on earth - a tennis court.</h5>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n    <h2 class=\"page-heading\">Skills</h2>\n    <div class=\"row\">\n      <div class=\"col-md-4\">\n        <div class=\"card card-product\">\n          <div class=\"card-header-3w card-header-image card-link\" data-header-animation=\"true\">\n            <a href=\"#\">\n              <div class=\"card-image-container\">\n                <img class=\"logo-img\" src=\"https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/Angular-Logo.png\">\n              </div>\n            </a>\n          </div>\n          <div class=\"card-footer card-summary-footer\">\n            <h3>View Front-End</h3>\n          </div>\n        </div>\n      </div>\n      <div class=\"col-md-4\">\n        <div class=\"card card-product\">\n          <div class=\"card-header-3w card-header-image card-link\" data-header-animation=\"true\">\n            <a href=\"#\">\n              <div class=\"card-image-container\">\n                <img class=\"logo-img\" src=\"https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/NodeJS-Logo.png\">\n              </div>\n            </a>\n          </div>\n          <div class=\"card-footer card-summary-footer\">\n            <h3>View Back-End/API</h3>\n          </div>\n        </div>\n      </div>\n      <div class=\"col-md-4\">\n        <div class=\"card card-product\">\n          <div class=\"card-header-3w card-header-image card-link\" data-header-animation=\"true\">\n            <a href=\"#\">\n              <div class=\"card-image-container\">\n                <img class=\"logo-img\" src=\"https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/Git-Logo.png\">\n              </div>\n            </a>\n          </div>\n          <div class=\"card-footer card-summary-footer\">\n            <h3>View Tools/Utilities</h3>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -425,7 +425,7 @@ module.exports = "<footer class=\"footer \">\n  <div class=\"container-fluid\">\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<nav #navbar class=\"navbar navbar-expand-lg navbar-transparent navbar-absolute\">\n  <div class=\"container-fluid\">\n    <div class=\"navbar-wrapper\">\n      <a class=\"navbar-brand\"> {{getTitle()}}</a>\n    </div>\n    <button mat-button class=\"navbar-toggler btn-no-ripple\" type=\"button\" (click)=\"sidebarToggle()\">\n      <span class=\"sr-only\">Toggle navigation</span>\n      <span class=\"navbar-toggler-icon icon-bar\"></span>\n      <span class=\"navbar-toggler-icon icon-bar\"></span>\n      <span class=\"navbar-toggler-icon icon-bar\"></span>\n    </button>\n  </div>\n</nav>\n"
+module.exports = "<nav #navbar class=\"navbar navbar-expand-lg navbar-transparent navbar-absolute\">\n  <div class=\"container-fluid\">\n    <div class=\"navbar-wrapper\">\n      <a class=\"navbar-brand\">Josh Levy - {{getTitle()}}</a>\n    </div>\n    <button mat-button class=\"navbar-toggler btn-no-ripple\" type=\"button\" (click)=\"sidebarToggle()\">\n      <span class=\"sr-only\">Toggle navigation</span>\n      <span class=\"navbar-toggler-icon icon-bar\"></span>\n      <span class=\"navbar-toggler-icon icon-bar\"></span>\n      <span class=\"navbar-toggler-icon icon-bar\"></span>\n    </button>\n  </div>\n</nav>\n"
 
 /***/ }),
 
@@ -447,7 +447,7 @@ module.exports = "<div class=\"logo\">\n  <a routerLink=\"/home\" class=\"simple
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"main-content\">\n  <div class=\"container-fluid\">\n    <!-- <h2 class=\"page-heading\">Skills</h2> -->\n    <div class=\"row\">\n      <div class=\"col-md-3\">\n        <div class=\"card card-product\">\n          <div class=\"card-header card-header-image card-link\" data-header-animation=\"true\">\n            <a href=\"#\">\n              <img class=\"img\" src=\"./assets/img/card-2.jpg\">\n            </a>\n          </div>\n          <div class=\"card-footer\">\n            <h4>Angular</h4>\n          </div>\n        </div>\n      </div>\n      <div class=\"col-md-3\">\n        <div class=\"card card-product\">\n          <div class=\"card-header card-header-image card-link\" data-header-animation=\"true\">\n            <a href=\"#\">\n              <img class=\"img\" src=\"./assets/img/card-3.jpg\">\n            </a>\n          </div>\n          <div class=\"card-footer\">\n            <h4>Vue</h4>\n          </div>\n        </div>\n      </div>\n      <div class=\"col-md-3\">\n        <div class=\"card card-product\">\n          <div class=\"card-header card-header-image card-link\" data-header-animation=\"true\">\n            <a href=\"#\">\n              <img class=\"img\" src=\"./assets/img/card-1.jpg\">\n            </a>\n          </div>\n          <div class=\"card-footer\">\n            <h4>React</h4>\n          </div>\n        </div>\n      </div>\n      <div class=\"col-md-3\">\n        <div class=\"card card-product\">\n          <div class=\"card-header card-header-image card-link\" data-header-animation=\"true\">\n            <a href=\"#\">\n              <img class=\"img\" src=\"./assets/img/card-2.jpg\">\n            </a>\n          </div>\n          <div class=\"card-footer\">\n            <h4>Node.js</h4>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"main-content\">\n  <div class=\"container-fluid\">\n    <div class=\"row\">\n      <div class=\"col-md-3\">\n        <ul class=\"skill-list\">\n          <li class=\"skill-list-item\">\n            <div class=\"card card-product\">\n              <div class=\"card-header-4w card-header-image card-link\" data-header-animation=\"true\">\n                <div class=\"card-image-container\">\n                  <img class=\"img\" src=\"https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/Angular-Logo.png\">\n                </div>\n              </div>\n              <div class=\"card-footer skill-footer\">\n                <h4>Angular</h4>\n                <!-- <h5>Front-End</h5> -->\n              </div>\n            </div>\n          </li>\n        </ul>\n      </div>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -1785,6 +1785,93 @@ var ResumeComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/services/skills.service.ts":
+/*!********************************************!*\
+  !*** ./src/app/services/skills.service.ts ***!
+  \********************************************/
+/*! exports provided: SkillsService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SkillsService", function() { return SkillsService; });
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var src_environments_environment__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/environments/environment */ "./src/environments/environment.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var httpOptions = {
+    headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_0__["HttpHeaders"]({
+        'Content-Type': 'application/json'
+    })
+};
+var apiUrl = src_environments_environment__WEBPACK_IMPORTED_MODULE_2__["environment"].apiUrl + "/skills";
+var SkillsService = /** @class */ (function () {
+    function SkillsService(http) {
+        this.http = http;
+    }
+    SkillsService.prototype.getSkills = function () {
+        return this.http.get(apiUrl)
+            .toPromise()
+            .then(function (res) {
+            return res;
+        })
+            .catch(function (error) {
+            return error;
+        });
+    };
+    SkillsService.prototype.getSkill = function (id) {
+        return this.http.get(apiUrl, id)
+            .toPromise()
+            .then(function (res) {
+            return res;
+        })
+            .catch(function (error) {
+            return error;
+        });
+    };
+    SkillsService.prototype.addSkill = function (params) {
+        if (params === void 0) { params = new _angular_common_http__WEBPACK_IMPORTED_MODULE_0__["HttpParams"](); }
+        return this.http.post(apiUrl, params)
+            .toPromise()
+            .then(function (res) {
+            return res;
+        })
+            .catch(function (error) {
+            return error;
+        });
+    };
+    SkillsService.prototype.updateSkill = function (params, id) {
+        if (params === void 0) { params = new _angular_common_http__WEBPACK_IMPORTED_MODULE_0__["HttpParams"](); }
+        return this.http.put(apiUrl, params)
+            .toPromise()
+            .then(function (res) {
+            return res;
+        });
+    };
+    SkillsService = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
+            providedIn: 'root'
+        }),
+        __metadata("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_0__["HttpClient"]])
+    ], SkillsService);
+    return SkillsService;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/shared/fixedplugin/fixedplugin.component.css":
 /*!**************************************************************!*\
   !*** ./src/app/shared/fixedplugin/fixedplugin.component.css ***!
@@ -2118,7 +2205,7 @@ var misc = {
 var ROUTES = [
     {
         path: '/home',
-        title: 'Home',
+        title: 'Web Developer',
         type: 'link'
     }, {
         path: '/skills',
@@ -2253,7 +2340,7 @@ var NavbarComponent = /** @class */ (function () {
                 }
             }
         }
-        return 'Home';
+        return 'Web Developer';
     };
     NavbarComponent.prototype.getPath = function () {
         return this.location.prepareExternalUrl(this.location.path());
@@ -2434,21 +2521,96 @@ var SidebarModule = /** @class */ (function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SkillsComponent", function() { return SkillsComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
+/* harmony import */ var _services_skills_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../services/skills.service */ "./src/app/services/skills.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __awaiter = (undefined && undefined.__awaiter) || function (thisArg, _arguments, P, generator) {
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : new P(function (resolve) { resolve(result.value); }).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __generator = (undefined && undefined.__generator) || function (thisArg, body) {
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    function verb(n) { return function (v) { return step([n, v]); }; }
+    function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (_) try {
+            if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [op[0] & 2, t.value];
+            switch (op[0]) {
+                case 0: case 1: t = op; break;
+                case 4: _.label++; return { value: op[1], done: false };
+                case 5: _.label++; y = op[1]; op = [0]; continue;
+                case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                default:
+                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                    if (t[2]) _.ops.pop();
+                    _.trys.pop(); continue;
+            }
+            op = body.call(thisArg, _);
+        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+    }
+};
+
+
 
 var SkillsComponent = /** @class */ (function () {
-    function SkillsComponent() {
+    function SkillsComponent(sanitizer, meta, title, skillService) {
+        this.sanitizer = sanitizer;
+        this.meta = meta;
+        this.title = title;
+        this.skillService = skillService;
+        this.title.setTitle("Skills | Josh Levy");
+        this.meta.updateTag({ name: 'description', content: "Josh Levy Developer Skills" });
     }
+    SkillsComponent.prototype.ngOnInit = function () {
+        return __awaiter(this, void 0, void 0, function () {
+            return __generator(this, function (_a) {
+                this.loading = true;
+                this.loadSkills();
+                return [2 /*return*/];
+            });
+        });
+    };
+    SkillsComponent.prototype.loadSkills = function () {
+        return __awaiter(this, void 0, void 0, function () {
+            return __generator(this, function (_a) {
+                this.skillService.getSkills().then(function (data) {
+                    console.log(data);
+                    return data;
+                });
+                return [2 /*return*/];
+            });
+        });
+    };
     SkillsComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-skills',
-            template: __webpack_require__(/*! raw-loader!./skills.component.html */ "./node_modules/raw-loader/index.js!./src/app/skills/skills.component.html")
-        })
+            template: __webpack_require__(/*! raw-loader!./skills.component.html */ "./node_modules/raw-loader/index.js!./src/app/skills/skills.component.html"),
+            providers: [
+                _services_skills_service__WEBPACK_IMPORTED_MODULE_2__["SkillsService"]
+            ]
+        }),
+        __metadata("design:paramtypes", [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["DomSanitizer"],
+            _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["Meta"],
+            _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["Title"],
+            _services_skills_service__WEBPACK_IMPORTED_MODULE_2__["SkillsService"]])
     ], SkillsComponent);
     return SkillsComponent;
 }());
@@ -2472,26 +2634,7 @@ __webpack_require__.r(__webpack_exports__);
 // `ng build --env=prod` then `environment.prod.ts` will be used instead.
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 var environment = {
-    api: {
-        skills: {
-            getAll: '',
-            getOne: '',
-            post: '',
-            put: ''
-        },
-        experience: {
-            getAll: '',
-            getOne: '',
-            post: '',
-            put: ''
-        },
-        projects: {
-            getAll: '',
-            getOne: '',
-            post: '',
-            put: ''
-        }
-    },
+    apiUrl: "https://joshlevyportfolio.herokuapp.com",
     production: false
 };
 

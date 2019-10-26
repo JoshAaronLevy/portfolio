@@ -491,7 +491,7 @@
 
 h2.page-heading {
   text-align: center;
-  font-size: 1.75rem !important;
+  font-size: 1.85rem !important;
   margin-bottom: 30px;
 }
 
@@ -499,4 +499,58 @@ h2.page-heading {
   display: flex;
   width: 100vw;
   justify-content: center;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-connect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .fab {
+    font-size: 36px;
+    margin: 3px;
+    padding: 10px;
+    &:hover {
+      color: #a40000;
+    }
+  }
+  .fa-github {
+    color: #222222;
+  }
+}
+
+ul.skill-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skill-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-footer h4 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+.skill-footer h5 {
+  font-size: 1.05rem;
+  font-weight: 300;
+  margin-bottom: 0px;
 }
