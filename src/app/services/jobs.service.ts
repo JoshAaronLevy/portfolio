@@ -1,6 +1,6 @@
 import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Skill } from '../models/skill';
+import { Job } from '../models/job';
 import { environment } from 'src/environments/environment';
 
 const httpOptions = {
@@ -9,19 +9,19 @@ const httpOptions = {
   })
 };
 
-const apiUrl = `${environment.apiUrl}/skills`;
+const apiUrl = `${environment.apiUrl}/jobs`;
 
 @Injectable({
   providedIn: 'root'
 })
-export class SkillsService {
-  skills: Skill;
+export class JobsService {
+  jobs: Job;
 
   constructor(
     private http: HttpClient
   ) {}
 
-  getSkills() {
+  getJobs() {
     return this.http.get(apiUrl)
       .toPromise()
       .then(res => {
@@ -32,7 +32,7 @@ export class SkillsService {
       });
   }
 
-  getSkill(id) {
+  getJob(id) {
     return this.http.get(apiUrl, id)
       .toPromise()
       .then(res => {
@@ -43,7 +43,7 @@ export class SkillsService {
       });
   }
 
-  addSkill(
+  addJob(
     params: HttpParams = new HttpParams()
   ) {
     return this.http.post(apiUrl, params)
@@ -56,7 +56,7 @@ export class SkillsService {
       });
   }
 
-  updateSkill(
+  updateJob(
     params: HttpParams = new HttpParams(),
     id
   ) {
