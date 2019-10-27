@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-12">
-        <p-table [value]="jobs">
+        <p-table [value]="jobs" autoLayout="true" styleClass="jobs-table">
           <ng-template pTemplate="header">
             <tr>
               <th>Company</th>
@@ -20,7 +20,7 @@
               <td *ngIf="job.endDate !== null">{{job.endDate | date: 'mediumDate'}}</td>
               <td *ngIf="job.endDate === null">Current</td>
               <td>
-                <p-button label="View" styleClass="ui-button-danger" (onClick)="selectJobWithButton(job)"></p-button>
+                <p-button label="View" styleClass="ui-button-danger jobs-table-button" (onClick)="selectJobWithButton(job)"></p-button>
                 <!-- <button pButton type="button" class="ui-button-raised ui-button-danger" (click)="selectJobWithButton(rowData)">View</button> -->
               </td>
             </tr>
