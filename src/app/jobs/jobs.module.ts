@@ -6,7 +6,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MdModule } from '../md/md.module';
 import { MaterialModule } from '../app.module';
 
-import { ExperienceComponent } from './experience.component';
+import { JobsComponent } from './jobs.component';
 
 @NgModule({
   imports: [
@@ -18,14 +18,14 @@ import { ExperienceComponent } from './experience.component';
     MaterialModule
   ],
   declarations: [
-    ExperienceComponent
+    JobsComponent
   ],
   exports: [
-    ExperienceComponent
+    JobsComponent
   ],
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA
   ]
 })
 
-export class ExperienceModule {}
+export class JobsModule {}

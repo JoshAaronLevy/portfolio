@@ -2,12 +2,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { AdminLayoutComponent } from './layouts/admin/admin-layout.component';
-import { AuthLayoutComponent } from './layouts/auth/auth-layout.component';
 import { HomeComponent } from './home/home.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ProjectsComponent } from './projects/projects.component';
-import { ExperienceComponent } from './experience/experience.component';
+import { JobsComponent } from './jobs/jobs.component';
 import { ResumeComponent } from './resume/resume.component';
 import { ContactComponent } from './contact/contact.component';
 import { AuthComponent } from './auth/auth.component';
@@ -33,7 +31,7 @@ const routes: Routes = [
   },
   {
     path: 'experience',
-    component: ExperienceComponent
+    component: JobsComponent
   },
   {
     path: 'resume',

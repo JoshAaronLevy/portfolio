@@ -55,7 +55,7 @@ import { AuthLayoutComponent } from './layouts/auth/auth-layout.component';
 import { PrimeNGBundleModule } from './primeng.module';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app.routing';
-import { ExperienceComponent } from './experience/experience.component';
+import { JobsComponent } from './jobs/jobs.component';
 import { ResumeComponent } from './resume/resume.component';
 import { ContactComponent } from './contact/contact.component';
 import { AuthComponent } from './auth/auth.component';
@@ -125,7 +125,7 @@ export class MaterialModule {}
     HomeComponent,
     SkillsComponent,
     ProjectsComponent,
-    ExperienceComponent,
+    JobsComponent,
     ResumeComponent,
     ContactComponent,
     AuthComponent,

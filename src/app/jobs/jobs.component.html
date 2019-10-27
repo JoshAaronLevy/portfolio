@@ -1,0 +1,32 @@
+<div class="main-content">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <p-table [value]="jobs">
+          <ng-template pTemplate="header">
+            <tr>
+              <th>Company</th>
+              <th>Title</th>
+              <th>From</th>
+              <th>To</th>
+              <th>Details</th>
+            </tr>
+          </ng-template>
+          <ng-template pTemplate="body" let-job>
+            <tr>
+              <td>{{job.company}}</td>
+              <td>{{job.title}}</td>
+              <td>{{job.startDate | date: 'mediumDate'}}</td>
+              <td *ngIf="job.endDate !== null">{{job.endDate | date: 'mediumDate'}}</td>
+              <td *ngIf="job.endDate === null">Current</td>
+              <td>
+                <p-button label="View" styleClass="ui-button-danger" (onClick)="selectJobWithButton(job)"></p-button>
+                <!-- <button pButton type="button" class="ui-button-raised ui-button-danger" (click)="selectJobWithButton(rowData)">View</button> -->
+              </td>
+            </tr>
+          </ng-template>
+        </p-table>
+      </div>
+    </div>
+  </div>
+</div>
