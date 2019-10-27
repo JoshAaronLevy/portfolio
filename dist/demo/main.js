@@ -286,6 +286,17 @@ webpackContext.id = "./node_modules/moment/locale sync recursive ^\\.\\/.*$";
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/index.js!./src/app/add-skill/add-skill.component.html":
+/*!******************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/add-skill/add-skill.component.html ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"main-content\">\n  <div class=\"container-fluid\">\n    <div class=\"row\">\n      <p-toast position=\"top-center\"></p-toast>\n      <div class=\"col-md-12 about-container\">\n        <div class=\"col-md-6 about-section\">\n          <div class=\"card\">\n            <div class=\"card-body \">\n              <form [formGroup]=\"addSkill\" (ngSubmit)=\"post()\">\n                <mat-form-field appearance=\"outline\">\n                  <mat-label>Name</mat-label>\n                  <input matInput type=\"text\" formControlName=\"name\" placeholder=\"Name\">\n                </mat-form-field>\n                <mat-form-field appearance=\"outline\">\n                  <mat-label>Logo URL</mat-label>\n                  <input matInput type=\"text\" formControlName=\"img\" placeholder=\"Logo URL\">\n                </mat-form-field>\n                <mat-form-field>\n                  <mat-label>Category</mat-label>\n                  <mat-select formControlName=\"category\" placeholder=\"Category\">\n                    <mat-option value=\"Front-End\">Front-End</mat-option>\n                    <mat-option value=\"Back-End\">Back-End</mat-option>\n                    <mat-option value=\"Front/Back-End\">Front/Back-End</mat-option>\n                    <mat-option value=\"Middleware\">Middleware</mat-option>\n                    <mat-option value=\"Tools/Utilities\">Tools/Utilities</mat-option>\n                  </mat-select>\n                </mat-form-field>\n                <div class=\"card-footer \">\n                  <button mat-raised-button type=\"submit\" class=\"btn btn-fill btn-success\">Submit</button>\n                </div>\n              </form>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>"
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/index.js!./src/app/app.component.html":
 /*!**************************************************************!*\
   !*** ./node_modules/raw-loader!./src/app/app.component.html ***!
@@ -304,7 +315,7 @@ module.exports = "<div class=\"wrapper\">\n  <div class=\"sidebar\" data-color=\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row justify-content-center\">\n  <div class=\"col-lg-5\">\n    <div class=\"card bg-secondary shadow border-0\">\n      <div class=\"card-header bg-white pb-2\">\n        <div class=\"text-muted text-center mb-1\">\n          <h2>Login</h2>\n        </div>\n      </div>\n      <div class=\"card-body px-lg-5 py-lg-5\">\n        <form [formGroup]=\"loginForm\" (ngSubmit)=\"login()\" novalidate>\n          <div class=\"form-group mb-3\" [ngClass]=\"{'focused':focus===true}\">\n            <div class=\"input-group input-group-alternative\">\n              <div class=\"input-group-prepend\">\n                <span class=\"input-group-text\"><i class=\"ni ni-email-83\"></i></span>\n              </div>\n              <input id=\"email\" name=\"email\" [(ngModel)]=\"email\" value=\"email\" formControlName=\"email\" class=\"form-control\" placeholder=\"Email\" type=\"email\" (focus)=\"focus=true\" (blur)=\"focus=false\" required>\n            </div>\n          </div>\n          <div class=\"form-group\" [ngClass]=\"{'focused':focus1===true}\">\n            <div class=\"input-group input-group-alternative\">\n              <div class=\"input-group-prepend\">\n                <span class=\"input-group-text\"><i class=\"ni ni-lock-circle-open\"></i></span>\n              </div>\n              <input id=\"password\" name=\"password\" [(ngModel)]=\"password\" value=\"password\" formControlName=\"password\" class=\"form-control\" placeholder=\"Password\" type=\"password\" (focus)=\"focus1=true\" (blur)=\"focus1=false\" required>\n            </div>\n          </div>\n          <p *ngIf=\"loginError\">\n            <ngb-alert type=\"danger\" [dismissible]=\"false\" class=\"text-center\">\n              <strong>Invalid login. Please try again.</strong>\n            </ngb-alert>\n          </p>\n          <div class=\"text-center\">\n            <button type=\"submit\" class=\"btn btn-primary my-4\">Login</button>\n          </div>\n        </form>\n      </div>\n    </div>\n  </div>\n</div>"
+module.exports = "<div class=\"main-content\">\n  <div class=\"container-fluid\">\n    <div class=\"row\">\n      <div class=\"col-md-12 about-container\">\n        <div class=\"col-md-6 about-section\">\n          <div class=\"card\">\n            <div class=\"card-body \">\n              <form [formGroup]=\"loginForm\" (ngSubmit)=\"login()\">\n                <mat-form-field appearance=\"outline\">\n                  <mat-label>Username</mat-label>\n                  <input matInput type=\"text\" formControlName=\"username\" placeholder=\"Username\">\n                  <mat-icon matSuffix>person</mat-icon>\n                </mat-form-field>\n                <mat-form-field appearance=\"outline\">\n                  <mat-label>Password</mat-label>\n                  <input matInput type=\"password\" formControlName=\"password\" placeholder=\"Password\">\n                  <mat-icon matSuffix>lock</mat-icon>\n                </mat-form-field>\n                <div class=\"card-footer \">\n                  <button mat-raised-button type=\"submit\" class=\"btn btn-fill btn-success\">Submit</button>\n                </div>\n              </form>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>"
 
 /***/ }),
 
@@ -312,17 +323,6 @@ module.exports = "<div class=\"row justify-content-center\">\n  <div class=\"col
 /*!**************************************************************************!*\
   !*** ./node_modules/raw-loader!./src/app/contact/contact.component.html ***!
   \**************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/experience/experience.component.html":
-/*!********************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/experience/experience.component.html ***!
-  \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -338,6 +338,17 @@ module.exports = ""
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"main-content\">\n  <div class=\"container-fluid\">\n    <h2 class=\"page-heading\">About Me</h2>\n    <div class=\"row\">\n      <div class=\"col-md-12 about-container\">\n        <div class=\"col-md-10 about-section\">\n          <div class=\"col-md-3\">\n            <div class=\"card-header card-image-free\" data-header-animation=\"false\">\n              <img class=\"profile\" src=\"./assets/img/JoshLevy.jpeg\">\n            </div>\n            <div class=\"social-connect\">\n              <a href=\"https://github.com/JoshAaronLevy\" target=\"_blank\">\n                <i class=\"fab fa-github\"></i>\n              </a>\n              <a href=\"https://www.linkedin.com/in/joshaaronlevy/\" target=\"_blank\">\n                <i class=\"fab fa-linkedin\"></i>\n              </a>\n            </div>\n          </div>\n          <div class=\"col-md-9\">\n            <div class=\"card-header card-text-free\" data-header-animation=\"false\">\n              <div class=\"text-card\">\n                <h5>I believe we're living in the most exciting time for technology. Many of the biggest challenges we face now are going to be solved by developers. I am a full stack web developer with over 6 years of experience.</h5>\n                <h5>My experience includes responsive UI/UX design in HTML5, CSS3 and Bootstrap. I also have solid working experience with modern front-end frameworks such as Vue.js and Angular, and back-end/API tech, such as Node.js, Express, SQL and NoSQL databases. Furthermore, I have worked with dev ops technologies such as Firebase, Heroku, Docker and AWS. But I wouldn't be able to keep track of it all if it weren't for my strong working knowledge of Git.</h5>\n                <h5>I take pride in combining my skills to develop apps with the highest standards of security, stability and scalability. But when I'm not geeking out over dev tech, you can catch me playing my guitars, or spending a day at my favorite place on earth - a tennis court.</h5>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n    <h2 class=\"page-heading\">Skills</h2>\n    <div class=\"row\">\n      <div class=\"col-md-4\">\n        <div class=\"card card-product\">\n          <div class=\"card-header-3w card-header-image card-link\" data-header-animation=\"true\">\n            <a href=\"#\">\n              <div class=\"card-image-container\">\n                <img class=\"logo-img\" src=\"https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/Angular-Logo.png\">\n              </div>\n            </a>\n          </div>\n          <div class=\"card-footer card-summary-footer\">\n            <h3>View Front-End</h3>\n          </div>\n        </div>\n      </div>\n      <div class=\"col-md-4\">\n        <div class=\"card card-product\">\n          <div class=\"card-header-3w card-header-image card-link\" data-header-animation=\"true\">\n            <a href=\"#\">\n              <div class=\"card-image-container\">\n                <img class=\"logo-img\" src=\"https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/NodeJS-Logo.png\">\n              </div>\n            </a>\n          </div>\n          <div class=\"card-footer card-summary-footer\">\n            <h3>View Back-End/API</h3>\n          </div>\n        </div>\n      </div>\n      <div class=\"col-md-4\">\n        <div class=\"card card-product\">\n          <div class=\"card-header-3w card-header-image card-link\" data-header-animation=\"true\">\n            <a href=\"#\">\n              <div class=\"card-image-container\">\n                <img class=\"logo-img\" src=\"https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/Git-Logo.png\">\n              </div>\n            </a>\n          </div>\n          <div class=\"card-footer card-summary-footer\">\n            <h3>View Tools/Utilities</h3>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/jobs/jobs.component.html":
+/*!********************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/jobs/jobs.component.html ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"main-content\">\n  <div class=\"container-fluid\">\n    <div class=\"row\">\n      <div class=\"col-md-12\">\n        <p-table [value]=\"jobs\" autoLayout=\"true\" styleClass=\"jobs-table\">\n          <ng-template pTemplate=\"header\">\n            <tr>\n              <th>Company</th>\n              <th>Title</th>\n              <th>From</th>\n              <th>To</th>\n              <th>Details</th>\n            </tr>\n          </ng-template>\n          <ng-template pTemplate=\"body\" let-job>\n            <tr>\n              <td>{{job.company}}</td>\n              <td>{{job.title}}</td>\n              <td>{{job.startDate | date: 'mediumDate'}}</td>\n              <td *ngIf=\"job.endDate !== null\">{{job.endDate | date: 'mediumDate'}}</td>\n              <td *ngIf=\"job.endDate === null\">Current</td>\n              <td>\n                <p-button label=\"View\" styleClass=\"ui-button-danger jobs-table-button\" (onClick)=\"selectJobWithButton(job)\"></p-button>\n                <!-- <button pButton type=\"button\" class=\"ui-button-raised ui-button-danger\" (click)=\"selectJobWithButton(rowData)\">View</button> -->\n              </td>\n            </tr>\n          </ng-template>\n        </p-table>\n        <p-dialog *ngIf=\"displayJob === true\" [(visible)]=\"displayJob\" dismissableMask=\"true\" modal=\"true\">\n          <p-header>\n            Header!\n          </p-header>\n            {{selectedJob.title}}\n          <p-footer>\n            Footer!\n          </p-footer>\n        </p-dialog>\n      </div>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -458,7 +469,7 @@ module.exports = "<div class=\"logo\">\n  <a routerLink=\"/home\" class=\"simple
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"main-content\">\n  <div class=\"container-fluid\">\n    <div class=\"row\">\n      <div class=\"col-md-3\">\n        <ul class=\"skill-list\">\n          <li *ngFor=\"let skill of skills\" class=\"skill-list-item\">\n            <div class=\"card card-product\">\n              <div class=\"card-header-4w card-header-image card-link\" data-header-animation=\"true\">\n                <div class=\"card-image-container\">\n                  <img class=\"img\" src=\"{{ skill.img }}\">\n                </div>\n              </div>\n              <div class=\"card-footer skill-footer\">\n                <h4>{{ skill.name }}</h4>\n                <!-- <h5>{{ skill.category }}</h5> -->\n              </div>\n            </div>\n          </li>\n        </ul>\n      </div>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"main-content\">\n  <div class=\"container-fluid\">\n    <div class=\"row\">\n      <ul class=\"skill-list\">\n        <li *ngFor=\"let skill of skills\" class=\"skill-list-item\">\n          <div class=\"col-md-3 skill-card\">\n            <div class=\"card card-product\">\n              <div class=\"card-header-4w card-header-image card-link\" data-header-animation=\"true\">\n                <div class=\"card-image-container\">\n                  <img class=\"img\" src=\"{{ skill.img }}\">\n                </div>\n              </div>\n              <div class=\"card-footer skill-footer\">\n                <h4>{{ skill.name }}</h4>\n                <h5>{{ skill.category }}</h5>\n              </div>\n            </div>\n          </div>\n        </li>\n      </ul>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -473,7 +484,7 @@ module.exports = "<div class=\"main-content\">\n  <div class=\"container-fluid\"
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Creds", function() { return Creds; });
 var Creds = {
-    login: 'joshaaronlevy',
+    username: 'joshaaronlevy',
     password: 'Telecaster0318'
 };
 
@@ -500,6 +511,119 @@ webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
 webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
+
+/***/ }),
+
+/***/ "./src/app/add-skill/add-skill.component.ts":
+/*!**************************************************!*\
+  !*** ./src/app/add-skill/add-skill.component.ts ***!
+  \**************************************************/
+/*! exports provided: AddSkillComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddSkillComponent", function() { return AddSkillComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var private_private__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! private/private */ "./private/private.ts");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _services_skills_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../services/skills.service */ "./src/app/services/skills.service.ts");
+/* harmony import */ var primeng_components_common_messageservice__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! primeng/components/common/messageservice */ "./node_modules/primeng/components/common/messageservice.js");
+/* harmony import */ var primeng_components_common_messageservice__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(primeng_components_common_messageservice__WEBPACK_IMPORTED_MODULE_5__);
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+var AddSkillComponent = /** @class */ (function () {
+    function AddSkillComponent(formBuilder, route, router, skillsService, messageService) {
+        this.formBuilder = formBuilder;
+        this.route = route;
+        this.router = router;
+        this.skillsService = skillsService;
+        this.messageService = messageService;
+        this.creds = private_private__WEBPACK_IMPORTED_MODULE_1__["Creds"];
+    }
+    AddSkillComponent.prototype.ngOnInit = function () {
+        if (!sessionStorage.username || sessionStorage.username !== this.creds.username) {
+            this.approved = false;
+            this.router.navigate(['/login']);
+        }
+        else {
+            this.approved = true;
+        }
+        this.addSkill = this.formBuilder.group({
+            name: '',
+            img: '',
+            category: ''
+        });
+    };
+    // post(): void {
+    //   console.log(this.addSkill.value);
+    //   if (this.approved = true) {
+    //     this.skillsService.addSkill(this.addSkill.value).then(res => {
+    //       console.log(res);
+    //       if (res) {
+    //         this.addSingle();
+    //       } else {
+    //         console.log(res);
+    //       }
+    //       return res;
+    //     });
+    //   }
+    // }
+    AddSkillComponent.prototype.post = function () {
+        var _this = this;
+        console.log(this.addSkill.value);
+        if (this.approved = true) {
+            this.skillsService.postSkill(this.addSkill.value).subscribe(function (res) {
+                console.log(res);
+                if (res) {
+                    _this.addSingle();
+                }
+                else {
+                    console.log(res);
+                }
+                return res;
+            });
+        }
+    };
+    AddSkillComponent.prototype.addSingle = function () {
+        this.messageService.add({
+            severity: 'success',
+            summary: 'Successfully added skill!'
+        });
+    };
+    AddSkillComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-add-skill',
+            template: __webpack_require__(/*! raw-loader!./add-skill.component.html */ "./node_modules/raw-loader/index.js!./src/app/add-skill/add-skill.component.html"),
+            providers: [
+                _services_skills_service__WEBPACK_IMPORTED_MODULE_4__["SkillsService"],
+                primeng_components_common_messageservice__WEBPACK_IMPORTED_MODULE_5__["MessageService"]
+            ]
+        }),
+        __metadata("design:paramtypes", [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"],
+            _angular_router__WEBPACK_IMPORTED_MODULE_3__["ActivatedRoute"],
+            _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"],
+            _services_skills_service__WEBPACK_IMPORTED_MODULE_4__["SkillsService"],
+            primeng_components_common_messageservice__WEBPACK_IMPORTED_MODULE_5__["MessageService"]])
+    ], AddSkillComponent);
+    return AddSkillComponent;
+}());
+
+
 
 /***/ }),
 
@@ -586,10 +710,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _primeng_module__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./primeng.module */ "./src/app/primeng.module.ts");
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
 /* harmony import */ var _app_routing__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./app.routing */ "./src/app/app.routing.ts");
-/* harmony import */ var _experience_experience_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./experience/experience.component */ "./src/app/experience/experience.component.ts");
+/* harmony import */ var _jobs_jobs_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./jobs/jobs.component */ "./src/app/jobs/jobs.component.ts");
 /* harmony import */ var _resume_resume_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./resume/resume.component */ "./src/app/resume/resume.component.ts");
 /* harmony import */ var _contact_contact_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./contact/contact.component */ "./src/app/contact/contact.component.ts");
 /* harmony import */ var _auth_auth_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./auth/auth.component */ "./src/app/auth/auth.component.ts");
+/* harmony import */ var _add_skill_add_skill_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./add-skill/add-skill.component */ "./src/app/add-skill/add-skill.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -615,6 +740,7 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 // import { AppRoutes, AppRoutingModule } from './app.routing';
+
 
 
 
@@ -674,6 +800,7 @@ var AppModule = /** @class */ (function () {
                 _angular_common__WEBPACK_IMPORTED_MODULE_8__["CommonModule"],
                 _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_4__["BrowserAnimationsModule"],
                 _angular_forms__WEBPACK_IMPORTED_MODULE_7__["FormsModule"],
+                _angular_forms__WEBPACK_IMPORTED_MODULE_7__["ReactiveFormsModule"],
                 // RouterModule.forRoot(AppRoutes, {
                 //   useHash: false,
                 //   onSameUrlNavigation: 'reload'
@@ -695,10 +822,11 @@ var AppModule = /** @class */ (function () {
                 _home_home_component__WEBPACK_IMPORTED_MODULE_2__["HomeComponent"],
                 _skills_skills_component__WEBPACK_IMPORTED_MODULE_1__["SkillsComponent"],
                 _projects_projects_component__WEBPACK_IMPORTED_MODULE_0__["ProjectsComponent"],
-                _experience_experience_component__WEBPACK_IMPORTED_MODULE_21__["ExperienceComponent"],
+                _jobs_jobs_component__WEBPACK_IMPORTED_MODULE_21__["JobsComponent"],
                 _resume_resume_component__WEBPACK_IMPORTED_MODULE_22__["ResumeComponent"],
                 _contact_contact_component__WEBPACK_IMPORTED_MODULE_23__["ContactComponent"],
                 _auth_auth_component__WEBPACK_IMPORTED_MODULE_24__["AuthComponent"],
+                _add_skill_add_skill_component__WEBPACK_IMPORTED_MODULE_25__["AddSkillComponent"],
                 _layouts_admin_admin_layout_component__WEBPACK_IMPORTED_MODULE_16__["AdminLayoutComponent"],
                 _layouts_auth_auth_layout_component__WEBPACK_IMPORTED_MODULE_17__["AuthLayoutComponent"]
             ],
@@ -734,16 +862,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
 /* harmony import */ var _skills_skills_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./skills/skills.component */ "./src/app/skills/skills.component.ts");
 /* harmony import */ var _projects_projects_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./projects/projects.component */ "./src/app/projects/projects.component.ts");
-/* harmony import */ var _experience_experience_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./experience/experience.component */ "./src/app/experience/experience.component.ts");
+/* harmony import */ var _jobs_jobs_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./jobs/jobs.component */ "./src/app/jobs/jobs.component.ts");
 /* harmony import */ var _resume_resume_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./resume/resume.component */ "./src/app/resume/resume.component.ts");
 /* harmony import */ var _contact_contact_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./contact/contact.component */ "./src/app/contact/contact.component.ts");
 /* harmony import */ var _auth_auth_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./auth/auth.component */ "./src/app/auth/auth.component.ts");
+/* harmony import */ var _add_skill_add_skill_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./add-skill/add-skill.component */ "./src/app/add-skill/add-skill.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -775,7 +905,7 @@ var routes = [
     },
     {
         path: 'experience',
-        component: _experience_experience_component__WEBPACK_IMPORTED_MODULE_7__["ExperienceComponent"]
+        component: _jobs_jobs_component__WEBPACK_IMPORTED_MODULE_7__["JobsComponent"]
     },
     {
         path: 'resume',
@@ -788,6 +918,10 @@ var routes = [
     {
         path: 'login',
         component: _auth_auth_component__WEBPACK_IMPORTED_MODULE_10__["AuthComponent"]
+    },
+    {
+        path: 'add-skill',
+        component: _add_skill_add_skill_component__WEBPACK_IMPORTED_MODULE_11__["AddSkillComponent"]
     }
 ];
 var AppRoutingModule = /** @class */ (function () {
@@ -843,24 +977,22 @@ var AuthComponent = /** @class */ (function () {
         this.route = route;
         this.router = router;
         this.creds = private_private__WEBPACK_IMPORTED_MODULE_1__["Creds"];
-        this.emailFormControl = new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"]('', [
-            _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required,
-            _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].email,
-        ]);
     }
     AuthComponent.prototype.ngOnInit = function () {
         this.loginForm = this.formBuilder.group({
-            email: '',
+            username: '',
             password: ''
         });
     };
     AuthComponent.prototype.login = function () {
-        if (this.loginForm.value.email !== this.creds.email || this.loginForm.value.password !== this.creds.password) {
+        if (this.loginForm.value.username !== this.creds.username || this.loginForm.value.password !== this.creds.password) {
             this.loginError = true;
+            console.log('Oh no!');
+            console.log(this.loginForm.value);
         }
-        else if (this.loginForm.value.email === this.creds.email || this.loginForm.value.password === this.creds.password) {
-            sessionStorage.setItem('email', this.loginForm.value.email);
-            this.router.navigate(['/add']);
+        else if (this.loginForm.value.username === this.creds.username || this.loginForm.value.password === this.creds.password) {
+            sessionStorage.setItem('username', this.loginForm.value.username);
+            this.router.navigate(['/add-skill']);
         }
     };
     AuthComponent = __decorate([
@@ -913,40 +1045,6 @@ var ContactComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/experience/experience.component.ts":
-/*!****************************************************!*\
-  !*** ./src/app/experience/experience.component.ts ***!
-  \****************************************************/
-/*! exports provided: ExperienceComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ExperienceComponent", function() { return ExperienceComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-
-var ExperienceComponent = /** @class */ (function () {
-    function ExperienceComponent() {
-    }
-    ExperienceComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'app-experience',
-            template: __webpack_require__(/*! raw-loader!./experience.component.html */ "./node_modules/raw-loader/index.js!./src/app/experience/experience.component.html")
-        })
-    ], ExperienceComponent);
-    return ExperienceComponent;
-}());
-
-
-
-/***/ }),
-
 /***/ "./src/app/home/home.component.ts":
 /*!****************************************!*\
   !*** ./src/app/home/home.component.ts ***!
@@ -981,6 +1079,130 @@ var HomeComponent = /** @class */ (function () {
         __metadata("design:paramtypes", [])
     ], HomeComponent);
     return HomeComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/jobs/jobs.component.ts":
+/*!****************************************!*\
+  !*** ./src/app/jobs/jobs.component.ts ***!
+  \****************************************/
+/*! exports provided: JobsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "JobsComponent", function() { return JobsComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
+/* harmony import */ var _services_jobs_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../services/jobs.service */ "./src/app/services/jobs.service.ts");
+/* harmony import */ var primeng_components_common_messageservice__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! primeng/components/common/messageservice */ "./node_modules/primeng/components/common/messageservice.js");
+/* harmony import */ var primeng_components_common_messageservice__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(primeng_components_common_messageservice__WEBPACK_IMPORTED_MODULE_3__);
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __awaiter = (undefined && undefined.__awaiter) || function (thisArg, _arguments, P, generator) {
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : new P(function (resolve) { resolve(result.value); }).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __generator = (undefined && undefined.__generator) || function (thisArg, body) {
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    function verb(n) { return function (v) { return step([n, v]); }; }
+    function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (_) try {
+            if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [op[0] & 2, t.value];
+            switch (op[0]) {
+                case 0: case 1: t = op; break;
+                case 4: _.label++; return { value: op[1], done: false };
+                case 5: _.label++; y = op[1]; op = [0]; continue;
+                case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                default:
+                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                    if (t[2]) _.ops.pop();
+                    _.trys.pop(); continue;
+            }
+            op = body.call(thisArg, _);
+        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+    }
+};
+
+
+
+
+var JobsComponent = /** @class */ (function () {
+    function JobsComponent(sanitizer, meta, title, jobsService, messageService) {
+        this.sanitizer = sanitizer;
+        this.meta = meta;
+        this.title = title;
+        this.jobsService = jobsService;
+        this.messageService = messageService;
+        this.columns = [];
+        this.displayJob = false;
+        this.title.setTitle("Jobs | Josh Levy");
+        this.meta.updateTag({ name: 'description', content: "Josh Levy Developer Jobs" });
+    }
+    JobsComponent.prototype.ngOnInit = function () {
+        return __awaiter(this, void 0, void 0, function () {
+            return __generator(this, function (_a) {
+                this.loading = true;
+                this.loadJobs();
+                return [2 /*return*/];
+            });
+        });
+    };
+    JobsComponent.prototype.loadJobs = function () {
+        return __awaiter(this, void 0, void 0, function () {
+            var _this = this;
+            return __generator(this, function (_a) {
+                this.jobsService.getJobs().then(function (data) {
+                    _this.jobs = data.jobs;
+                    console.log(_this.jobs);
+                    return data;
+                });
+                return [2 /*return*/];
+            });
+        });
+    };
+    JobsComponent.prototype.selectJobWithButton = function (job) {
+        this.selectedJob = job;
+        console.log(this.selectedJob);
+        this.displayJob = true;
+    };
+    JobsComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-jobs',
+            template: __webpack_require__(/*! raw-loader!./jobs.component.html */ "./node_modules/raw-loader/index.js!./src/app/jobs/jobs.component.html"),
+            providers: [
+                _services_jobs_service__WEBPACK_IMPORTED_MODULE_2__["JobsService"],
+                primeng_components_common_messageservice__WEBPACK_IMPORTED_MODULE_3__["MessageService"]
+            ]
+        }),
+        __metadata("design:paramtypes", [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["DomSanitizer"],
+            _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["Meta"],
+            _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["Title"],
+            _services_jobs_service__WEBPACK_IMPORTED_MODULE_2__["JobsService"],
+            primeng_components_common_messageservice__WEBPACK_IMPORTED_MODULE_3__["MessageService"]])
+    ], JobsComponent);
+    return JobsComponent;
 }());
 
 
@@ -1892,6 +2114,93 @@ var ResumeComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/services/jobs.service.ts":
+/*!******************************************!*\
+  !*** ./src/app/services/jobs.service.ts ***!
+  \******************************************/
+/*! exports provided: JobsService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "JobsService", function() { return JobsService; });
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var src_environments_environment__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/environments/environment */ "./src/environments/environment.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var httpOptions = {
+    headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_0__["HttpHeaders"]({
+        'Content-Type': 'application/json'
+    })
+};
+var apiUrl = src_environments_environment__WEBPACK_IMPORTED_MODULE_2__["environment"].apiUrl + "/jobs";
+var JobsService = /** @class */ (function () {
+    function JobsService(http) {
+        this.http = http;
+    }
+    JobsService.prototype.getJobs = function () {
+        return this.http.get(apiUrl)
+            .toPromise()
+            .then(function (res) {
+            return res;
+        })
+            .catch(function (error) {
+            return error;
+        });
+    };
+    JobsService.prototype.getJob = function (id) {
+        return this.http.get(apiUrl, id)
+            .toPromise()
+            .then(function (res) {
+            return res;
+        })
+            .catch(function (error) {
+            return error;
+        });
+    };
+    JobsService.prototype.addJob = function (params) {
+        if (params === void 0) { params = new _angular_common_http__WEBPACK_IMPORTED_MODULE_0__["HttpParams"](); }
+        return this.http.post(apiUrl, params)
+            .toPromise()
+            .then(function (res) {
+            return res;
+        })
+            .catch(function (error) {
+            return error;
+        });
+    };
+    JobsService.prototype.updateJob = function (params, id) {
+        if (params === void 0) { params = new _angular_common_http__WEBPACK_IMPORTED_MODULE_0__["HttpParams"](); }
+        return this.http.put(apiUrl, params)
+            .toPromise()
+            .then(function (res) {
+            return res;
+        });
+    };
+    JobsService = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
+            providedIn: 'root'
+        }),
+        __metadata("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_0__["HttpClient"]])
+    ], JobsService);
+    return JobsService;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/services/skills.service.ts":
 /*!********************************************!*\
   !*** ./src/app/services/skills.service.ts ***!
@@ -1905,6 +2214,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var src_environments_environment__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/environments/environment */ "./src/environments/environment.ts");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1914,6 +2224,7 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 
@@ -1957,6 +2268,14 @@ var SkillsService = /** @class */ (function () {
             .catch(function (error) {
             return error;
         });
+    };
+    SkillsService.prototype.postSkill = function (params) {
+        if (params === void 0) { params = new _angular_common_http__WEBPACK_IMPORTED_MODULE_0__["HttpParams"](); }
+        return this.http.post(apiUrl, params)
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (res) {
+            console.log(res);
+            return res;
+        }));
     };
     SkillsService.prototype.updateSkill = function (params, id) {
         if (params === void 0) { params = new _angular_common_http__WEBPACK_IMPORTED_MODULE_0__["HttpParams"](); }
@@ -2337,6 +2656,16 @@ var ROUTES = [
     {
         path: '/contact',
         title: 'Contact',
+        type: 'link'
+    },
+    {
+        path: '/login',
+        title: 'Login',
+        type: 'link'
+    },
+    {
+        path: '/add-skill',
+        title: 'Add Skills',
         type: 'link'
     }
 ];

@@ -18,6 +18,7 @@ export class JobsComponent implements OnInit {
   columns: any = [];
   job: any;
   selectedJob: any;
+  displayJob: boolean = false;
 
   constructor(
     private sanitizer: DomSanitizer,
@@ -46,10 +47,6 @@ export class JobsComponent implements OnInit {
   selectJobWithButton(job) {
     this.selectedJob = job;
     console.log(this.selectedJob);
-    this.messageService.add({
-      severity: 'info',
-      summary: this.selectedJob.company,
-      detail: this.selectedJob.title
-    });
+    this.displayJob = true;
   }
 }

@@ -6,7 +6,6 @@
 @import "~bootstrap/scss/bootstrap";
 @import "core/reboot";
 
-// Core Components
 @import "core/layout";
 @import "core/buttons";
 @import "core/checkboxes";
@@ -39,10 +38,10 @@
 @import "core/progress";
 @import "core/togglebutton";
 @import "core/ripples";
-@import "dashboard/rtl";
+// @import "dashboard/rtl";
 @import "dashboard/sidebar-and-main-panel";
 @import "dashboard/timeline";
-@import "dashboard/fixed-plugin";
+// @import "dashboard/fixed-plugin";
 @import "dashboard/tables";
 @import "dashboard/misc";
 @import "dashboard/pages";

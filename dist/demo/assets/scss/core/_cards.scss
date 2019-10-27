@@ -268,7 +268,7 @@
           margin-right: 15px;
           margin-top: -30px;
           border-radius: $border-radius-large;
-          cursor: pointer;
+          cursor: default;
 
           .card-image-container {
             display: flex;
@@ -617,4 +617,8 @@
 
 .card-summary-footer h3 {
   margin-top: 5px !important;
+}
+
+.skill-card {
+  max-width: 100% !important;
 }
